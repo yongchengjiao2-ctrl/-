@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+ok 1 - v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+  ---
+  duration_ms: 1.7261
+  type: 'test'
+  ...
+# Subtest: known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+ok 2 - known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+  ---
+  duration_ms: 1.1047
+  type: 'test'
+  ...
+# Subtest: v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+ok 3 - v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+  ---
+  duration_ms: 0.2517
+  type: 'test'
+  ...
+# Subtest: host computes quote occurrence spans including emoji instead of trusting model offsets
+ok 4 - host computes quote occurrence spans including emoji instead of trusting model offsets
+  ---
+  duration_ms: 0.1807
+  type: 'test'
+  ...
+# Subtest: extra invented asset and category mismatches cannot masquerade as source-backed
+ok 5 - extra invented asset and category mismatches cannot masquerade as source-backed
+  ---
+  duration_ms: 0.3555
+  type: 'test'
+  ...
+# Subtest: a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+ok 6 - a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+  ---
+  duration_ms: 0.1418
+  type: 'test'
+  ...
+# Subtest: visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+ok 7 - visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+  ---
+  duration_ms: 0.4085
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 86.2244

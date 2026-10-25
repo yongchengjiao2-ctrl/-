@@ -1,0 +1,125 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "original",
+  "inputKind": "labeled",
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T06:43:12.476Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "original",
+    "name": "典藏五维 · 完整角色设定",
+    "version": 1,
+    "sha256": "79c2213e510362c8c00f647366f0ff3ad4cbc7fce74b61a874f2256b49ef414a"
+  },
+  "promptSha256": "7b85c539722b97d07f93b3a1f4f4cf81a579f1aa44ac732b61d3c792dcea5aa0",
+  "promptChars": 4495,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 6502,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 3095,
+    "completion_tokens": 1891,
+    "total_tokens": 4986
+  },
+  "contentChars": 2800,
+  "installedParserPassed": true,
+  "structuralValidationPassed": true,
+  "coverageAssessment": {
+    "status": "labeled-partial",
+    "reason": "仅核对显式标签；未标签的正文资产仍需人工核对。",
+    "checkedScopes": [
+      "people",
+      "scenes",
+      "props"
+    ],
+    "expected": {
+      "people": [
+        "林岚",
+        "陈墨"
+      ],
+      "scenes": [
+        "仓库"
+      ],
+      "props": [
+        "铜钥匙",
+        "木桌"
+      ]
+    },
+    "labels": {
+      "people": true,
+      "scenes": true,
+      "props": true
+    },
+    "missingLabels": [],
+    "scope": "仅核对正文显式资产标签；不是自然语言全文完整性证明",
+    "requiresHumanReview": true
+  },
+  "formatCompletenessPassed": true,
+  "contentAudit": {
+    "checks": {
+      "expectedCharacters": true,
+      "noExtraCharacters": true,
+      "warehouse": true,
+      "key": true,
+      "table": true,
+      "sourceClothingPreserved": true,
+      "stylesPresent": true,
+      "noHistoricalOrFantasyLeak": true,
+      "identityFields": true,
+      "savedFixedLayout": true
+    },
+    "errors": []
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库"
+    ],
+    "props": [
+      "铜钥匙",
+      "木桌"
+    ]
+  },
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 2
+  },
+  "validated": false,
+  "finishedAt": "2026-10-25T06:43:18.988Z",
+  "automatedValidationPassed": true,
+  "manualReview": {
+    "status": "needs-review",
+    "semanticAcceptance": false,
+    "issues": [
+      "原文未明确的鼻型、发型、棉质夹克等在multiViewPrompt直接写为设定，未标造型建议；与appearance中的正文未明确不一致。"
+    ],
+    "examples": [
+      "林岚：[7.鼻子]挺直适中。",
+      "林岚：[11.发型]日常短发或扎发。",
+      "林岚：[18.布料工艺]耐磨棉质布料。"
+    ]
+  },
+  "error": "人工语义复核未通过：部分必要视觉补充未标造型建议"
+}

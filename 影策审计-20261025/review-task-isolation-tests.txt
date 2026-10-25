@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: explicit retry retires task A; delayed A status cannot overwrite or cancel task B
+ok 1 - explicit retry retires task A; delayed A status cannot overwrite or cancel task B
+  ---
+  duration_ms: 9.1837
+  type: 'test'
+  ...
+# Subtest: a retry hook failure cannot submit task B and unknown review choices never imply retry
+ok 2 - a retry hook failure cannot submit task B and unknown review choices never imply retry
+  ---
+  duration_ms: 2.2816
+  type: 'test'
+  ...
+# Subtest: chapter wrapper routes review retry and task events through one generation handle
+ok 3 - chapter wrapper routes review retry and task events through one generation handle
+  ---
+  duration_ms: 0.6849
+  type: 'test'
+  ...
+# Subtest: missing sections list the exact source words and retain every original character
+ok 4 - missing sections list the exact source words and retain every original character
+  ---
+  duration_ms: 4.0531
+  type: 'test'
+  ...
+# Subtest: storage capacity/corruption keeps existing drafts unchanged and reports memory-only output
+ok 5 - storage capacity/corruption keeps existing drafts unchanged and reports memory-only output
+  ---
+  duration_ms: 0.3082
+  type: 'test'
+  ...
+# Subtest: abort while waiting for an asynchronous review rejects without a retry request
+ok 6 - abort while waiting for an asynchronous review rejects without a retry request
+  ---
+  duration_ms: 4.1718
+  type: 'test'
+  ...
+# Subtest: acknowledgment never starts another API request; retry starts exactly one only after review decision
+ok 7 - acknowledgment never starts another API request; retry starts exactly one only after review decision
+  ---
+  duration_ms: 2.0734
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 104.5892

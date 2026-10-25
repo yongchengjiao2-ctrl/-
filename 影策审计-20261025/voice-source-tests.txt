@@ -1,0 +1,34 @@
+TAP version 13
+# Subtest: explicit source hint stays with its speaker; another character remains unknown
+ok 1 - explicit source hint stays with its speaker; another character remains unknown
+  ---
+  duration_ms: 3.9951
+  type: 'test'
+  ...
+# Subtest: per-utterance source instructions are explicit without spreading to later speakers
+ok 2 - per-utterance source instructions are explicit without spreading to later speakers
+  ---
+  duration_ms: 0.5283
+  type: 'test'
+  ...
+# Subtest: contract5 render labels unknown voice without adopting generated gender; old v3 contract remains readable
+ok 3 - contract5 render labels unknown voice without adopting generated gender; old v3 contract remains readable
+  ---
+  duration_ms: 8.6382
+  type: 'test'
+  ...
+# Subtest: actual contract4b response remains rejected by strict source format rather than rewritten for voice claims
+ok 4 - actual contract4b response remains rejected by strict source format rather than rewritten for voice claims
+  ---
+  duration_ms: 1.5201
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 97.5107

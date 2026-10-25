@@ -1,0 +1,214 @@
+TAP version 13
+# Subtest: F12 save gate rejects an unresolved alias before any downstream write
+ok 1 - F12 save gate rejects an unresolved alias before any downstream write
+  ---
+  duration_ms: 3.4792
+  type: 'test'
+  ...
+# Subtest: F12 a precise assetBinding resolves only the relevant shared alias
+ok 2 - F12 a precise assetBinding resolves only the relevant shared alias
+  ---
+  duration_ms: 2.8767
+  type: 'test'
+  ...
+# Subtest: F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+ok 3 - F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+  ---
+  duration_ms: 1.0491
+  type: 'test'
+  ...
+# Subtest: F12 two explicit matching identities do not resolve a still-generic name
+ok 4 - F12 two explicit matching identities do not resolve a still-generic name
+  ---
+  duration_ms: 0.2194
+  type: 'test'
+  ...
+# Subtest: F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+ok 5 - F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+  ---
+  duration_ms: 1.0672
+  type: 'test'
+  ...
+# Subtest: F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+ok 6 - F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+  ---
+  duration_ms: 57.4213
+  type: 'test'
+  ...
+# Subtest: F01 normal scene prose survives binding, including original scene introductions and extra facts
+ok 7 - F01 normal scene prose survives binding, including original scene introductions and extra facts
+  ---
+  duration_ms: 3.8571
+  type: 'test'
+  ...
+# Subtest: F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+ok 8 - F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+  ---
+  duration_ms: 0.6891
+  type: 'test'
+  ...
+# Subtest: F11 negated and voice-only names never establish visible bindings
+ok 9 - F11 negated and voice-only names never establish visible bindings
+  ---
+  duration_ms: 1.8004
+  type: 'test'
+  ...
+# Subtest: F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+ok 10 - F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+  ---
+  duration_ms: 1.8885
+  type: 'test'
+  ...
+# Subtest: F12 exact primary name resolves a shared alias without silently taking first candidate
+ok 11 - F12 exact primary name resolves a shared alias without silently taking first candidate
+  ---
+  duration_ms: 0.3755
+  type: 'test'
+  ...
+# Subtest: F12 existing precise asset ID is preserved when duplicate names exist
+ok 12 - F12 existing precise asset ID is preserved when duplicate names exist
+  ---
+  duration_ms: 0.3248
+  type: 'test'
+  ...
+# Subtest: F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+ok 13 - F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+  ---
+  duration_ms: 0.3838
+  type: 'test'
+  ...
+# Subtest: F13 chapter filtering happens before identity matching, without deleting same-name candidates
+ok 14 - F13 chapter filtering happens before identity matching, without deleting same-name candidates
+  ---
+  duration_ms: 0.4425
+  type: 'test'
+  ...
+# Subtest: F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+ok 15 - F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+  ---
+  duration_ms: 0.3997
+  type: 'test'
+  ...
+# Subtest: F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+ok 16 - F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+  ---
+  duration_ms: 0.4157
+  type: 'test'
+  ...
+# Subtest: clear confirmed assets still receive real version bindings with no pending candidate IDs
+ok 17 - clear confirmed assets still receive real version bindings with no pending candidate IDs
+  ---
+  duration_ms: 0.2659
+  type: 'test'
+  ...
+# Subtest: F02 source ledger keeps narration, named speech without a roster, OS/VO/OV and multiline speech in order
+ok 18 - F02 source ledger keeps narration, named speech without a roster, OS/VO/OV and multiline speech in order
+  ---
+  duration_ms: 4.7367
+  type: 'test'
+  ...
+# Subtest: F02 pure visual scripts reject invented speech and a speech before the first beat fails before model submission
+ok 19 - F02 pure visual scripts reject invented speech and a speech before the first beat fails before model submission
+  ---
+  duration_ms: 0.3513
+  type: 'test'
+  ...
+# Subtest: F03 coverage rejects missing/empty/noninteger/out-of-range/duplicate source beats; permits a beat spanning rows
+ok 20 - F03 coverage rejects missing/empty/noninteger/out-of-range/duplicate source beats; permits a beat spanning rows
+  ---
+  duration_ms: 0.4898
+  type: 'test'
+  ...
+# Subtest: F02/F03 real historical valid rows no longer pass against an unrelated script or empty coverage
+ok 21 - F02/F03 real historical valid rows no longer pass against an unrelated script or empty coverage
+  ---
+  duration_ms: 20.8039
+  type: 'test'
+  ...
+# Subtest: F14 copy removes complete diagrams but keeps ordinary pipe/dash dialogue and heading inline prose
+ok 22 - F14 copy removes complete diagrams but keeps ordinary pipe/dash dialogue and heading inline prose
+  ---
+  duration_ms: 0.5031
+  type: 'test'
+  ...
+# Subtest: planned renderer independently checks the plan source, not only the plan transcript
+ok 23 - planned renderer independently checks the plan source, not only the plan transcript
+  ---
+  duration_ms: 14.6253
+  type: 'test'
+  ...
+# Subtest: source visual continuation, stage directions and non-speech notes stay in locked visuals
+ok 24 - source visual continuation, stage directions and non-speech notes stay in locked visuals
+  ---
+  duration_ms: 0.7141
+  type: 'test'
+  ...
+# Subtest: ambiguous unlabelled speech continuations are diagnosed and pre-beat prose is rejected
+ok 25 - ambiguous unlabelled speech continuations are diagnosed and pre-beat prose is rejected
+  ---
+  duration_ms: 0.271
+  type: 'test'
+  ...
+# Subtest: current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+ok 26 - current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+  ---
+  duration_ms: 83.9998
+  type: 'test'
+  ...
+# Subtest: literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+ok 27 - literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+  ---
+  duration_ms: 1.0294
+  type: 'test'
+  ...
+# Subtest: narration alone does not bind a visible character; repeated repair is stable
+ok 28 - narration alone does not bind a visible character; repeated repair is stable
+  ---
+  duration_ms: 0.573
+  type: 'test'
+  ...
+# Subtest: model-declared character without any asset gets a named placeholder and no fake binding
+ok 29 - model-declared character without any asset gets a named placeholder and no fake binding
+  ---
+  duration_ms: 0.3426
+  type: 'test'
+  ...
+# Subtest: named declarations, group references in spatial plan and per-Seq shot timing
+ok 30 - named declarations, group references in spatial plan and per-Seq shot timing
+  ---
+  duration_ms: 4.7601
+  type: 'test'
+  ...
+# Subtest: repeated pure-copy Seq starts numbering from one again
+ok 31 - repeated pure-copy Seq starts numbering from one again
+  ---
+  duration_ms: 0.6481
+  type: 'test'
+  ...
+# Subtest: assets without available reference stay as names, not raw IDs
+ok 32 - assets without available reference stay as names, not raw IDs
+  ---
+  duration_ms: 0.4134
+  type: 'test'
+  ...
+# Subtest: installed generation requests text preview and saves only through the validated commit callback
+ok 33 - installed generation requests text preview and saves only through the validated commit callback
+  ---
+  duration_ms: 1.923
+  type: 'test'
+  ...
+# Subtest: real incomplete model response never reaches the project write API
+ok 34 - real incomplete model response never reaches the project write API
+  ---
+  duration_ms: 140.3931
+  type: 'test'
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 272.8815

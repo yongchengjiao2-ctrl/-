@@ -1,0 +1,12 @@
+{
+  "selectedRequested": 5,
+  "selectedActual": 4,
+  "linkedPathsForFirst": [
+    "SKILL.md",
+    "references/a.md",
+    "references/b.md",
+    "references/c.md"
+  ],
+  "requiresMissingSystemContract": true,
+  "promptContainsSystemContractBody": false
+}

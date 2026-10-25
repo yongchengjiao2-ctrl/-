@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-25T06:42:02.852Z",
+  "model": "gemini-3.1-pro-preview",
+  "modelCallCount": 1,
+  "applicationHTTPTaskPipeline": false,
+  "productionDatabaseModified": false,
+  "skillTest": "synthetic workflow reference; real Skill Runtime",
+  "automaticRetry": false,
+  "skillMetadata": {
+    "skillIds": [
+      "audit-workflow"
+    ],
+    "skillVersions": [
+      {
+        "skillId": "audit-workflow",
+        "versionId": "audit-v1",
+        "version": "1"
+      }
+    ],
+    "skillFiles": [
+      {
+        "skillId": "audit-workflow",
+        "path": "SKILL.md",
+        "sha256": "synthetic-reference"
+      }
+    ],
+    "skillHost": "shortDrama-text",
+    "skillToolExecution": false
+  },
+  "httpStatus": 200,
+  "usage": {
+    "prompt_tokens": 4049,
+    "completion_tokens": 1361,
+    "total_tokens": 5410
+  },
+  "providerRequestId": "msg_4e6f7e788e592b4d966bb21d",
+  "finishReason": "stop",
+  "validated": false,
+  "error": "Scene source fact absent from model storyboard",
+  "finishedAt": "2026-10-25T06:42:11.913Z"
+}

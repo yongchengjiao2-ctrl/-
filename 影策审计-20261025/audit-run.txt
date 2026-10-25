@@ -1,0 +1,303 @@
+{
+  "customizations": [],
+  "candidates": [
+    {
+      "category": "character",
+      "status": "confirmed",
+      "count": 67
+    },
+    {
+      "category": "character",
+      "status": "pending_confirmation",
+      "count": 8
+    },
+    {
+      "category": "environment",
+      "status": "confirmed",
+      "count": 27
+    },
+    {
+      "category": "environment",
+      "status": "pending_confirmation",
+      "count": 14
+    },
+    {
+      "category": "prop",
+      "status": "confirmed",
+      "count": 44
+    },
+    {
+      "category": "prop",
+      "status": "pending_confirmation",
+      "count": 27
+    }
+  ],
+  "plugins": {
+    "error": "no such column: id"
+  },
+  "module_graph": {
+    "reachable": 1583,
+    "missing": [],
+    "total_js": 6485
+  },
+  "source_drift": [
+    {
+      "name": "asset-extraction-runtime-v3.js",
+      "same": true,
+      "src_sha256": "f92f074a6df6a9770140261a7e24011a2dc51c82236ea691541c9503a7721458",
+      "installed_sha256": "f92f074a6df6a9770140261a7e24011a2dc51c82236ea691541c9503a7721458"
+    },
+    {
+      "name": "character-extraction-rules.js",
+      "same": true,
+      "src_sha256": "be4b4ab823646e7f3a458982cca855dbdd3212c00941d69ba11cacc8e9acfe8c",
+      "installed_sha256": "be4b4ab823646e7f3a458982cca855dbdd3212c00941d69ba11cacc8e9acfe8c"
+    },
+    {
+      "name": "character-prompt-formats.js",
+      "same": true,
+      "src_sha256": "12b53161c33d4aa13779b2665a746a46197e68fe53cea42b6f837506b4717ddf",
+      "installed_sha256": "12b53161c33d4aa13779b2665a746a46197e68fe53cea42b6f837506b4717ddf"
+    },
+    {
+      "name": "extraction-completeness-v3.js",
+      "same": false,
+      "src_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d",
+      "installed_sha256": "467d8c18e35f46e201ddeaef64e32e94edb1416aa54d707d62e37df2fada73ba"
+    },
+    {
+      "name": "extraction-completeness-v4.js",
+      "same": true,
+      "src_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d",
+      "installed_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d"
+    },
+    {
+      "name": "extraction-recovery.js",
+      "same": true,
+      "src_sha256": "f40023547e879d998bf5d7ffab4504ba3550f9d21445e7e9b1348b8eee5dfcaf",
+      "installed_sha256": "f40023547e879d998bf5d7ffab4504ba3550f9d21445e7e9b1348b8eee5dfcaf"
+    },
+    {
+      "name": "extraction-response-mode.js",
+      "same": true,
+      "src_sha256": "b47296de3b06c331802565c03efe81d5d054e0b966fd0bbcf075605393a3d607",
+      "installed_sha256": "b47296de3b06c331802565c03efe81d5d054e0b966fd0bbcf075605393a3d607"
+    },
+    {
+      "name": "mention-clipboard.js",
+      "same": true,
+      "src_sha256": "d0c41edd0c683f7e649fd6af76057dc7a594d3fb080b4825b9230435a454e841",
+      "installed_sha256": "d0c41edd0c683f7e649fd6af76057dc7a594d3fb080b4825b9230435a454e841"
+    },
+    {
+      "name": "original-character-format.js",
+      "same": true,
+      "src_sha256": "cb77b6432463e4e1a11f22a15332af41db4d6f6c5a72a726940c065133c63da7",
+      "installed_sha256": "cb77b6432463e4e1a11f22a15332af41db4d6f6c5a72a726940c065133c63da7"
+    },
+    {
+      "name": "shot-asset-bindings.js",
+      "same": true,
+      "src_sha256": "91170b23d2fafd263439b8858dcaad368fe760c88ca9dc1ce3fb72e5772b9e44",
+      "installed_sha256": "91170b23d2fafd263439b8858dcaad368fe760c88ca9dc1ce3fb72e5772b9e44"
+    },
+    {
+      "name": "storyboard-complete.js",
+      "same": true,
+      "src_sha256": "f8c563a62c0fd6016bcf8c08db3239ede4e0f6893cfde25d940bc1d9f53a0ad5",
+      "installed_sha256": "f8c563a62c0fd6016bcf8c08db3239ede4e0f6893cfde25d940bc1d9f53a0ad5"
+    },
+    {
+      "name": "storyboard-detail-contract.js",
+      "same": true,
+      "src_sha256": "48c08433be3c4aa909786ce24d99a3251c58b0cb0bd3f664a6cbf51befc71d9b",
+      "installed_sha256": "48c08433be3c4aa909786ce24d99a3251c58b0cb0bd3f664a6cbf51befc71d9b"
+    },
+    {
+      "name": "storyboard-detail-normalize.js",
+      "same": true,
+      "src_sha256": "06c9d6affee5943c9b6de586ffa89844958bb9031ffe2d1e78031be41118b2c6",
+      "installed_sha256": "06c9d6affee5943c9b6de586ffa89844958bb9031ffe2d1e78031be41118b2c6"
+    },
+    {
+      "name": "storyboard-single-call.js",
+      "same": true,
+      "src_sha256": "40aa81ff37f681db90c562532f2bff95e8e0bad0d111f915be46ae56c6d1a051",
+      "installed_sha256": "40aa81ff37f681db90c562532f2bff95e8e0bad0d111f915be46ae56c6d1a051"
+    },
+    {
+      "name": "storyboard-spatial-render.js",
+      "same": true,
+      "src_sha256": "b49010feb10d4b7debb110f5555654f5cd67289a561f2f24064fd0836b41507d",
+      "installed_sha256": "b49010feb10d4b7debb110f5555654f5cd67289a561f2f24064fd0836b41507d"
+    },
+    {
+      "name": "storyboard-template-standard.js",
+      "same": true,
+      "src_sha256": "2c14ae761cf21a7f21bf377a46bb5d6404a6cf1bc5e3f29dea40dc8cb6f56d1e",
+      "installed_sha256": "2c14ae761cf21a7f21bf377a46bb5d6404a6cf1bc5e3f29dea40dc8cb6f56d1e"
+    }
+  ],
+  "plugin_registry": [
+    {
+      "id": "a6api",
+      "name": "A6api",
+      "providers": [
+        {
+          "id": "a6api-chat",
+          "capabilities": [
+            "text"
+          ]
+        },
+        {
+          "id": "a6api-image",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "cc-api-sd25",
+      "name": "CC API · 视频模型",
+      "providers": [
+        {
+          "id": "cc-api-sd25",
+          "capabilities": [
+            "video"
+          ]
+        },
+        {
+          "id": "cc-api-sd20",
+          "capabilities": [
+            "video"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "image-tools",
+      "name": "Image Tools",
+      "providers": [
+        {
+          "id": "image-tools-remove-background",
+          "capabilities": [
+            "image"
+          ]
+        },
+        {
+          "id": "image-tools-layer-decomposition",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "mona-gpt-free",
+      "name": "Mona · Image 2.5 免费版与4分版",
+      "providers": [
+        {
+          "id": "mona-gpt-free",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-alipay-page",
+      "name": "支付宝电脑网站支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-epay",
+      "name": "易支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-wechat-native",
+      "name": "微信支付 Native",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-xunhupay",
+      "name": "虎皮椒聚合支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-zhifufm",
+      "name": "支付FM",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-sms-aliyun",
+      "name": "阿里云短信",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "official-sms-tencent",
+      "name": "腾讯云短信",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "runninghub-workflow",
+      "name": "RunningHub Workflow",
+      "providers": [
+        {
+          "id": "runninghub-workflow",
+          "capabilities": [
+            "video"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "runninghub-workflow-provider",
+      "name": "RunningHub 工作流",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "yingce-asset-json",
+      "name": "影策资产 JSON 专用协议",
+      "providers": [
+        {
+          "id": "yingce-asset-json-chat",
+          "capabilities": [
+            "text"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    }
+  ]
+}
+counts {"cloud_agent_executions": 0, "cloud_agent_pi_sessions": 0, "cloud_agent_event_records": 0, "cloud_agent_message_records": 0, "cloud_agent_canvas_mutations": 0, "cloud_agent_resource_leases": 0, "cloud_agent_gemini_caches": 0, "agent_profiles": 0, "agent_lessons": 0, "agent_memory_settings": 1, "system_settings": 1, "user_oss_settings": 0, "skills": 73, "skill_library_categories": 0, "skill_versions": 73, "skill_files": 1139, "user_skill_states": 1, "builtin_skill_tombstones": 0, "canvas_unit_links": 0, "workflow_step_tasks": 0, "production_task_links": 0, "canvas_projects": 7, "canvas_snapshots": 0, "canvas_snapshot_resources": 0, "canvas_mutation_receipts": 135, "canvas_shares": 0, "prompt_templates": 9, "user_prompt_customizations": 0, "tasks": 74, "task_text_delta": 958, "task_logs": 235, "skill_curation_settings": 1, "skill_curation_categories": 0, "skill_curation_assignments": 0, "skill_curation_roots": 5, "skill_curation_root_assignments": 0}
+modules {"canvas": ["canvas-C2V9MF3q.js", "canvas-CEFfoSrJ.js", "canvas-aceternity-style-CznumEqD.js", "canvas-batch-table-tJZ_d6cZ.js", "canvas-character-reference-qPZJkX1a.js", "canvas-delete-projects-dialog-DpjGzQ6F.js", "canvas-drawing-editor-modal-CitAiw_M.js", "canvas-drawing-excalidraw-document-BDI36VQU.js", "canvas-drawing-excalidraw-editor-Cu2ejBsa.js", "canvas-drawing-excalidraw-editor-DtRVLazd.css", "canvas-drawing-storage-BLgA5ID7.js", "canvas-drawing-tldraw-document-DvzLVu33.js", "canvas-drawing-tldraw-editor-DK9qfp18.css", "canvas-drawing-tldraw-editor-s5YrL6_Q.js", "canvas-file-upload-BOmM8CjK.js", "canvas-folder-preview-KZrUX2DQ.js", "canvas-generation-task-sync-Brs008C_.js", "canvas-image-preview-tc9uJXie.js", "canvas-media-preview-CkQO18I-.js", "canvas-node-BgSYKWgA.css", "canvas-node-BrmzsbeF.js", "canvas-node-asset-KmvyPtt_.js", "canvas-previs-workbench-BhL_zh_9.js", "canvas-previs-workbench-CCPjtRIA.css", "canvas-project-card-CNJ_G8uD.js", "canvas-project-domain-BMfNpNkE.js", "canvas-project-generation-DKqeyZxD.js", "canvas-prompt-optimizer-drawer-C6erOSTO.js", "canvas-refresh-shell-BYw7Lepy.js", "canvas-resource-mention-textarea-LSTgFm8t.js", "canvas-resource-references-1EftlkFh.js", "canvas-style-picker-modal-BWHuaVKT.js", "canvas-task-state-D8uLleGm.js", "canvas-theme-qxNo3CuR.js", "canvas-video-merge-D0Kmm8gl.js", "canvases-CCdLPnsA.js", "use-canvas-theme-store-Cyr-x7S3.js", "use-canvas-ui-store-DyUFYVce.js"], "settings": ["access-settings-panel-XXbfnBWW.js", "appearance-settings-page-Biu-xFj5.js", "appearance-settings-page-C5Z4lVOi.css", "ark-private-assets-settings-page-CZlUJMoR.js", "drawing-engine-settings-page-BuHeJy8M.js", "email-settings-panel-dUiq4uF_.js", "libtv-settings-page-CDvixyn9.js", "oss-settings-B8qIgQzd.js", "response-interception-settings-page-DInfxmjx.js", "runtime-policy-settings-page-4ujwjjZe.js", "settings-B9H2OwlU.js", "settings-CiMLRPUU.css", "settings-D8GTFmm6.js", "settings-navigation-BjiOtoD3.js", "storage-settings-page-CNlxq1rR.js"], "skill": ["skill-curation-browser-DSA37pmy.js", "skill-curation-page-CzQ5zcmf.css", "skill-curation-page-D3TRA85O.js", "skill-runtime-CF8drDK4.js", "skills-8uwnUvZU.js", "skills-DHDdovXH.js"], "agent": ["agent-lessons-panel-B9alkmeM.js", "agent-memories-DAFBn5bw.js"], "prompt": ["canvas-prompt-optimizer-drawer-C6erOSTO.js", "character-prompt-formats.js", "prompt-code-editor-Bgn-HOOU.js", "prompt-optimizer-CURix3wv.js", "prompts-C9Ts6kIN.js", "storyboard-prompts-page-DRwECkxS.js"], "workflow": ["workflow-CTgJb1m8.js", "workflow-D5sXobee.css", "workflow-production-workbench-DLsty33y.js", "workflow-shared-BBoZacw_.js", "workflow-shot-references-CRoK17V2.js", "workflows-wJGMT83O.js"], "chapter": ["chapters-CeKTBaiU.js", "project-chapter-storyboard-d54x9504.js"], "project": ["canvas-delete-projects-dialog-DpjGzQ6F.js", "canvas-project-card-CNJ_G8uD.js", "canvas-project-domain-BMfNpNkE.js", "canvas-project-generation-DKqeyZxD.js", "project-B1ILFjAQ.css", "project-B6TxOaS-.js", "project-asset-sync-C9aJ37b5.js", "project-chapter-storyboard-d54x9504.js", "projects-DAnF4Ptj.js", "projects-cGJN8aeG.js"], "matching": [], "copy": ["use-copy-text-BjNDIVLI.js"], "extract": ["asset-extraction-runtime-v3.js", "character-extraction-rules.js", "extraction-completeness-v4.js", "extraction-contract-v3.js", "extraction-recovery.js"]}

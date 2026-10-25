@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: final contract preserves administrator extraction/layout while replacing the old output example
+ok 1 - final contract preserves administrator extraction/layout while replacing the old output example
+  ---
+  duration_ms: 2.5608
+  type: 'test'
+  ...
+# Subtest: one complete example carries all required asset provenance and exact source links
+ok 2 - one complete example carries all required asset provenance and exact source links
+  ---
+  duration_ms: 0.8803
+  type: 'test'
+  ...
+# Subtest: actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+ok 3 - actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+  ---
+  duration_ms: 2.4363
+  type: 'test'
+  ...
+# Subtest: actual v6 recovery requires inventory and real source spans, rejects missing generated props
+ok 4 - actual v6 recovery requires inventory and real source spans, rejects missing generated props
+  ---
+  duration_ms: 8.7192
+  type: 'test'
+  ...
+# Subtest: actual v5 recovery keeps compatibility without inventory or visual provenance
+ok 5 - actual v5 recovery keeps compatibility without inventory or visual provenance
+  ---
+  duration_ms: 0.4739
+  type: 'test'
+  ...
+# Subtest: actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+ok 6 - actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+  ---
+  duration_ms: 2.7402
+  type: 'test'
+  ...
+# Subtest: actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+ok 7 - actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+  ---
+  duration_ms: 0.6973
+  type: 'test'
+  ...
+# Subtest: host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+ok 8 - host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+  ---
+  duration_ms: 0.8055
+  type: 'test'
+  ...
+# Subtest: complete scene example preserves all twelve required administrator sections
+ok 9 - complete scene example preserves all twelve required administrator sections
+  ---
+  duration_ms: 2.2455
+  type: 'test'
+  ...
+# Subtest: missing duplicate and empty 3.5 section rejects; legacy stays compatible
+ok 10 - missing duplicate and empty 3.5 section rejects; legacy stays compatible
+  ---
+  duration_ms: 0.7713
+  type: 'test'
+  ...
+# Subtest: v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+ok 11 - v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+  ---
+  duration_ms: 1.918
+  type: 'test'
+  ...
+# Subtest: known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+ok 12 - known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+  ---
+  duration_ms: 1.1271
+  type: 'test'
+  ...
+# Subtest: v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+ok 13 - v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+  ---
+  duration_ms: 0.2477
+  type: 'test'
+  ...
+# Subtest: host computes quote occurrence spans including emoji instead of trusting model offsets
+ok 14 - host computes quote occurrence spans including emoji instead of trusting model offsets
+  ---
+  duration_ms: 0.1885
+  type: 'test'
+  ...
+# Subtest: extra invented asset and category mismatches cannot masquerade as source-backed
+ok 15 - extra invented asset and category mismatches cannot masquerade as source-backed
+  ---
+  duration_ms: 0.3784
+  type: 'test'
+  ...
+# Subtest: a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+ok 16 - a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+  ---
+  duration_ms: 0.1471
+  type: 'test'
+  ...
+# Subtest: visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+ok 17 - visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+  ---
+  duration_ms: 0.4481
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 114.4972

@@ -1,0 +1,78 @@
+{
+  "operation": "check",
+  "ok": true,
+  "manifest": {
+    "schemaVersion": 1,
+    "createdAt": "2026-10-25T07:50:20.140126+00:00",
+    "baseline": "D:\\无限画布\\影策审计-20261025\\repair-backups\\20261025-154845\\manifest.json",
+    "sourceDir": "D:\\无限画布\\影策审计-20261025\\user-install-stage",
+    "targetDir": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets",
+    "files": [
+      {
+        "name": "chapters-CeKTBaiU.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\chapters-CeKTBaiU.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\chapters-CeKTBaiU.js",
+        "beforeSha256": "6445de9c0b7cfbda1236e49d8a162d9b6a29cb9cee56d0baba95479b09bad306",
+        "afterSha256": "33b9471a07cdc2032ec5d2db83e13684851ebc5d19c92243d591ed367d850331",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "chapter-generation-control.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\chapter-generation-control.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\chapter-generation-control.js",
+        "beforeSha256": "919ba2fd0fe4567cf7478ec7a8242c1fb7b44fb358bceb05112cb9a1ff9e16e6",
+        "afterSha256": "d64d2bb2fdddccfe5d50bd1ba0d7f33699cb757c209e976d1d1f5c124f428bf0",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-planned.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\storyboard-planned.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned.js",
+        "beforeSha256": "d60356a2cdb02823d39dd5021a62a65891f8c227510145bd3a95b78725e8e611",
+        "afterSha256": "da079c8edc00d8cc00567af72cf61e995f89548f63f05d5ed21425e9bce05281",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "json-unique-keys.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\json-unique-keys.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\json-unique-keys.js",
+        "beforeSha256": null,
+        "afterSha256": "bd8574df1205c094e7015339bae99be84539de00ebdce6199dee76db60a846d5",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "extraction-section-provenance.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\extraction-section-provenance.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-section-provenance.js",
+        "beforeSha256": null,
+        "afterSha256": "30189bd7f788f92b4e14085f59f3e1ce8d81802c4064981b32d0eaeacd070656",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "extraction-source-inventory.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\extraction-source-inventory.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-source-inventory.js",
+        "beforeSha256": null,
+        "afterSha256": "ac9776d6847747ffb6de16d16e8ce2a2009bbe15e6cd4a09a6add4670c9f125c",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-planned-runtime.js",
+        "source": "D:\\无限画布\\影策审计-20261025\\user-install-stage\\storyboard-planned-runtime.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned-runtime.js",
+        "beforeSha256": "b8a4637cc68e0ceac3095b218bb82b95ab5854cfda3f92d87e8f5ae63a2c447f",
+        "afterSha256": "cdc2e75334f9f4193ae6ed2d6d55cb836447132a1c09306762e52bbcf652d6ff",
+        "create": false,
+        "syntaxChecked": true
+      }
+    ],
+    "databaseModified": false,
+    "atomicity": "per-file replacement, guarded rollback on failure; application should reload only after success"
+  }
+}

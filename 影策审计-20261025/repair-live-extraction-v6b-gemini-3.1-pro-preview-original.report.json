@@ -1,0 +1,198 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "original",
+  "inputKind": "labeled",
+  "extractionContractVersion": 6,
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T07:04:21.278Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "runtimeSourceSha256": "f1566a3b92d447c8fc7c153de6e73f7f8d70d1246d6c6accca606313e70b471a",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "original",
+    "name": "典藏五维 · 完整角色设定",
+    "version": 1,
+    "sha256": "79c2213e510362c8c00f647366f0ff3ad4cbc7fce74b61a874f2256b49ef414a"
+  },
+  "promptSha256": "a5e173658096c57c547f0161fb6e04f8ab844ca7ade0c33716a0630b2d8dc03d",
+  "promptChars": 6066,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 7330,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 3294,
+    "completion_tokens": 2043,
+    "total_tokens": 5337
+  },
+  "contentChars": 3796,
+  "installedParserPassed": true,
+  "structuralValidationPassed": true,
+  "coverageAssessment": {
+    "status": "labeled-partial",
+    "reason": "仅核对显式标签；未标签的正文资产仍需人工核对。",
+    "checkedScopes": [
+      "people",
+      "scenes",
+      "props"
+    ],
+    "expected": {
+      "people": [
+        "林岚",
+        "陈墨"
+      ],
+      "scenes": [
+        "仓库"
+      ],
+      "props": [
+        "铜钥匙",
+        "木桌"
+      ]
+    },
+    "labels": {
+      "people": true,
+      "scenes": true,
+      "props": true
+    },
+    "missingLabels": [],
+    "scope": "仅核对正文显式资产标签；不是自然语言全文完整性证明",
+    "requiresHumanReview": true,
+    "sourceInventory": {
+      "status": "self-inventory-linked",
+      "contractVersion": 6,
+      "verifiedQuoteCount": 5,
+      "mappedAssetCount": 5,
+      "spans": [
+        {
+          "index": 0,
+          "kind": "environment",
+          "name": "仓库",
+          "assetName": "仓库",
+          "quote": "仓库",
+          "occurrence": 1,
+          "start": 3,
+          "end": 5,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 1,
+          "kind": "character",
+          "name": "林岚",
+          "assetName": "林岚",
+          "quote": "林岚",
+          "occurrence": 1,
+          "start": 9,
+          "end": 11,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 2,
+          "kind": "character",
+          "name": "陈墨",
+          "assetName": "陈墨",
+          "quote": "陈墨",
+          "occurrence": 1,
+          "start": 12,
+          "end": 14,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 3,
+          "kind": "prop",
+          "name": "铜钥匙",
+          "assetName": "铜钥匙",
+          "quote": "铜钥匙",
+          "occurrence": 1,
+          "start": 18,
+          "end": 21,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 4,
+          "kind": "prop",
+          "name": "木桌",
+          "assetName": "木桌",
+          "quote": "木桌",
+          "occurrence": 1,
+          "start": 22,
+          "end": 24,
+          "unit": "utf16-code-unit"
+        }
+      ],
+      "requiresHumanReview": true,
+      "reason": "仅确认模型自查清单引用真实且已映射资产；清单本身仍可能漏项或误分类，不证明全文穷尽。"
+    },
+    "visualProvenance": {
+      "status": "provenance-declared",
+      "assetCount": 5,
+      "suggestionCount": 9,
+      "requiresHumanReview": true,
+      "reason": "仅验证事实/建议声明结构和显式标签；是否完全标出所有补充、sourceFacts是否真实仍需人工复核。"
+    }
+  },
+  "formatCompletenessPassed": true,
+  "contentAudit": {
+    "checks": {
+      "expectedCharacters": true,
+      "noExtraCharacters": true,
+      "warehouse": true,
+      "key": true,
+      "table": true,
+      "sourceClothingPreserved": true,
+      "stylesPresent": true,
+      "noHistoricalOrFantasyLeak": true,
+      "identityFields": true,
+      "savedFixedLayout": true
+    },
+    "errors": []
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库"
+    ],
+    "props": [
+      "铜钥匙",
+      "木桌"
+    ]
+  },
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 2
+  },
+  "automatedValidationPassed": true,
+  "manualReview": {
+    "status": "partial-contract-passed-content-needs-review",
+    "semanticAcceptance": false,
+    "wireContractAccepted": true,
+    "independentTableProp": true,
+    "factsSuggestionsImproved": true,
+    "issues": [
+      "场景prompt压为单段，未逐项保留管理员0至10节要求，结构内容验收不完整。",
+      "陈墨props字段写无，但原文明确接收铜钥匙，动作持物状态不一致。",
+      "suggestions数组只总结较粗，部分具体建议如身高165/178未单列，尚不能证明所有建议完整申报。"
+    ]
+  },
+  "validated": false,
+  "finishedAt": "2026-10-25T07:04:28.621Z"
+}

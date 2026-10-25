@@ -1,0 +1,221 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "original",
+  "inputKind": "labeled",
+  "extractionContractVersion": 6,
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 0,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T07:10:35.983Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "runtimeSourceSha256": "3677ffd5743486e47d7ac0b214e0c726e12d256d006b726b2c68124349ebd665",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "original",
+    "name": "典藏五维 · 完整角色设定",
+    "version": 1,
+    "sha256": "79c2213e510362c8c00f647366f0ff3ad4cbc7fce74b61a874f2256b49ef414a"
+  },
+  "promptSha256": "4438091db6aaad408a07a2c2ca18699d86685d529ff6c9e73765fc8e75387685",
+  "promptChars": 6598,
+  "replayOnly": true,
+  "previousSupplierReport": "file:///D:/%E6%97%A0%E9%99%90%E7%94%BB%E5%B8%83/%E5%BD%B1%E7%AD%96%E5%AE%A1%E8%AE%A1-20261025/repair-live-extraction-v6c-gemini-3.1-pro-preview-original.report.json",
+  "httpStatus": 200,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 4340,
+    "completion_tokens": 3889,
+    "total_tokens": 8229
+  },
+  "contentChars": 6411,
+  "installedParserPassed": true,
+  "structuralValidationPassed": true,
+  "coverageAssessment": {
+    "status": "labeled-partial",
+    "reason": "仅核对显式标签；未标签的正文资产仍需人工核对。",
+    "checkedScopes": [
+      "people",
+      "scenes",
+      "props"
+    ],
+    "expected": {
+      "people": [
+        "林岚",
+        "陈墨"
+      ],
+      "scenes": [
+        "仓库"
+      ],
+      "props": [
+        "铜钥匙",
+        "木桌"
+      ]
+    },
+    "labels": {
+      "people": true,
+      "scenes": true,
+      "props": true
+    },
+    "missingLabels": [],
+    "scope": "仅核对正文显式资产标签；不是自然语言全文完整性证明",
+    "requiresHumanReview": true,
+    "sourceInventory": {
+      "status": "self-inventory-linked",
+      "contractVersion": 6,
+      "verifiedQuoteCount": 5,
+      "mappedAssetCount": 5,
+      "spans": [
+        {
+          "index": 0,
+          "kind": "environment",
+          "name": "仓库",
+          "assetName": "仓库",
+          "quote": "仓库",
+          "occurrence": 1,
+          "start": 3,
+          "end": 5,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 1,
+          "kind": "character",
+          "name": "林岚",
+          "assetName": "林岚",
+          "quote": "林岚",
+          "occurrence": 1,
+          "start": 9,
+          "end": 11,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 2,
+          "kind": "character",
+          "name": "陈墨",
+          "assetName": "陈墨",
+          "quote": "陈墨",
+          "occurrence": 1,
+          "start": 12,
+          "end": 14,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 3,
+          "kind": "prop",
+          "name": "铜钥匙",
+          "assetName": "铜钥匙",
+          "quote": "铜钥匙",
+          "occurrence": 1,
+          "start": 18,
+          "end": 21,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 4,
+          "kind": "prop",
+          "name": "木桌",
+          "assetName": "木桌",
+          "quote": "木桌",
+          "occurrence": 1,
+          "start": 22,
+          "end": 24,
+          "unit": "utf16-code-unit"
+        }
+      ],
+      "requiresHumanReview": true,
+      "reason": "仅确认模型自查清单引用真实且已映射资产；清单本身仍可能漏项或误分类，不证明全文穷尽。"
+    },
+    "visualProvenance": {
+      "status": "provenance-declared",
+      "assetCount": 5,
+      "suggestionCount": 18,
+      "requiresHumanReview": true,
+      "reason": "仅验证事实/建议声明结构和显式标签；是否完全标出所有补充、sourceFacts是否真实仍需人工复核。"
+    },
+    "sceneSections": {
+      "status": "scene-sections-present",
+      "sceneCount": 1,
+      "requiredSections": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "3.5",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "requiresHumanReview": true,
+      "reason": "仅核对12节结构和非空内容；事实、布局、动态隔离和视觉效果仍需人工审查。"
+    }
+  },
+  "formatCompletenessPassed": true,
+  "contentAudit": {
+    "checks": {
+      "expectedCharacters": true,
+      "noExtraCharacters": true,
+      "warehouse": true,
+      "key": true,
+      "table": true,
+      "sourceClothingPreserved": true,
+      "stylesPresent": true,
+      "noHistoricalOrFantasyLeak": true,
+      "identityFields": true,
+      "savedFixedLayout": true
+    },
+    "errors": []
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库"
+    ],
+    "props": [
+      "铜钥匙",
+      "木桌"
+    ]
+  },
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 2
+  },
+  "automatedValidationPassed": true,
+  "manualReview": {
+    "status": "scene-and-holding-fixed-visual-facts-needs-review",
+    "semanticAcceptance": false,
+    "passed": [
+      "场景12节逐项非空且有动态隔离/纯净约束",
+      "木桌独立道具",
+      "陈墨接收后持有铜钥匙",
+      "性格正文未明确"
+    ],
+    "issues": [
+      "林岚年龄约25-30、陈墨28-35为原文未有细化，人物第2节未标建议。",
+      "人物第16至18节内搭、剪裁、斜纹棉布等部分新增视觉细节未逐处标造型建议。",
+      "suggestions数组仍未完整列出全部具体补充。"
+    ]
+  },
+  "validated": false,
+  "finishedAt": "2026-10-25T07:10:35.995Z"
+}

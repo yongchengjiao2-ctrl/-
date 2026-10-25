@@ -1,0 +1,28 @@
+{
+  "files": [
+    "chapters-CeKTBaiU.js",
+    "chapter-generation-control.js",
+    "storyboard-planned.js",
+    "json-unique-keys.js",
+    "extraction-section-provenance.js",
+    "extraction-source-inventory.js",
+    "storyboard-planned-runtime.js"
+  ],
+  "allowCreate": [
+    "json-unique-keys.js",
+    "extraction-section-provenance.js",
+    "extraction-source-inventory.js"
+  ],
+  "sha256": {
+    "chapters-CeKTBaiU.js": "33b9471a07cdc2032ec5d2db83e13684851ebc5d19c92243d591ed367d850331",
+    "chapter-generation-control.js": "d64d2bb2fdddccfe5d50bd1ba0d7f33699cb757c209e976d1d1f5c124f428bf0",
+    "storyboard-planned.js": "da079c8edc00d8cc00567af72cf61e995f89548f63f05d5ed21425e9bce05281",
+    "json-unique-keys.js": "bd8574df1205c094e7015339bae99be84539de00ebdce6199dee76db60a846d5",
+    "extraction-section-provenance.js": "30189bd7f788f92b4e14085f59f3e1ce8d81802c4064981b32d0eaeacd070656",
+    "extraction-source-inventory.js": "ac9776d6847747ffb6de16d16e8ce2a2009bbe15e6cd4a09a6add4670c9f125c",
+    "storyboard-planned-runtime.js": "cdc2e75334f9f4193ae6ed2d6d55cb836447132a1c09306762e52bbcf652d6ff"
+  },
+  "preservedMode": "autonomous-director-v4",
+  "extractionRuntimeChanged": false,
+  "fixedPlanContract5Activated": false
+}

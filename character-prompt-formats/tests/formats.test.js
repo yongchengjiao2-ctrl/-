@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {DEFAULT_FORMATS,readSettings,buildExtractionPrompt,annotateResult} from '../src/character-prompt-formats.js';
+import {EXTRACTION_RULES} from '../src/character-extraction-rules.js';
+const base={characters:[{name:'甲',aliases:['阿甲'],role:'主角',voiceLanguage:'中文',multiViewPrompt:'最终提示词'}],scenes:[{name:'庭院',prompt:'原场景'}],props:[{name:'信',prompt:'原道具'}]};
+test('three formats and safe default',()=>{assert.equal(DEFAULT_FORMATS.length,3);assert.equal(readSettings({getItem:()=>'{bad'}).selected,'original');});
+test('original is unchanged',()=>assert.equal(annotateResult(base,DEFAULT_FORMATS[0]),base));
+test('new formats preserve fields, scenes and props',()=>{for(const format of DEFAULT_FORMATS.slice(1)){const result=annotateResult(base,format);assert.equal(result.scenes,base.scenes);assert.equal(result.props,base.props);const {characterPromptFormat,multiViewPrompt,...fields}=result.characters[0];const {multiViewPrompt:originalPrompt,...originalFields}=base.characters[0];assert.deepEqual(fields,originalFields);assert.ok(multiViewPrompt.startsWith(originalPrompt));assert.ok(multiViewPrompt.includes('[22.摄影排版指令]'));assert.equal(characterPromptFormat.id,format.id);}});
+test('single prompt has extraction rules, selected layout and JSON contract',()=>{for(const format of DEFAULT_FORMATS.slice(1)){const prompt=buildExtractionPrompt({项目画风:'水彩',章节正文:'甲拿信走进庭院'},format);assert.ok(prompt.includes(EXTRACTION_RULES));assert.ok(prompt.includes(format.content));for(const word of ['水彩','甲拿信走进庭院','characters','scenes','props','voiceTimbre','multiViewPrompt'])assert.ok(prompt.includes(word));assert.ok(!/东哥|三嫂|红星汽配厂|赵家/.test(prompt));}assert.ok(!EXTRACTION_RULES.includes('【人物排版】'));assert.ok(EXTRACTION_RULES.includes('【场景】'));assert.ok(EXTRACTION_RULES.includes('【道具】'));});
+test('layout expansion remains local; model repair is bounded to one complete retry',()=>{const runtime=fs.readFileSync(new URL('../src/asset-extraction-runtime-v3.js',import.meta.url),'utf8');assert.ok(runtime.includes('attempt<2'));assert.ok(!runtime.includes('chapter-assets-continuation'));assert.equal((runtime.match(/await generate\(/g)||[]).length,1);});

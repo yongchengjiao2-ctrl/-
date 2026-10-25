@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+ok 1 - F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+  ---
+  duration_ms: 2.533
+  type: 'test'
+  ...
+# Subtest: F07 explicit tags report their actual partial scope and check named props when supplied
+ok 2 - F07 explicit tags report their actual partial scope and check named props when supplied
+  ---
+  duration_ms: 1.2288
+  type: 'test'
+  ...
+# Subtest: F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+ok 3 - F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+  ---
+  duration_ms: 0.5653
+  type: 'test'
+  ...
+# Subtest: F09 generic groups never turn into an empty matching token
+ok 4 - F09 generic groups never turn into an empty matching token
+  ---
+  duration_ms: 0.4431
+  type: 'test'
+  ...
+# Subtest: F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+ok 5 - F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+  ---
+  duration_ms: 2.3074
+  type: 'test'
+  ...
+# Subtest: F10 inline references in fixed layout do not count as duplicate numbered definitions
+ok 6 - F10 inline references in fixed layout do not count as duplicate numbered definitions
+  ---
+  duration_ms: 0.82
+  type: 'test'
+  ...
+# Subtest: F15 repeated definition anchors reject a template before any model call, not splice the first example
+ok 7 - F15 repeated definition anchors reject a template before any model call, not splice the first example
+  ---
+  duration_ms: 0.7538
+  type: 'test'
+  ...
+# Subtest: F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+ok 8 - F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+  ---
+  duration_ms: 0.3255
+  type: 'test'
+  ...
+# Subtest: F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+ok 9 - F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+  ---
+  duration_ms: 1.3621
+  type: 'test'
+  ...
+# Subtest: actual failed dual response is explicitly diagnosed as truncated
+ok 10 - actual failed dual response is explicitly diagnosed as truncated
+  ---
+  duration_ms: 5.8086
+  type: 'test'
+  ...
+# Subtest: same JSON contract accepts real complete response and expands dual layout idempotently
+ok 11 - same JSON contract accepts real complete response and expands dual layout idempotently
+  ---
+  duration_ms: 4.5865
+  type: 'test'
+  ...
+# Subtest: rejects invalid field types and malformed closed JSON without extra model request
+ok 12 - rejects invalid field types and malformed closed JSON without extra model request
+  ---
+  duration_ms: 2.2158
+  type: 'test'
+  ...
+# Subtest: four-panel transmits compact JSON instruction and preserves chosen full layout on save
+ok 13 - four-panel transmits compact JSON instruction and preserves chosen full layout on save
+  ---
+  duration_ms: 4.3987
+  type: 'test'
+  ...
+# Subtest: five-panel content is unchanged; four-panel custom layout survives expansion
+ok 14 - five-panel content is unchanged; four-panel custom layout survives expansion
+  ---
+  duration_ms: 0.5197
+  type: 'test'
+  ...
+# Subtest: local edits are ignored; selection survives
+ok 15 - local edits are ignored; selection survives
+  ---
+  duration_ms: 2.5761
+  type: 'test'
+  ...
+# Subtest: server edits are read for all three formats
+ok 16 - server edits are read for all three formats
+  ---
+  duration_ms: 1.2056
+  type: 'test'
+  ...
+# Subtest: picker exposes selection only
+ok 17 - picker exposes selection only
+  ---
+  duration_ms: 0.2136
+  type: 'test'
+  ...
+# Subtest: actual desktop preferences envelope resolves three managed templates
+ok 18 - actual desktop preferences envelope resolves three managed templates
+  ---
+  duration_ms: 2.338
+  type: 'test'
+  ...
+# Subtest: real DeepSeek stop response is rejected for incomplete JSON
+ok 19 - real DeepSeek stop response is rejected for incomplete JSON
+  ---
+  duration_ms: 2.907
+  type: 'test'
+  ...
+# Subtest: real Gemini first-pass JSON is valid but fails the chapter coverage check
+ok 20 - real Gemini first-pass JSON is valid but fails the chapter coverage check
+  ---
+  duration_ms: 1.9072
+  type: 'test'
+  ...
+# Subtest: real Gemini four-panel and dual-panel results preserve all required role sections
+ok 21 - real Gemini four-panel and dual-panel results preserve all required role sections
+  ---
+  duration_ms: 7.1015
+  type: 'test'
+  ...
+# Subtest: real original response receives the exact managed five-view layout without another model call
+ok 22 - real original response receives the exact managed five-view layout without another model call
+  ---
+  duration_ms: 2.4856
+  type: 'test'
+  ...
+# Subtest: parenthesized named people and scene spaces are kept separate
+ok 23 - parenthesized named people and scene spaces are kept separate
+  ---
+  duration_ms: 3.0124
+  type: 'test'
+  ...
+# Subtest: complete labeled roles pass, short layout-only response fails
+ok 24 - complete labeled roles pass, short layout-only response fails
+  ---
+  duration_ms: 2.3035
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 171.5974

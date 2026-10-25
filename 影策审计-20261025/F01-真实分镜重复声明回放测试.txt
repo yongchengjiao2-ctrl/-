@@ -1,0 +1,184 @@
+TAP version 13
+# Subtest: F12 save gate rejects an unresolved alias before any downstream write
+ok 1 - F12 save gate rejects an unresolved alias before any downstream write
+  ---
+  duration_ms: 4.6464
+  type: 'test'
+  ...
+# Subtest: F12 a precise assetBinding resolves only the relevant shared alias
+ok 2 - F12 a precise assetBinding resolves only the relevant shared alias
+  ---
+  duration_ms: 4.3915
+  type: 'test'
+  ...
+# Subtest: F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+ok 3 - F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+  ---
+  duration_ms: 1.4089
+  type: 'test'
+  ...
+# Subtest: F12 two explicit matching identities do not resolve a still-generic name
+ok 4 - F12 two explicit matching identities do not resolve a still-generic name
+  ---
+  duration_ms: 0.8734
+  type: 'test'
+  ...
+# Subtest: F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+ok 5 - F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+  ---
+  duration_ms: 0.252
+  type: 'test'
+  ...
+# Subtest: F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+ok 6 - F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+  ---
+  duration_ms: 56.7116
+  type: 'test'
+  ...
+# Subtest: F01 normal scene prose survives binding, including original scene introductions and extra facts
+ok 7 - F01 normal scene prose survives binding, including original scene introductions and extra facts
+  ---
+  duration_ms: 4.1455
+  type: 'test'
+  ...
+# Subtest: F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+ok 8 - F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+  ---
+  duration_ms: 0.7713
+  type: 'test'
+  ...
+# Subtest: F11 negated and voice-only names never establish visible bindings
+ok 9 - F11 negated and voice-only names never establish visible bindings
+  ---
+  duration_ms: 2.2708
+  type: 'test'
+  ...
+# Subtest: F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+ok 10 - F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+  ---
+  duration_ms: 1.0172
+  type: 'test'
+  ...
+# Subtest: F12 exact primary name resolves a shared alias without silently taking first candidate
+ok 11 - F12 exact primary name resolves a shared alias without silently taking first candidate
+  ---
+  duration_ms: 0.3866
+  type: 'test'
+  ...
+# Subtest: F12 existing precise asset ID is preserved when duplicate names exist
+ok 12 - F12 existing precise asset ID is preserved when duplicate names exist
+  ---
+  duration_ms: 0.3615
+  type: 'test'
+  ...
+# Subtest: F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+ok 13 - F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+  ---
+  duration_ms: 0.4115
+  type: 'test'
+  ...
+# Subtest: F13 chapter filtering happens before identity matching, without deleting same-name candidates
+ok 14 - F13 chapter filtering happens before identity matching, without deleting same-name candidates
+  ---
+  duration_ms: 0.4186
+  type: 'test'
+  ...
+# Subtest: F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+ok 15 - F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+  ---
+  duration_ms: 0.3999
+  type: 'test'
+  ...
+# Subtest: F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+ok 16 - F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+  ---
+  duration_ms: 0.4234
+  type: 'test'
+  ...
+# Subtest: clear confirmed assets still receive real version bindings with no pending candidate IDs
+ok 17 - clear confirmed assets still receive real version bindings with no pending candidate IDs
+  ---
+  duration_ms: 0.2823
+  type: 'test'
+  ...
+# Subtest: renderer and binder pending declarations collapse to one host introduction, including scene-only lines
+ok 18 - renderer and binder pending declarations collapse to one host introduction, including scene-only lines
+  ---
+  duration_ms: 3.6986
+  type: 'test'
+  ...
+# Subtest: complete-looking declarations with additional ordinary prose are never stripped
+ok 19 - complete-looking declarations with additional ordinary prose are never stripped
+  ---
+  duration_ms: 0.9425
+  type: 'test'
+  ...
+# Subtest: actual repair live model fixture keeps water-stain prose and normalizes to a single introduction idempotently
+ok 20 - actual repair live model fixture keeps water-stain prose and normalizes to a single introduction idempotently
+  ---
+  duration_ms: 12.7732
+  type: 'test'
+  ...
+# Subtest: current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+ok 21 - current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+  ---
+  duration_ms: 79.4049
+  type: 'test'
+  ...
+# Subtest: literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+ok 22 - literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+  ---
+  duration_ms: 1.0982
+  type: 'test'
+  ...
+# Subtest: narration alone does not bind a visible character; repeated repair is stable
+ok 23 - narration alone does not bind a visible character; repeated repair is stable
+  ---
+  duration_ms: 0.3574
+  type: 'test'
+  ...
+# Subtest: model-declared character without any asset gets a named placeholder and no fake binding
+ok 24 - model-declared character without any asset gets a named placeholder and no fake binding
+  ---
+  duration_ms: 0.3319
+  type: 'test'
+  ...
+# Subtest: named declarations, group references in spatial plan and per-Seq shot timing
+ok 25 - named declarations, group references in spatial plan and per-Seq shot timing
+  ---
+  duration_ms: 4.9471
+  type: 'test'
+  ...
+# Subtest: repeated pure-copy Seq starts numbering from one again
+ok 26 - repeated pure-copy Seq starts numbering from one again
+  ---
+  duration_ms: 0.5046
+  type: 'test'
+  ...
+# Subtest: assets without available reference stay as names, not raw IDs
+ok 27 - assets without available reference stay as names, not raw IDs
+  ---
+  duration_ms: 0.3114
+  type: 'test'
+  ...
+# Subtest: installed generation requests text preview and saves only through the validated commit callback
+ok 28 - installed generation requests text preview and saves only through the validated commit callback
+  ---
+  duration_ms: 1.9705
+  type: 'test'
+  ...
+# Subtest: real incomplete model response never reaches the project write API
+ok 29 - real incomplete model response never reaches the project write API
+  ---
+  duration_ms: 149.8929
+  type: 'test'
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 29
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 277.6212

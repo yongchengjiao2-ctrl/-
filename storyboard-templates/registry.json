@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "defaultTemplate": {
+    "id": "continuous-cinema",
+    "version": "1.0.0"
+  },
+  "templates": [
+    {
+      "id": "continuous-cinema",
+      "version": "1.0.0",
+      "name": "电影叙事 · 连续分镜标准",
+      "path": "continuous-cinema/1.0.0/template.json",
+      "sha256": "5fc29ebb9111d96bba7e817d0ecf1a4023ae4c730f82b5ed07e5d20d1655f868"
+    }
+  ],
+  "skills": []
+}

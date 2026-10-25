@@ -1,0 +1,10 @@
+test_all_legacy_scripts_guard_before_executable_code_and_parse (test_audit_install_guard.LegacyGuardTests.test_all_legacy_scripts_guard_before_executable_code_and_parse) ... ok
+test_marker_blocks_install_restore_and_fake_build_mode_without_changes (test_audit_install_guard.LegacyGuardTests.test_marker_blocks_install_restore_and_fake_build_mode_without_changes) ... ok
+test_no_marker_is_read_only_and_preserves_legacy_behavior (test_audit_install_guard.LegacyGuardTests.test_no_marker_is_read_only_and_preserves_legacy_behavior) ... ok
+test_only_supported_exact_build_only_is_allowed (test_audit_install_guard.LegacyGuardTests.test_only_supported_exact_build_only_is_allowed) ... ok
+test_script_refuses_before_top_level_mutation_in_temp_localappdata (test_audit_install_guard.LegacyGuardTests.test_script_refuses_before_top_level_mutation_in_temp_localappdata) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.996s
+
+OK

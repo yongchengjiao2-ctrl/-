@@ -1,0 +1,11 @@
+from _audit_install_guard import guard_legacy_install
+guard_legacy_install(__file__, allow_build_only=False)
+import pathlib,os,datetime,shutil
+r=pathlib.Path('character-prompt-formats');a=pathlib.Path(os.environ['LOCALAPPDATA'])/'YingceCanvas/versions/1.3.13/web/dist/assets';b=r/'backups'/('validated-request-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'));b.mkdir(parents=True)
+p=a/'chapters-CeKTBaiU.js';s=p.read_text(encoding='utf8');shutil.copy2(p,b/p.name);start=s.index('async function xn(e,t,n,r){');end=s.index('function Sn(e)',start)
+replacement='''async function xn(e,t,n,r){let i=e.config.textModel||e.config.model,p=RFBuild(n,e.roleFormat||RFSelected()),error=``;for(let attempt=0;attempt<2;attempt++){let a=await B({streamText:!1,projectId:e.projectId,nodeId:`${t}:${e.chapterId}`,mode:`text`,prompt:p+(attempt?`\\n\\n【上次响应校验失败，本次必须重新输出完整JSON】${error}。这是完整重新生成，不是续传；必须包含characters、scenes、props三个数组，不可漏项；本章明确出现旗帜、枪械、文书，props不可遗漏。请减少重复形容词，把全部资产和JSON结构完整输出。`:``),config:{...e.config,model:i},metadata:{domainProjectId:e.projectId,chapterId:e.chapterId,operation:t,responseMode:`non-stream`,requestedStream:!1,validationAttempt:attempt,promptTemplateVariables:n,characterPromptFormat:e.roleFormat},onTaskCreated:r?.onTaskUpdate});if(!a.text?.trim())throw Error(`模型没有返回可用结果`);try{let parsed=RFParseExtractionJSON(a.text),text=JSON.stringify(parsed);mn(text);return text}catch(t){error=t.message;if(attempt===1)throw Error(`资产结果连续校验失败，未保存：${error}`)}}}'''
+s=s[:start]+replacement+s[end:];p.write_text(s,encoding='utf8')
+p=r/'src/extraction-recovery.js';s=p.read_text(encoding='utf8');shutil.copy2(p,b/p.name)
+s=s.replace("const text=raw.trim().replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'');", "let text=raw.trim().replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'');\n // Repair only a missing opening quote on a known property at the beginning of a JSON line.\n text=text.replace(/^(\\s*)(name|aliases|role|appearance|physique|clothing|personality|props|consistencyPrompt|multiViewPrompt|voiceLanguage|voiceAge|voiceTimbre|description|prompt)\"\\s*:/gm,'$1\"$2\":');")
+p.write_text(s,encoding='utf8');shutil.copy2(p,a/p.name)
+print('Installed full-document validation and at most one complete regeneration; no fragment concatenation.')

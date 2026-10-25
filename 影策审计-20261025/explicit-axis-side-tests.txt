@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: actual saved supplier response with an unexplained reverse axis is rejected without changing evidence
+ok 1 - actual saved supplier response with an unexplained reverse axis is rejected without changing evidence
+  ---
+  duration_ms: 5.8688
+  type: 'test'
+  ...
+# Subtest: finite axis gate permits a visible neutral or continuous orbit transition and rejects vague or negated transitions
+ok 2 - finite axis gate permits a visible neutral or continuous orbit transition and rejects vague or negated transitions
+  ---
+  duration_ms: 0.2865
+  type: 'test'
+  ...
+# Subtest: synthetic transition correction preserves OS and named dialogue mode regardless of over-shoulder wording
+ok 3 - synthetic transition correction preserves OS and named dialogue mode regardless of over-shoulder wording
+  ---
+  duration_ms: 2.7173
+  type: 'test'
+  ...
+# Subtest: axis gate remains limited to version3, preserving historical packed-v2 playback
+ok 4 - axis gate remains limited to version3, preserving historical packed-v2 playback
+  ---
+  duration_ms: 8.2806
+  type: 'test'
+  ...
+# Subtest: contract4 explicit same-axis left/right switches survive ambiguous inside shots but require visible transition
+ok 5 - contract4 explicit same-axis left/right switches survive ambiguous inside shots but require visible transition
+  ---
+  duration_ms: 0.381
+  type: 'test'
+  ...
+# Subtest: saved contract4 supplier response is rejected for explicit axis-side flip without editing its raw evidence
+ok 6 - saved contract4 supplier response is rejected for explicit axis-side flip without editing its raw evidence
+  ---
+  duration_ms: 1.3542
+  type: 'test'
+  ...
+# Subtest: new strict parser rejects duplicate keys in saved contract4 provider text before lossy JSON.parse
+ok 7 - new strict parser rejects duplicate keys in saved contract4 provider text before lossy JSON.parse
+  ---
+  duration_ms: 1.4299
+  type: 'test'
+  ...
+# Subtest: contract4 requires per-shot integer exact source beat, while old version3 playback remains readable
+ok 8 - contract4 requires per-shot integer exact source beat, while old version3 playback remains readable
+  ---
+  duration_ms: 5.5302
+  type: 'test'
+  ...
+# Subtest: contract4 rejects actual saved linguistic sound contamination and does not sanitize it into fake success
+ok 9 - contract4 rejects actual saved linguistic sound contamination and does not sanitize it into fake success
+  ---
+  duration_ms: 0.6863
+  type: 'test'
+  ...
+# Subtest: new prompt/schema label each source visual and boundary; strict renderer preserves source provenance
+ok 10 - new prompt/schema label each source visual and boundary; strict renderer preserves source provenance
+  ---
+  duration_ms: 1.6614
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 102.0025

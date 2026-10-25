@@ -1,0 +1,224 @@
+{
+  "integrity": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "fk": [],
+  "orphans": {
+    "shot_current_revision": [
+      {
+        "n": 0
+      }
+    ],
+    "reference_versions": [
+      {
+        "n": 0
+      }
+    ],
+    "confirmed_candidates": [
+      {
+        "n": 0
+      }
+    ],
+    "canvas_project": [
+      {
+        "n": 0
+      }
+    ]
+  },
+  "canvases": [
+    {
+      "id": "7ktRFvIQYeRnDOyR9PrYw",
+      "project_id": "",
+      "title": "自由画布 1",
+      "revision": 1,
+      "node_count": 0,
+      "connections": 0,
+      "types": {},
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "id",
+        "nodes",
+        "previsScenes",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "P25n5r5VWCeHtVN3kBZGr",
+      "project_id": "",
+      "title": "自由画布 3",
+      "revision": 39,
+      "node_count": 32,
+      "connections": 23,
+      "types": {
+        "image": 32
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "yvDSZEgIbSnmCZvHozb-K",
+      "project_id": "c47863f74af47ca312152513d1379768",
+      "title": "11 · 新画布",
+      "revision": 28,
+      "node_count": 10,
+      "connections": 0,
+      "types": {
+        "text": 5,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "Gbt3yXMF9FuMjcAJy8Y8A",
+      "project_id": "cf3b5ee60f15a252e3c7d27250a86683",
+      "title": "测试3 · 新画布",
+      "revision": 5,
+      "node_count": 13,
+      "connections": 0,
+      "types": {
+        "text": 7,
+        "image": 6
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "u9cP_qqFegojeDcj-fayD",
+      "project_id": "a401a7ba7f6e91f23564e1a57e6f1ea7",
+      "title": "测试 · 新画布",
+      "revision": 20,
+      "node_count": 5,
+      "connections": 0,
+      "types": {
+        "text": 3,
+        "image": 2
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "yxwU8zaRDgCxtu5nF4HnN",
+      "project_id": "8de23d1a494f48a55086991ab8c9c584",
+      "title": "测试4 · 新画布",
+      "revision": 22,
+      "node_count": 9,
+      "connections": 0,
+      "types": {
+        "text": 4,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "s8FnZR3xj-iHuYY3mScOF",
+      "project_id": "c020288d5e16dc69db4ac7097de14378",
+      "title": "测试5 · 新画布",
+      "revision": 20,
+      "node_count": 10,
+      "connections": 0,
+      "types": {
+        "text": 5,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    }
+  ]
+}
+templates [{"operation": "chapter_assets_extract", "name": "典藏五维 · 完整角色设定", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "storyboard_plan", "name": "默认分镜规划模板", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "storyboard_repair", "name": "默认分镜修复模板", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "storyboard_first_frame", "name": "默认分镜首帧模板", "version": 1, "enabled": 1, "output_type": "text"}, {"operation": "storyboard_video", "name": "默认分镜视频模板", "version": 1, "enabled": 1, "output_type": "text"}, {"operation": "character_extract", "name": "臻像四联 · 全身与肖像", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "character_turnaround", "name": "凝像双联 · 侧身与肖像", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "short_drama_outline", "name": "默认短剧大纲模板", "version": 1, "enabled": 1, "output_type": "json"}, {"operation": "skill_draft", "name": "默认技能草稿模板", "version": 1, "enabled": 1, "output_type": "json"}]
+skill schemas {"skills": ["id", "owner_id", "author_name", "author_avatar_url", "name", "description", "instruction", "current_version_id", "version_label", "content_hash", "file_count", "total_bytes", "source_type", "source_url", "source_ref", "source_subdir", "source_commit", "sync_status", "sync_error", "auto_update", "last_checked_at", "last_synced_at", "status", "source", "tag", "sort_weight", "is_private", "markdown_url", "showcase_media_json", "extra_info", "initial_like_count", "initial_added_count", "created_at", "updated_at"], "skill_versions": ["id", "skill_id", "version_label", "content_hash", "entry_path", "package_key", "file_count", "total_bytes", "source_commit", "created_at"], "skill_files": ["id", "skill_version_id", "path", "kind", "mime_type", "size", "sha256", "created_at"], "user_skill_states": ["id", "user_id", "skill_id", "library_category_id", "installed_version_id", "auto_update", "added", "liked", "created_at", "updated_at"], "tasks": ["agent_run_id", "generation_id", "approval_id", "authorized_charge_microcredits", "execution_diagnostic_json", "cancellation_source", "cancellation_actor_id", "cancellation_requested_at", "creation_submission_id", "workbench_kind", "id", "user_id", "trace_id", "request_id", "project_id", "type", "status", "stage", "progress", "prompt", "operation", "provider", "model", "logical_model_id", "logical_model_revision_id", "route_id", "channel_model_id", "route_run", "billing_order_id", "provider_request_id", "provider_cancel_status", "provider_cancel_error", "provider_cancel_attempts", "provider_cancel_requested_at", "provider_cancelled_at", "provider_cancel_next_check_at", "poll_stage", "next_poll_at", "lease_owner", "lease_expires_at", "input_json", "result_json", "media_recovery_json", "media_stage", "text_draft", "error", "attempts", "started_at", "completed_at", "created_at", "updated_at"], "system_settings": ["key", "value_json", "updated_by", "created_at", "updated_at"]}

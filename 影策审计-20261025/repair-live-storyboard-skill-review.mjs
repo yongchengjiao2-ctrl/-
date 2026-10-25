@@ -1,0 +1,14 @@
+import fs from 'node:fs';import crypto from 'node:crypto';
+const base=new URL('./',import.meta.url),pkg=JSON.parse(fs.readFileSync(new URL('repair-live-storyboard-real-skill-package.json',base),'utf8'));
+const src=fs.readFileSync(new URL('../character-prompt-formats/src/skill-runtime-CF8drDK4.js',base),'utf8'),body=src.slice(src.indexOf('function i('),src.indexOf('var S,C,w,T,E,D='));
+const factory=new Function('r','n',body+`;let S={shortDrama:{delivery:'linked-context',maxSkills:4,maxContextChars:32000,maxLinkedFilesPerSkill:3},canvas:{delivery:'linked-context',maxSkills:4,maxContextChars:32000,maxLinkedFilesPerSkill:3}};let C=/@\\[skill:([^\\]]+)\\]/g;let w=new Set(['.md','.mdx','.txt','.json','.yaml','.yml','.toml','.csv']);let T={skillIds:[],skillVersions:[],skillFiles:[]};return {s,u};`)(()=>{},()=>{});
+const files=Object.keys(pkg.files).map(path=>({path,kind:'text'})),skill={skillId:pkg.id,skillName:pkg.name,isAdded:true,versionId:pkg.version_id,version:pkg.version_label};
+const reads=[],runtime=factory.s({getFile:async(id,path)=>{reads.push(path);const f=pkg.files[path];if(!f)throw Error('Missing real package file: '+path);return{file:{binary:false,content:f.content,file:{sha256:f.sha256}}}},listFiles:async()=>({files})});
+const request=JSON.parse(fs.readFileSync(new URL('repair-live-storyboard-request.json',base),'utf8')),prompt=request.messages.find(m=>m.role==='user').content;
+const report={newProviderCalls:0,packageKey:pkg.package_key,skillVersion:pkg.version_label,runtimeSHA256:crypto.createHash('sha256').update(src).digest('hex'),profiles:{},control:{}};
+for(const profile of ['shortDrama','canvas']){reads.length=0;try{const prepared=await runtime.prepare({profile,prompt,skills:[skill],selectedSkillIds:[skill.skillId]});report.profiles[profile]={accepted:true,reads:[...reads],metadata:prepared.metadata,hostBoundaryPresent:prepared.prompt.includes('不是Agent工具会话')};}catch(e){report.profiles[profile]={accepted:false,error:e.message,reads:[...reads]};}}
+for(const profile of ['shortDrama','canvas']){const p=await runtime.prepare({profile,prompt:'核对本轮宿主能力。',skills:[],selectedSkillIds:[]});report.profiles[profile+'-no-skill']={accepted:true,hostBoundaryPresent:p.prompt.includes('不是Agent工具会话'),metadata:p.metadata};}
+const required='必须读取 references/a.md 和 references/b.md 和 references/c.md 和 references/d.md。';
+const control=factory.s({getFile:async()=>({file:{binary:false,content:required,file:{sha256:'control'}}}),listFiles:async()=>({files:['a','b','c','d'].map(n=>({path:'references/'+n+'.md',kind:'text'}))})});
+try{await control.prepare({profile:'shortDrama',prompt:'分镜',skills:[skill],selectedSkillIds:[skill.skillId]});report.control.fourRequiredRejected=false;}catch(e){report.control={fourRequiredRejected:/必读文件超过/.test(e.message),error:e.message};}
+fs.writeFileSync(new URL('repair-live-storyboard-skill-review.json',base),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

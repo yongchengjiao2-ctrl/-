@@ -1,0 +1,120 @@
+{
+  "model": "deepseek-v4-pro-0813",
+  "format": "side-portrait",
+  "inputKind": "prose",
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T06:43:18.989Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "side-portrait",
+    "name": "凝像双联 · 侧身与肖像",
+    "version": 1,
+    "sha256": "5f5444415f476e849a2b5e5ca9c4efb476996e6c6c3459cc0510a83c9008ea07"
+  },
+  "promptSha256": "6df8e26d27552f8fcea6a8d1f695329778d9c00945bb875ea9146333ec416654",
+  "promptChars": 4899,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 60232,
+  "finishReason": "stop",
+  "usage": {
+    "completion_tokens": 9976,
+    "completion_tokens_details": {
+      "reasoning_tokens": 6447
+    },
+    "prompt_tokens": 4047,
+    "prompt_tokens_details": {
+      "cached_tokens": 16
+    },
+    "total_tokens": 14023
+  },
+  "contentChars": 4246,
+  "installedParserPassed": true,
+  "structuralValidationPassed": true,
+  "coverageAssessment": {
+    "status": "unverified",
+    "reason": "普通小说或缺少可核对的人物/场景标签；必须人工核对，不能据空清单宣称提取完整。",
+    "checkedScopes": [],
+    "expected": {
+      "people": [],
+      "scenes": [],
+      "props": []
+    },
+    "labels": {
+      "people": false,
+      "scenes": false,
+      "props": false
+    },
+    "missingLabels": [
+      "people",
+      "scenes",
+      "props"
+    ],
+    "scope": "仅核对正文显式资产标签；不是自然语言全文完整性证明",
+    "requiresHumanReview": true
+  },
+  "formatCompletenessPassed": true,
+  "contentAudit": {
+    "checks": {
+      "expectedCharacters": true,
+      "noExtraCharacters": true,
+      "warehouse": true,
+      "key": true,
+      "table": false,
+      "sourceClothingPreserved": true,
+      "stylesPresent": true,
+      "noHistoricalOrFantasyLeak": true,
+      "identityFields": true,
+      "savedFixedLayout": true
+    },
+    "errors": [
+      "table"
+    ]
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库内"
+    ],
+    "props": [
+      "铜钥匙"
+    ]
+  },
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 1
+  },
+  "validated": false,
+  "error": "Content audit failed: table",
+  "finishedAt": "2026-10-25T06:44:19.228Z",
+  "automatedValidationPassed": false,
+  "manualReview": {
+    "status": "failed-content-review",
+    "semanticAcceptance": false,
+    "issues": [
+      "正文明确出现木桌但未作为独立props条目，仅在场景核心陈设出现；与当前模板覆盖物件要求及验收样例清单不符。"
+    ],
+    "coverageDiagnosticCorrect": true
+  }
+}

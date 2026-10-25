@@ -1,0 +1,7 @@
+{
+  "reason": "Concurrent v6 deployment omitted required source inventory module; restored last validated v5 runtime only; src v6 preserved",
+  "preserved": "影策审计-20261025\\concurrent-runtime-v6-before-dependency-recovery-150749.js",
+  "restoredFrom": "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-144417-641227\\files\\asset-extraction-runtime-v3.js",
+  "beforeSha256": "8a5993b97cc7100576234fc6558b6fe0c5c519bdb40a9a0581510297e6aa3035",
+  "afterSha256": "0111d0084bcace6bbcc30496c0c8ba5a1ff608f350e1e195f8cb31d2e228c398"
+}

@@ -1,0 +1,1426 @@
+{
+  "skill_entry_paths": [
+    {
+      "entry_path": "SKILL.md",
+      "n": 73
+    }
+  ],
+  "skill_metadata": [
+    {
+      "id": "16000000000086",
+      "name": "AI 表演实验室",
+      "status": 1,
+      "file_count": 20,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14889899552012",
+      "name": "AI演员微表情导演",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816962572",
+      "name": "AI造型师高转化模特图",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816961804",
+      "name": "ASMR沉浸式潮玩开箱导演",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000089",
+      "name": "Freestyle 风格库",
+      "status": 1,
+      "file_count": 5,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000090",
+      "name": "H3 视频提示词套件",
+      "status": 1,
+      "file_count": 12,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14889899551756",
+      "name": "OC魅力诊断师",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000092",
+      "name": "Seedance 2.5 导演工艺",
+      "status": 1,
+      "file_count": 8,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000093",
+      "name": "Seedance 提示词工程",
+      "status": 1,
+      "file_count": 8,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816961036",
+      "name": "TikTok网红带货视频",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816981260",
+      "name": "15秒极致夸张反转提示词",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816981004",
+      "name": "15秒视觉特效",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816981772",
+      "name": "一图成片-电影广告全能导演",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000077",
+      "name": "一镜到底短剧流水线",
+      "status": 1,
+      "file_count": 11,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14889292801804",
+      "name": "3D国漫风转身变身特效",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816983308",
+      "name": "三幕式短剧工厂",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816982540",
+      "name": "世界观美术设定",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816981516",
+      "name": "二维动画线稿批量上色",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "15507072002828",
+      "name": "人像捏脸导演",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000100",
+      "name": "体验设计五原则",
+      "status": 1,
+      "file_count": 58,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "15434297644556",
+      "name": "先锋服装商拍视觉指导",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000099",
+      "name": "决策思维模型格森",
+      "status": 1,
+      "file_count": 46,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000094",
+      "name": "分镜语法",
+      "status": 1,
+      "file_count": 29,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000076",
+      "name": "剧本工业化机器",
+      "status": 1,
+      "file_count": 7,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816982796",
+      "name": "剧本撰写",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816970252",
+      "name": "剧本资产视频一条龙创作",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000088",
+      "name": "剪辑节奏",
+      "status": 1,
+      "file_count": 5,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000101",
+      "name": "发布片三件套",
+      "status": 1,
+      "file_count": 6,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816970508",
+      "name": "叙事短片导演分镜",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816960524",
+      "name": "名导十五秒视频风格资产引擎",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000074",
+      "name": "喜剧 Mechanics",
+      "status": 1,
+      "file_count": 68,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "yingce-image-layer-split",
+      "name": "图片图层拆分",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "yingce-image-annotation",
+      "name": "图片标注编辑",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "yingce-image-editing",
+      "name": "图片编辑工作流",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000102",
+      "name": "定位与命名策略",
+      "status": 1,
+      "file_count": 30,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000075",
+      "name": "对白工坊",
+      "status": 1,
+      "file_count": 20,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816960268",
+      "name": "小红书素人穿搭配方",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000105",
+      "name": "广告全链路打法",
+      "status": 1,
+      "file_count": 25,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000097",
+      "name": "广告文案四步系统",
+      "status": 1,
+      "file_count": 47,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "yingce-short-drama-workflow",
+      "name": "影策短剧制作工作流",
+      "status": 1,
+      "file_count": 14,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "yingshi-drama-workshop",
+      "name": "影视剧作工坊",
+      "status": 1,
+      "file_count": 325,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000082",
+      "name": "情景喜剧工坊",
+      "status": 1,
+      "file_count": 23,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000103",
+      "name": "提示词工程模式",
+      "status": 1,
+      "file_count": 25,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816983052",
+      "name": "故事开发",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000084",
+      "name": "故事结构引擎",
+      "status": 1,
+      "file_count": 37,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000104",
+      "name": "故事营销八阶段",
+      "status": 1,
+      "file_count": 16,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000078",
+      "name": "散文质地工艺",
+      "status": 1,
+      "file_count": 39,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816980748",
+      "name": "数字人搞笑采访视频生成",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000091",
+      "name": "模型路由交互",
+      "status": 1,
+      "file_count": 6,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "15215320902412",
+      "name": "治愈系原创IP孵化助手",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000098",
+      "name": "消费心理转化设计",
+      "status": 1,
+      "file_count": 42,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816960780",
+      "name": "珠宝电商图文视频一站式",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816969484",
+      "name": "珠宝设计出款",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816969740",
+      "name": "珠宝设计进化",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000085",
+      "name": "相声手艺",
+      "status": 1,
+      "file_count": 17,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000081",
+      "name": "短剧实战手册",
+      "status": 1,
+      "file_count": 29,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000080",
+      "name": "短片五阶段结构",
+      "status": 1,
+      "file_count": 7,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14889292802060",
+      "name": "社媒素人App宣传",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816962316",
+      "name": "穿搭上身试穿视频生成",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816982028",
+      "name": "系列套图生成",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000079",
+      "name": "系列弧光规划",
+      "status": 1,
+      "file_count": 17,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816961292",
+      "name": "绿幕猫咪跳舞素材生成",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000083",
+      "name": "脱口秀手艺",
+      "status": 1,
+      "file_count": 13,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000087",
+      "name": "视听理论基础",
+      "status": 1,
+      "file_count": 13,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000096",
+      "name": "视觉基调设计",
+      "status": 1,
+      "file_count": 28,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000095",
+      "name": "视觉提示词工程",
+      "status": 1,
+      "file_count": 12,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816969996",
+      "name": "角色精灵图动画产线",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816982284",
+      "name": "角色设计",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000073",
+      "name": "角色锻造工坊",
+      "status": 1,
+      "file_count": 32,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "16000000000107",
+      "name": "选包门房",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14519800321292",
+      "name": "顶级波普视觉广告导演",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "14811816962060",
+      "name": "高能未来电子产品广告视频",
+      "status": 1,
+      "file_count": 1,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    },
+    {
+      "id": "seedance-script-storyboard",
+      "name": "Seedance 2.0 剧本直转分镜",
+      "status": 1,
+      "file_count": 2,
+      "sync_status": "synced",
+      "auto_update": 0,
+      "entry_path": "SKILL.md"
+    }
+  ],
+  "skill_integrity": {
+    "missing_version": [
+      {
+        "n": 0
+      }
+    ],
+    "installed_version_missing": [
+      {
+        "n": 0
+      }
+    ],
+    "file_count_mismatch": []
+  },
+  "character_prompt_missing": [],
+  "settings_menu": [
+    "启用个人对象存储",
+    "存储服务",
+    "阿里云 OSS",
+    "腾讯云 COS",
+    "七牛云 Kodo",
+    "S3 兼容存储",
+    "S3 预设",
+    "Region",
+    "CDN 访问鉴权",
+    "未配置",
+    "公开 CDN",
+    "七牛私有下载签名",
+    "必须走 CDN",
+    "允许模型输入代理",
+    "Bucket",
+    "路径前缀",
+    "Path Style",
+    "需重新测试",
+    "编辑模型使用配置",
+    "protocol",
+    "基本信息",
+    "文本",
+    "图片",
+    "视频",
+    "音频",
+    "capabilities",
+    "能力与参数",
+    "RunningHub",
+    "删除个人模型渠道？",
+    "删除渠道",
+    "渠道名称",
+    "目录连接类型",
+    "OpenAI",
+    "Gemini",
+    "Base URL",
+    "API Key",
+    "Secret Key（可选）",
+    "模型列表",
+    "当前没有个人模型渠道",
+    "默认生图模型",
+    "默认视频模型",
+    "默认文本模型",
+    "默认音频模型",
+    "切换模板并放弃修改？",
+    "恢复平台模板？",
+    "加载提示词偏好失败",
+    "暂无可配置的提示词模板",
+    "${e.definition.category} · ${e.definition.label}${e.customization&&e.customization.mode!==",
+    "平台 v${w.template?.version||",
+    "未保存",
+    "平台模板已更新",
+    "baseline",
+    "平台基线",
+    "contract",
+    "输出契约",
+    "preview",
+    "最终结构",
+    "跟随平台",
+    "追加要求",
+    "高级改写",
+    "前端事件",
+    "任务",
+    "上游调用",
+    "最近 15 分钟",
+    "最近 30 分钟",
+    "最近 1 小时",
+    "最近 24 小时",
+    "${e.nodeId}.${e.fieldName}",
+    "true",
+    "false",
+    "保留工作流默认值",
+    "任务提示词",
+    "系统提示词",
+    "参考图片",
+    "参考视频",
+    "参考音频",
+    "蒙版",
+    "画面尺寸",
+    "画面宽高比",
+    "画面宽度",
+    "画面高度",
+    "生成数量",
+    "生成质量",
+    "透明背景",
+    "视频时长",
+    "视频质量",
+    "视频生成音频",
+    "视频水印",
+    "音色",
+    "音频格式",
+    "音频语速",
+    "音频指令",
+    "数字",
+    "滑块",
+    "开关",
+    "下拉",
+    "全部已开启字段 · ${m.length}",
+    "${e.title} · #${e.id}",
+    "提示词",
+    "${e===",
+    "${ca(i)}输出",
+    "中国站 · https://www.runninghub.cn",
+    "国际站 · https://www.runninghub.ai",
+    "积分 API Key（工作流提交）",
+    "素材上传 API Key（企业级）",
+    "工作流用途",
+    "已保存条目",
+    "${Y(e)===",
+    "类型",
+    "Workflow",
+    "App",
+    "显示名称",
+    "操作",
+    "删除当前条目？",
+    "字段配置",
+    "测试画布",
+    "App 公开参数映射",
+    "个人信息加载失败",
+    "验证当前身份",
+    "当前密码",
+    "新密码",
+    "确认新密码",
+    "新邮箱",
+    "邮箱验证码",
+    "邮件服务未启用",
+    "更换头像",
+    "上传图片",
+    "系统头像",
+    "裁剪头像",
+    "默认生图张数",
+    "profile",
+    "个人信息",
+    "channels",
+    "个人渠道",
+    "runninghub",
+    "RunningHub 工作流",
+    "models",
+    "模型选择",
+    "preferences",
+    "生成偏好",
+    "prompts",
+    "提示词偏好",
+    "agent-memory",
+    "Agent 记忆",
+    "storage",
+    "我的对象存储",
+    "diagnostics",
+    "问题诊断"
+  ],
+  "task_types": [
+    {
+      "type": "canvas_image",
+      "operation": "image",
+      "status": "succeeded",
+      "n": 16
+    },
+    {
+      "type": "canvas_text",
+      "operation": "storyboard",
+      "status": "failed",
+      "n": 2
+    },
+    {
+      "type": "canvas_text",
+      "operation": "storyboard",
+      "status": "succeeded",
+      "n": 2
+    },
+    {
+      "type": "canvas_text",
+      "operation": "text",
+      "status": "failed",
+      "n": 13
+    },
+    {
+      "type": "canvas_text",
+      "operation": "text",
+      "status": "running",
+      "n": 2
+    },
+    {
+      "type": "canvas_text",
+      "operation": "text",
+      "status": "succeeded",
+      "n": 39
+    }
+  ],
+  "task_business_validation": [
+    {
+      "id": "c5eea96bdaddb6b8c1efb9e3a0449fab",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "1d248c4c26c06bc5d5dbdc1464a0f212",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "772b9214208992013633b8b24614a505",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-screenplay-planning",
+      "text_chars": 3832,
+      "is_json": false
+    },
+    {
+      "id": "2db2fe9516457635726a874cb7302383",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-screenplay-planning",
+      "text_chars": 2065,
+      "is_json": false
+    },
+    {
+      "id": "3c9c746a46bb0cc9db59fcec92320d6f",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-screenplay-planning",
+      "text_chars": 2256,
+      "is_json": false
+    },
+    {
+      "id": "4147f4139eb4d37d62d8096b2cac1e47",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-screenplay-planning",
+      "text_chars": 1212,
+      "is_json": false
+    },
+    {
+      "id": "467808b53f84ca159d9052a2ae8d9b4c",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-screenplay",
+      "text_chars": 1817,
+      "is_json": false
+    },
+    {
+      "id": "a45ec132eece2449fde963d6b786a476",
+      "operation": "storyboard",
+      "status": "succeeded",
+      "business_operation": "short-drama-chapter-storyboard",
+      "text_chars": 30942,
+      "is_json": true,
+      "keys": [
+        "rows",
+        "title"
+      ]
+    },
+    {
+      "id": "221e5dd846ffcc7544a8cfc4fa4b8ec2",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 21783,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "props",
+        "scenes"
+      ]
+    },
+    {
+      "id": "3f2836b85500d75b19c5b90a99298708",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "86ad8b323394ef7ea6b9852a051da126",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "2d31181486dd6e85443c9768d4e45c9c",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "0f4b85ee3e2fc854eec400cc4a142d18",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "c0fb1f7921cf1741bc04933442240cf3",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 22187,
+      "is_json": false
+    },
+    {
+      "id": "7e80f260bcc2a3dfc06da7a45129380d",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 11748,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "c8f54db9ec6f8c6b665a32e574d9e571",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 22598,
+      "is_json": false
+    },
+    {
+      "id": "21fcb3755db667d5df19025c333da30c",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 16401,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "935d4c81ec0d69e527ce070630bce39a",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 21890,
+      "is_json": false
+    },
+    {
+      "id": "5785225b2413d8a530931c9e6cc74c58",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-assets-continuation",
+      "text_chars": 1433,
+      "is_json": false
+    },
+    {
+      "id": "acbfffe7955cb928c18cd1cf36fa7f8f",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-assets-continuation",
+      "text_chars": 53,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "4a530746befadde4db8cc5c987d33175",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-assets-continuation",
+      "text_chars": 1,
+      "is_json": false
+    },
+    {
+      "id": "1053533aa88a06d2113ae1ca80004795",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter-assets-continuation",
+      "text_chars": 53,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "c189c51b595b7b19d73a1cd231c192f6",
+      "operation": "storyboard",
+      "status": "succeeded",
+      "business_operation": "short-drama-chapter-storyboard",
+      "text_chars": 35101,
+      "is_json": true,
+      "keys": [
+        "rows",
+        "title"
+      ]
+    },
+    {
+      "id": "576e3e1c20ce55642005627d2f194e87",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 8785,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes"
+      ]
+    },
+    {
+      "id": "785a64a90d76bf6377d9670064e4fe22",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 12106,
+      "is_json": false
+    },
+    {
+      "id": "3444e6922592d0389d1a53d40a080925",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 10566,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "99535ae39413bc689c5890bc6928b9f4",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 11794,
+      "is_json": false
+    },
+    {
+      "id": "22b701d1affb78c93f8f9998d82f3490",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 11740,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "2c6f7b8a3406cd6562fa5c9c7180a04b",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 14411,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "7df7b81398f2aad75b0fc7791e6a69a2",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 12846,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "894a318e9316344cefaaa54940c6fcf1",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 17225,
+      "is_json": false
+    },
+    {
+      "id": "69e7fa98e365da327881147b055ef843",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "2a60d3d5a2bfe6770b98b87c050ac111",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "52747519c89d400f4c986491d27b1884",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 19415,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "d5e9b9d9a2659a2294d1d949104a90e1",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "3fa7779fe108d9c2cf3a2fb331693953",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "66043a215e9a4de49bcfe28438affe28",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "2e26f40b42c495b7018f665821bfde9f",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 21416,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "c9a3184526b88003b249080dd299acd6",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "46dfe6fd455b37154d1836e616424a20",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "667376ea9d4d709b59acd2165e5b675e",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "72e82957e2209e8651143a6fa5836b8d",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "character_turnaround",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "1f415d9b03a1f5e30e1dcbab26da6e6b",
+      "operation": "image",
+      "status": "succeeded",
+      "business_operation": "",
+      "text_chars": 0,
+      "is_json": false
+    },
+    {
+      "id": "eb21487c4bdc96d686207046a917533c",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 4278,
+      "is_json": false
+    },
+    {
+      "id": "2c6245b1326425b68901a2b4bb0ce1df",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 9762,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "5b1796fe3807d7e83e04d423f1ecc0cf",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 14716,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "f439e0cb72d02138d87fa6413b1bf70c",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 19668,
+      "is_json": false
+    },
+    {
+      "id": "50f74405be9e64290a412b0943625501",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 19319,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "c2d169e067f75e80d3e1699d8be42c54",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 72,
+      "is_json": false
+    },
+    {
+      "id": "5e2009ed96c5bbea8d17900e380d6dfa",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 11497,
+      "is_json": false
+    },
+    {
+      "id": "2f220066055ad77aba06ce2022961f15",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 699,
+      "is_json": false
+    },
+    {
+      "id": "56fa719fa20ae4e5d5c0497e19514baf",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 4176,
+      "is_json": false
+    },
+    {
+      "id": "f60b619a94a53b0a13f19fb82204796e",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 15856,
+      "is_json": false
+    },
+    {
+      "id": "82ddcef849c35bd304eac04cd1d06c44",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 20369,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props"
+      ]
+    },
+    {
+      "id": "b6f60ac188f9819bcdd95f0341789d4b",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 16647,
+      "is_json": false
+    },
+    {
+      "id": "d49065b96c35f0d3aa5f6a65c2782842",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 15236,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes"
+      ]
+    },
+    {
+      "id": "56e15ae19bb9daeabc2a8bb4c73393cc",
+      "operation": "text",
+      "status": "succeeded",
+      "business_operation": "chapter_character_breakdown",
+      "text_chars": 21279,
+      "is_json": true,
+      "keys": [
+        "characters",
+        "scenes",
+        "props",
+        "voiceLanguage",
+        "voiceAge",
+        "voiceTimbre"
+      ]
+    }
+  ]
+}

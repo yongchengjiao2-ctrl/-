@@ -1,0 +1,227 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "side-portrait",
+  "inputKind": "labeled",
+  "extractionContractVersion": 6,
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T07:27:31.305Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "runtimeSourceSha256": "3677ffd5743486e47d7ac0b214e0c726e12d256d006b726b2c68124349ebd665",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "side-portrait",
+    "name": "凝像双联 · 侧身与肖像",
+    "version": 1,
+    "sha256": "5f5444415f476e849a2b5e5ca9c4efb476996e6c6c3459cc0510a83c9008ea07"
+  },
+  "promptSha256": "5e7264b8f5b9680e476bfdc220ea4724fee8b5ced8046ae984a6cfc9558c545d",
+  "promptChars": 7674,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 7634,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 4875,
+    "completion_tokens": 2855,
+    "total_tokens": 7730
+  },
+  "contentChars": 6675,
+  "installedParserPassed": true,
+  "structuralValidationPassed": true,
+  "coverageAssessment": {
+    "status": "labeled-partial",
+    "reason": "仅核对显式标签；未标签的正文资产仍需人工核对。",
+    "checkedScopes": [
+      "people",
+      "scenes",
+      "props"
+    ],
+    "expected": {
+      "people": [
+        "林岚",
+        "陈墨"
+      ],
+      "scenes": [
+        "仓库"
+      ],
+      "props": [
+        "铜钥匙",
+        "木桌"
+      ]
+    },
+    "labels": {
+      "people": true,
+      "scenes": true,
+      "props": true
+    },
+    "missingLabels": [],
+    "scope": "仅核对正文显式资产标签；不是自然语言全文完整性证明",
+    "requiresHumanReview": true,
+    "sourceInventory": {
+      "status": "self-inventory-linked",
+      "contractVersion": 6,
+      "verifiedQuoteCount": 5,
+      "mappedAssetCount": 5,
+      "spans": [
+        {
+          "index": 0,
+          "kind": "character",
+          "name": "林岚",
+          "assetName": "林岚",
+          "quote": "林岚是一名穿灰色外套的成年女维修员",
+          "occurrence": 1,
+          "start": 29,
+          "end": 46,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 1,
+          "kind": "character",
+          "name": "陈墨",
+          "assetName": "陈墨",
+          "quote": "陈墨是一名穿蓝色工作服的成年男保管员",
+          "occurrence": 1,
+          "start": 47,
+          "end": 65,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 2,
+          "kind": "environment",
+          "name": "仓库",
+          "assetName": "仓库",
+          "quote": "仓库",
+          "occurrence": 1,
+          "start": 3,
+          "end": 5,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 3,
+          "kind": "prop",
+          "name": "铜钥匙",
+          "assetName": "铜钥匙",
+          "quote": "铜钥匙",
+          "occurrence": 1,
+          "start": 18,
+          "end": 21,
+          "unit": "utf16-code-unit"
+        },
+        {
+          "index": 4,
+          "kind": "prop",
+          "name": "木桌",
+          "assetName": "木桌",
+          "quote": "木桌",
+          "occurrence": 1,
+          "start": 22,
+          "end": 24,
+          "unit": "utf16-code-unit"
+        }
+      ],
+      "requiresHumanReview": true,
+      "reason": "仅确认模型自查清单引用真实且已映射资产；清单本身仍可能漏项或误分类，不证明全文穷尽。"
+    },
+    "visualProvenance": {
+      "status": "provenance-declared",
+      "assetCount": 5,
+      "suggestionCount": 50,
+      "requiresHumanReview": true,
+      "reason": "仅验证事实/建议声明结构和显式标签；是否完全标出所有补充、sourceFacts是否真实仍需人工复核。"
+    },
+    "sceneSections": {
+      "status": "scene-sections-present",
+      "sceneCount": 1,
+      "requiredSections": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "3.5",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "requiresHumanReview": true,
+      "reason": "仅核对12节结构和非空内容；事实、布局、动态隔离和视觉效果仍需人工审查。"
+    }
+  },
+  "formatCompletenessPassed": true,
+  "contentAudit": {
+    "checks": {
+      "expectedCharacters": true,
+      "noExtraCharacters": true,
+      "warehouse": true,
+      "key": true,
+      "table": true,
+      "sourceClothingPreserved": true,
+      "stylesPresent": true,
+      "noHistoricalOrFantasyLeak": true,
+      "identityFields": true,
+      "savedFixedLayout": true
+    },
+    "errors": []
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库"
+    ],
+    "props": [
+      "铜钥匙",
+      "木桌"
+    ]
+  },
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 2
+  },
+  "automatedValidationPassed": true,
+  "manualReview": {
+    "status": "source-attribution-passed-render-utility-failed",
+    "semanticAcceptance": false,
+    "factsCheckedIndividually": true,
+    "sectionCounts": {
+      "林岚": 22,
+      "陈墨": 22
+    },
+    "issues": [
+      "人物大量suggestions只是发色设计/脸型骨相设计/服装配色层次设计等栏目占位，不能直接绘图。",
+      "部分建议写正文未明确身高体重籍贯，属于未知说明而非真正造型建议，虽然不伪造事实仍降低结构清晰度。",
+      "现旧parseCharacters丢sectionProvenance/sectionReview，最终已渲染文本存在但逐节证据需额外保留才能部署。"
+    ],
+    "passed": [
+      "逐条sourceFacts均为本次正文真实引文的连续子串，非凭关键词放行。",
+      "项目画风只0节精确匹配传入文本。",
+      "所有自由模型multiViewPrompt被丢弃，宿主逐节生成事实/建议标签后追加双联固定排版。",
+      "木桌独立、铜钥匙、场景12节、两人交接持物状态和personality未知均保留。"
+    ]
+  },
+  "validated": false,
+  "finishedAt": "2026-10-25T07:27:38.959Z",
+  "candidateContract": "v7sections-independent-not-deployed"
+}

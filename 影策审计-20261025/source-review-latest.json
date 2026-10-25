@@ -1,0 +1,230 @@
+{
+  "newModelCalls": 0,
+  "productionWrites": false,
+  "hashes": [
+    {
+      "name": "storyboard-planned.js",
+      "sourceHash": "1efeefe02f79f676ee5aed5155ae8d7bf959ec05bc356ee0efa4bd4f65474d86",
+      "installedHash": "1efeefe02f79f676ee5aed5155ae8d7bf959ec05bc356ee0efa4bd4f65474d86",
+      "same": true
+    },
+    {
+      "name": "storyboard-planned-runtime.js",
+      "sourceHash": "9fb495854efdcda5f94741c9facbc70f84bb7d5cf1095c32a3afc4d12754d3e3",
+      "installedHash": "9fb495854efdcda5f94741c9facbc70f84bb7d5cf1095c32a3afc4d12754d3e3",
+      "same": true
+    },
+    {
+      "name": "source-script-contract.js",
+      "sourceHash": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8",
+      "installedHash": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8",
+      "same": true
+    },
+    {
+      "name": "storyboard-complete.js",
+      "sourceHash": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "installedHash": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "same": true
+    },
+    {
+      "name": "text-request-policy.js",
+      "sourceHash": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78",
+      "installedHash": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78",
+      "same": true
+    }
+  ],
+  "replays": [
+    {
+      "name": "chapter-1-directed-v1.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "人物场景道具描述重复"
+    },
+    {
+      "name": "chapter-1-directed-v2.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第2段镜头3缺少camera"
+    },
+    {
+      "name": "chapter-1-directed-v3.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "镜头明确反轴/越轴/换轴但缺少可见的中性正轴或连续绕轴过渡，已拒绝该导演结果。"
+    },
+    {
+      "name": "chapter-1-directed-v4.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "模型遗漏计划段落"
+    },
+    {
+      "name": "chapter-1-directed-v5.model.json",
+      "planVersion": 3,
+      "rows": 10,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-1-directed-v6.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "镜头明确反轴/越轴/换轴但缺少可见的中性正轴或连续绕轴过渡，已拒绝该导演结果。"
+    },
+    {
+      "name": "chapter-1-directed-v7.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "模型遗漏计划段落"
+    },
+    {
+      "name": "chapter-1-directed-v8.model.json",
+      "planVersion": 3,
+      "rows": 10,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-1-packed-v2.model.json",
+      "planVersion": 2,
+      "rows": 7,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-2-directed-v1.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第1段镜头2缺少performance"
+    },
+    {
+      "name": "chapter-2-directed-v2.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第3段镜头4缺少lighting"
+    },
+    {
+      "name": "chapter-2-directed-v3.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "模型段落编号不匹配"
+    },
+    {
+      "name": "chapter-2-directed-v4.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "内部镜头数量不匹配"
+    },
+    {
+      "name": "chapter-2-directed-v5.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "内部镜头数量不匹配"
+    },
+    {
+      "name": "chapter-2-directed-v6.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第1段镜头4缺少lighting"
+    },
+    {
+      "name": "chapter-2-directed-v7.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第2段镜头2缺少lighting"
+    },
+    {
+      "name": "chapter-2-directed-v8.model.json",
+      "planVersion": 3,
+      "rows": 11,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-2-packed-v2.model.json",
+      "planVersion": 2,
+      "rows": 8,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-3-directed-v1.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第3段镜头1缺少camera"
+    },
+    {
+      "name": "chapter-3-directed-v2.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第5段镜头3缺少lighting"
+    },
+    {
+      "name": "chapter-3-directed-v3.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第5段镜头1缺少performance"
+    },
+    {
+      "name": "chapter-3-directed-v4.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第3段镜头2缺少performance"
+    },
+    {
+      "name": "chapter-3-directed-v5.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第4段镜头1缺少performance"
+    },
+    {
+      "name": "chapter-3-directed-v6.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第9段镜头3缺少lighting"
+    },
+    {
+      "name": "chapter-3-directed-v7.model.json",
+      "planVersion": 3,
+      "rows": 12,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "name": "chapter-3-directed-v8b.model.json",
+      "planVersion": 3,
+      "accepted": false,
+      "error": "第1段镜头1缺少lighting"
+    },
+    {
+      "name": "chapter-3-packed-v2.model.json",
+      "planVersion": 2,
+      "rows": 9,
+      "errors": [],
+      "accepted": true
+    }
+  ],
+  "parserProbes": [
+    {
+      "name": "missing-property-quote",
+      "accepted": true,
+      "result": {
+        "camera": {
+          "position": "原始人物不变"
+        }
+      }
+    },
+    {
+      "name": "truncated",
+      "accepted": false,
+      "error": "Expected ',' or '}' after property value in JSON at position 20 (line 1 column 21)"
+    },
+    {
+      "name": "quoted-comma",
+      "accepted": true,
+      "result": {
+        "x": "人物说逗号,而不是结束"
+      }
+    }
+  ]
+}

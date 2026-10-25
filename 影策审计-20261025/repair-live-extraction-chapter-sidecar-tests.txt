@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: actual compiled-source mn second parse retains legal sidecars and recomputes review using original sources
+ok 1 - actual compiled-source mn second parse retains legal sidecars and recomputes review using original sources
+  ---
+  duration_ms: 4.6735
+  type: 'test'
+  ...
+# Subtest: actual mn rejects duplicate names, missing snapshot context and copied-title suggestions
+ok 2 - actual mn rejects duplicate names, missing snapshot context and copied-title suggestions
+  ---
+  duration_ms: 2.8481
+  type: 'test'
+  ...
+# Subtest: actual mn keeps legacy no-sidecar data compatible and never trusts model accepted review
+ok 3 - actual mn keeps legacy no-sidecar data compatible and never trusts model accepted review
+  ---
+  duration_ms: 0.3338
+  type: 'test'
+  ...
+# Subtest: actual yn reuses same submitted variables and format snapshot for mn despite later UI-style change
+ok 4 - actual yn reuses same submitted variables and format snapshot for mn despite later UI-style change
+  ---
+  duration_ms: 1.2195
+  type: 'test'
+  ...
+# Subtest: v5 partial coverage survives three-array projection, candidate preparation and JSON serialization
+ok 5 - v5 partial coverage survives three-array projection, candidate preparation and JSON serialization
+  ---
+  duration_ms: 1.7682
+  type: 'test'
+  ...
+# Subtest: only locally validated inventory report is trusted, and same name in another category does not cross-bind
+ok 6 - only locally validated inventory report is trusted, and same name in another category does not cross-bind
+  ---
+  duration_ms: 0.2848
+  type: 'test'
+  ...
+# Subtest: confirmed and resolved assets are never downgraded or given pending warnings
+ok 7 - confirmed and resolved assets are never downgraded or given pending warnings
+  ---
+  duration_ms: 0.9667
+  type: 'test'
+  ...
+# Subtest: old data without report is explicitly unverified without fabricated source or altering input
+ok 8 - old data without report is explicitly unverified without fabricated source or altering input
+  ---
+  duration_ms: 0.6872
+  type: 'test'
+  ...
+# Subtest: actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+ok 9 - actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+  ---
+  duration_ms: 5.5086
+  type: 'test'
+  ...
+# Subtest: same-name duplicate, absent main-name match and missing context reject without alias or order association
+ok 10 - same-name duplicate, absent main-name match and missing context reject without alias or order association
+  ---
+  duration_ms: 1.3948
+  type: 'test'
+  ...
+# Subtest: legacy payload without section structure cannot smuggle model-supplied accepted review
+ok 11 - legacy payload without section structure cannot smuggle model-supplied accepted review
+  ---
+  duration_ms: 0.1872
+  type: 'test'
+  ...
+# Subtest: actual v7 response is rejected offline for generic section suggestions with no supplier calls
+ok 12 - actual v7 response is rejected offline for generic section suggestions with no supplier calls
+  ---
+  duration_ms: 1.0432
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 108.8383

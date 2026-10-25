@@ -1,0 +1,7 @@
+import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs';import{jsonrepair}from'jsonrepair';import{directorSource}from'../src/storyboard-autonomous-director.js';import{formatReviewSegment}from'../src/storyboard-review-format.js';import{copyFromMain,COPY_HEADING}from'../src/storyboard-detail-contract.js';
+test('all 23 actual review segments use the existing Chinese template and exact model speech/timing',()=>{
+ const dir=new URL('../build/autonomous-live-v3-20261025/',import.meta.url),input=JSON.parse(fs.readFileSync(new URL('input.json',dir)));let count=0;
+ for(let i=1;i<=3;i++){const raw=fs.readFileSync(new URL(`chapter-${i}-gemini-v4c.raw.txt`,dir),'utf8').trim().replace(/^```(?:json)?\s*/,'').replace(/\s*```$/,''),model=JSON.parse(jsonrepair(raw)),source=directorSource(input.units[i-1].source_text);
+ for(const segment of model.segments){const r=formatReviewSegment(segment,source);count++;assert.ok(r.prompt.startsWith('(@'));assert.ok(!/【(?:grid|constraints|trigger|camera|performance|spatial)】/.test(r.prompt));for(const name of ['角色固定音色锁','关键点前缀','全局执行规则','场景九宫格','分镜详情','段尾视觉','段尾音频'])assert.ok(r.prompt.includes('【'+name));const parts=r.prompt.split(COPY_HEADING+'：\n\n');assert.equal(parts[1],copyFromMain(parts[0]));assert.equal(r.dialogue,segment.shots.flatMap(t=>t.voices||[]).map(v=>v.text).join(''));assert.equal(r.duration,Math.round(segment.shots.reduce((n,t)=>n+t.duration,0)*1000));}}
+ assert.equal(count,23);
+});

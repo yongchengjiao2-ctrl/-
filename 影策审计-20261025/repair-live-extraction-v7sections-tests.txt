@@ -1,0 +1,34 @@
+TAP version 13
+# Subtest: host uses current panel schema, exact source substrings and explicit suggestion labels
+ok 1 - host uses current panel schema, exact source substrings and explicit suggestion labels
+  ---
+  duration_ms: 5.2997
+  type: 'test'
+  ...
+# Subtest: invented age not contained in genuine quote rejects, missing/duplicate sections reject
+ok 2 - invented age not contained in genuine quote rejects, missing/duplicate sections reject
+  ---
+  duration_ms: 1.3074
+  type: 'test'
+  ...
+# Subtest: project style allowed only exact section zero and original five-view explicitly unsupported
+ok 3 - project style allowed only exact section zero and original five-view explicitly unsupported
+  ---
+  duration_ms: 0.5753
+  type: 'test'
+  ...
+# Subtest: generic repeated template titles reject without maintaining domain-specific attribute lists
+ok 4 - generic repeated template titles reject without maintaining domain-specific attribute lists
+  ---
+  duration_ms: 0.6642
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 104.0928

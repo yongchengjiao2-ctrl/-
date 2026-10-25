@@ -1,0 +1,271 @@
+{
+  "checkedInstalledModules": 15,
+  "missing": [],
+  "syntaxPassed": true,
+  "files": [
+    {
+      "name": "workflow-production-workbench-DLsty33y.js",
+      "sha256": "d4ee09fdad79f67d23a24ebdfe37cf6ef0413ae9891fc695a1a3cde396b11042",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "rolldown-runtime-DAXXjFlN.js",
+        "vendor-react-DaNkUq-_.js",
+        "vendor-antd~index~index~welcome-application~application~require-feature~user-layout~announc~hsoin6x9-C9XR2A5n.js",
+        "use-user-store-Fuv7HHLH.js",
+        "vendor-icons~index~index~welcome-application~application~require-feature~user-layout~worksp~igi01sz1-DuoZ1tGq.js",
+        "app-modal-BWLmSEv8.js",
+        "resources-BQRUQGh-.js",
+        "select-0UN5cARp.js",
+        "use-asset-store-yGdco-1O.js",
+        "canvas-C2V9MF3q.js",
+        "user-data-BQeAWToP.js",
+        "user-data-sync-B6hrlYAn.js",
+        "model-capabilities-T8wXtR3P.js",
+        "logical-models-CabfKAsX.js",
+        "use-config-store-BNvhZKBV.js",
+        "video-generation-options-_gBvFNKY.js",
+        "image-quality-B8CAuUff.js",
+        "model-selection-BKITWaf5.js",
+        "model-pricing-B_E-RsaN.js",
+        "model-picker-C8hI2N1a.js",
+        "credits-ck0rVbWK.js",
+        "canvas-project-domain-BMfNpNkE.js",
+        "generation-task-B2p8YPAC.js",
+        "image-size-picker-BGLGvGv3.js",
+        "segmented-control-01mqlhtn.js",
+        "use-debounced-value-CCi1M0xe.js",
+        "projects-DAnF4Ptj.js",
+        "badges-CbtAF2Rp.js",
+        "browser-download-Dvre3HZ1.js",
+        "empty-state-DC6fkpPk.js",
+        "project-asset-sync-C9aJ37b5.js",
+        "canvas-resource-mention-textarea-LSTgFm8t.js",
+        "skill-runtime-CF8drDK4.js",
+        "shot-label-CGjgduve.js",
+        "workflow-shot-references-CRoK17V2.js",
+        "workflow-shared-BBoZacw_.js"
+      ]
+    },
+    {
+      "name": "assets-BpSjmEjz.js",
+      "sha256": "c3c2b95960e472e10fbbc86bf2ca9bad16d1a6f4f313262c0406a96615d6afff",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "character-image-contract.js",
+        "asset-provenance.js",
+        "rolldown-runtime-DAXXjFlN.js",
+        "vendor-react-DaNkUq-_.js",
+        "vendor-antd~index~index~welcome-application~application~require-feature~user-layout~announc~hsoin6x9-C9XR2A5n.js",
+        "vendor-icons~index~index~welcome-application~application~require-feature~user-layout~worksp~igi01sz1-DuoZ1tGq.js",
+        "app-modal-BWLmSEv8.js",
+        "app-modal-JtfoMTBI.js",
+        "resources-BQRUQGh-.js",
+        "cached-resource-image-Cal9we-F.js",
+        "asset-rich-cover-k0XPqFOv.js",
+        "asset-library-card-DrAp6Cn9.js",
+        "workspace-page-CLRdCCaa.js",
+        "asset-category-C0MakKR_.js",
+        "use-asset-store-yGdco-1O.js",
+        "canvas-C2V9MF3q.js",
+        "user-data-sync-B6hrlYAn.js",
+        "asset-library-picker-modal-BwXQm-32.js",
+        "workspace-state-D8cOzEn1.js",
+        "use-config-store-BNvhZKBV.js",
+        "prompts-C9Ts6kIN.js",
+        "canvas-character-reference-qPZJkX1a.js",
+        "use-debounced-value-CCi1M0xe.js",
+        "projects-DAnF4Ptj.js",
+        "browser-download-Dvre3HZ1.js",
+        "canvas-image-preview-tc9uJXie.js",
+        "canvas-folder-preview-KZrUX2DQ.js",
+        "canvas-project-generation-DKqeyZxD.js",
+        "character-voice-formats-WrMwS-vP.js",
+        "canvas-style-picker-modal-BWHuaVKT.js",
+        "shared-B38tay2e.js"
+      ]
+    },
+    {
+      "name": "asset-provenance.js",
+      "sha256": "a05ff0945928729e9aed2a029406c86964417aa4772f2487cbb7cfe0ea167efd",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "projects-DAnF4Ptj.js"
+      ]
+    },
+    {
+      "name": "chapter-generation-control.js",
+      "sha256": "d64d2bb2fdddccfe5d50bd1ba0d7f33699cb757c209e976d1d1f5c124f428bf0",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "task-center-CCDONRL0.js"
+      ]
+    },
+    {
+      "name": "skill-runtime-CF8drDK4.js",
+      "sha256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "rolldown-runtime-DAXXjFlN.js",
+        "skills-DHDdovXH.js"
+      ]
+    },
+    {
+      "name": "storyboard-planned-runtime.js",
+      "sha256": "cdc2e75334f9f4193ae6ed2d6d55cb836447132a1c09306762e52bbcf652d6ff",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "storyboard-review-format.js",
+        "storyboard-autonomous-director.js",
+        "storyboard-human-review.js",
+        "storyboard-planned.js",
+        "storyboard-complete.js",
+        "storyboard-single-call.js",
+        "storyboard-detail-contract.js",
+        "text-request-policy.js"
+      ]
+    },
+    {
+      "name": "storyboard-human-review.js",
+      "sha256": "7ca366318cc0bb0ec8d5a523f6cd22a982608ae8b8a8608ec265a3229a276f7b",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": []
+    },
+    {
+      "name": "storyboard-planned.js",
+      "sha256": "da079c8edc00d8cc00567af72cf61e995f89548f63f05d5ed21425e9bce05281",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "json-unique-keys.js",
+        "storyboard-detail-contract.js",
+        "source-script-contract.js"
+      ]
+    },
+    {
+      "name": "storyboard-detail-normalize.js",
+      "sha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "shot-asset-bindings.js",
+        "storyboard-detail-contract.js",
+        "storyboard-spatial-render.js"
+      ]
+    },
+    {
+      "name": "storyboard-complete.js",
+      "sha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "storyboard-template-standard.js",
+        "storyboard-detail-contract.js",
+        "storyboard-detail-normalize.js",
+        "source-script-contract.js",
+        "text-request-policy.js"
+      ]
+    },
+    {
+      "name": "shot-asset-bindings.js",
+      "sha256": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "storyboard-detail-contract.js",
+        "storyboard-template-standard.js",
+        "projects-DAnF4Ptj.js",
+        "request-Dlp4yxtR.js"
+      ]
+    },
+    {
+      "name": "extraction-completeness-v4.js",
+      "sha256": "1c79b5b642eae14911fafde6b7968120a27a47c75924d9bd3a2162007ec33d87",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": []
+    },
+    {
+      "name": "character-prompt-formats.js",
+      "sha256": "2a21d8e89ee2286d172dc4782f4325b768f8c38c04eadc9522b4b5eee4fbecbe",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "character-extraction-rules.js",
+        "original-character-format.js",
+        "auth-DDR5hxJV.js"
+      ]
+    },
+    {
+      "name": "asset-extraction-runtime-v3.js",
+      "sha256": "194b721a250adb9b095d131654585078d6978572d57472f32c6fc322a867309c",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "text-request-policy.js",
+        "asset-provenance.js",
+        "extraction-completeness-v4.js",
+        "generation-task-B2p8YPAC.js",
+        "character-prompt-formats.js",
+        "extraction-contract-v3.js",
+        "character-parser-v3.js"
+      ]
+    },
+    {
+      "name": "chapters-CeKTBaiU.js",
+      "sha256": "33b9471a07cdc2032ec5d2db83e13684851ebc5d19c92243d591ed367d850331",
+      "syntaxPassed": true,
+      "syntaxError": "",
+      "dependencies": [
+        "extraction-section-provenance.js",
+        "asset-provenance.js",
+        "chapter-generation-control.js",
+        "asset-provenance.js",
+        "storyboard-planned-runtime.js",
+        "storyboard-single-call.js",
+        "storyboard-complete.js",
+        "storyboard-complete.js",
+        "asset-extraction-runtime-v3.js",
+        "extraction-recovery.js",
+        "shot-asset-bindings.js",
+        "character-prompt-formats.js",
+        "rolldown-runtime-DAXXjFlN.js",
+        "vendor-react-DaNkUq-_.js",
+        "vendor-antd~index~index~welcome-application~application~require-feature~user-layout~announc~hsoin6x9-C9XR2A5n.js",
+        "vendor-icons~index~index~welcome-application~application~require-feature~user-layout~worksp~igi01sz1-DuoZ1tGq.js",
+        "app-modal-BWLmSEv8.js",
+        "app-modal-JtfoMTBI.js",
+        "workspace-state-D8cOzEn1.js",
+        "use-config-store-BNvhZKBV.js",
+        "dist-DFPNVekV.js",
+        "dist-CP6AAIxK.js",
+        "dist-jD6l3ycS.js",
+        "callout-Csf_8UsZ.js",
+        "model-picker-C8hI2N1a.js",
+        "tooltip-B6K4U5vr.js",
+        "settings-navigation-BjiOtoD3.js",
+        "canvas-project-domain-BMfNpNkE.js",
+        "prompts-C9Ts6kIN.js",
+        "canvas-character-reference-qPZJkX1a.js",
+        "generation-task-B2p8YPAC.js",
+        "task-center-CCDONRL0.js",
+        "dist-CZN7TJJu.js",
+        "projects-DAnF4Ptj.js",
+        "canvas-project-generation-DKqeyZxD.js",
+        "skill-runtime-CF8drDK4.js",
+        "esm-CRY3Zia_.js",
+        "canvas-style-picker-modal-BWHuaVKT.js",
+        "dist-H7Xej-GJ.js",
+        "shot-label-CGjgduve.js",
+        "shared-B38tay2e.js",
+        "workflow-shot-references-CRoK17V2.js"
+      ]
+    }
+  ]
+}

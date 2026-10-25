@@ -1,0 +1,67 @@
+[
+  {
+    "file": "assets-BpSjmEjz.js",
+    "term": "CharacterTurnaround",
+    "context": "在项目设置中停用对应画风资产`);await bt({projectId:e.projectId,nodeId:`character-turnaround:${e.assetId}`,mode:`image`,prompt:He(e.name,e.definition)||ze(`角色三视图`),config:r,metadata:{operation:B.CharacterTurnaround,promptTemplateOperation:t?void 0:B.CharacterTurnaround,promptTemplateVariables:t?void 0:n,characterAssetId:e.assetId,stylePresetId:e.projectStyle?.id,styleProfileJson:e.projectStyle?.profile?Dt(e.projectStyle.profile):void 0,styleExecutionPlan:a,resolvedChara"
+  },
+  {
+    "file": "assets-BpSjmEjz.js",
+    "term": "CharacterTurnaround",
+    "context": ":`character-turnaround:${e.assetId}`,mode:`image`,prompt:He(e.name,e.definition)||ze(`角色三视图`),config:r,metadata:{operation:B.CharacterTurnaround,promptTemplateOperation:t?void 0:B.CharacterTurnaround,promptTemplateVariables:t?void 0:n,characterAssetId:e.assetId,stylePresetId:e.projectStyle?.id,styleProfileJson:e.projectStyle?.profile?Dt(e.projectStyle.profile):void 0,styleExecutionPlan:a,resolvedCharacterVersions:[{assetId:e.assetId,versionId:e.versionId}"
+  },
+  {
+    "file": "chapters-CeKTBaiU.js",
+    "term": "CharacterExtract",
+    "context": "view`)?{chapterId:r,kind:`storyboard`}:null:null}function _n(e){let t=nt(e);if(!t.text?.trim())throw Error(`模型没有返回可用的章节资产提取结果`);return Sn(e.inputJson).promptTemplateOperation===Xe.CharacterExtract?{characters:et(t.text),scenes:[],props:[]}:mn(t.text)}function vn(e){return Je(e)}async function yn(e,t){return RFAnnotate(mn(await xn(e,`chapter_character_breakdown`,{项目名称:e.projectName,章节名称:e.chapterTitle,项目画风:e.projectStyle||`项目尚未指定画风，保持视觉描述中性、可执行。`,章节正文:e"
+  },
+  {
+    "file": "chapters-CeKTBaiU.js",
+    "term": "文案转",
+    "context": "必须依本次原文分析，不能预设剧情。配音不增改；不得以压缩台词满足时长。输出后等待用户选择或修改要求，不输出SYSTEM_PAUSE等程序标记。若用户提出修改，调整策划方案并继续等待确认。`,`【此前讨论】\\n${t||`首次策划`}`,`【用户本次要求】\\n${n}`].join(`\n\n`)}function Ut(e,t,n,r){return[`将下面的文案转成可拍摄的画面剧本。原文是唯一剧情与配音来源。不要续写。`,`逐句保留原文旁白、对白及顺序；不得改写、增删或创作旁白、人物对白、OS、OV、弹幕、系统音。原文没有对白时只写旁白，不把旁白改成角色说话。`,`场次是较大的剧情单元，不是镜头或15秒片段。由你根据文案的地点、时间、剧情阶段与节奏自行分析决定场次数量和划分，不套用固定场次数或预设分场方案。短篇文案以紧凑为宜，3至5场已较多，不为凑数拆场；仅地点、时间或核心剧情阶段发生明显变化才换场。相同地点、连续时间的事件合在一场，一场可以容纳很多△画面与很多15秒分镜。"
+  },
+  {
+    "file": "chapters-CeKTBaiU.js",
+    "term": "文案转",
+    "context": "parse(te.resultJson||`{}`).text||``;M.current=te.id,T(`${n}\\n\\nAI：\\n${d}`),D(``),e&&(await Fe(),i(),ie.success(`剧本已显示在章节编辑区，原文保留在左侧`))}catch(e){let t=e instanceof Error?e.message:`文案转剧本失败`;k(t),ie.error(t)}finally{y(!1),ae.invalidateQueries({queryKey:[`chapter-screenplay-tasks`,l,o.id]})}};return e?(0,q.jsxs)(q.Fragment,{children:[(0,q.jsxs)(`aside`,{\"aria-label\":`剧本创作面板`,className:`flex min-h-0 flex-col overflow-hidden border-l border-bor"
+  },
+  {
+    "file": "chapters-CeKTBaiU.js",
+    "term": "文案转",
+    "context": "s-center justify-end gap-1.5`,children:[(0,$.jsx)(f,{size:`small`,disabled:!V||O,onClick:()=>{Ye(it),N(!0),P(!1)},children:I?`剧本生成中 · 恢复窗口`:Pe?`恢复剧本窗口`:V?.screenplayText?`画面剧本设置`:`文案转画面剧本`}),(0,$.jsx)(f,{size:`small`,icon:(0,$.jsx)(ue,{className:`size-3.5`}),disabled:!V||O||!!H,loading:!!H,onClick:()=>{Ye(it),A(!0)},\"aria-label\":H?`提取角色、场景与道具，已运行 ${An(H.startedAt,qe)}`:`提取角色、场景与道具`,children:H?`提取资产（已运行${An(H.startedAt,qe)}）`:Ht?`提取资产（已生成）`"
+  },
+  {
+    "file": "chapters-CeKTBaiU.js",
+    "term": "文案转",
+    "context": "d:!V?.screenplayText?.trim(),children:`使用已保存的画面剧本`})]}),(0,$.jsx)(`p`,{className:`mt-2 text-[var(--fs-tiny)] leading-5 text-foreground/42`,children:M===`source`?`将已保存的章节正文直接拆成分镜，跳过文案转画面剧本。`:`使用已生成并保存的画面剧本拆分镜头。`})]}),jt.shotCount?(0,$.jsx)(Be,{tone:`warning`,title:`本章已有 ${jt.shotCount} 个分镜`,children:`继续后会先生成新分镜；生成成功后，再按确认内容整体替换旧镜头及其关联数据。`}):null,(0,$.jsxs)(`label`,{className:`block`,children:[(0,$.jsx)(`span`,{className:`mb-1.5 block text-x"
+  },
+  {
+    "file": "project-B6TxOaS-.js",
+    "term": "已保存到云端",
+    "context": ".current}),t.flush!==!1&&await qo()},[a,s,o,i,d,u,e,c,N,m]),pe=(0,u9.useCallback)(async(t={})=>{try{await fe()}catch{return k.error(`画布保存失败，请稍后重试`),!1}try{await ls(e),k.success(`画布已保存到云端`)}catch(e){return e instanceof Error&&e.message,t.requireRemote===!1}return!0},[k,fe,e]),B=(0,u9.useCallback)(()=>{O({projectId:e,nodes:[],chatSessions:[]})},[O,e]);return{loadError:te,retryLoad:()=>R(e=>e+1),addedSkills:I,agentCreatedNodes:ie?.projectId===e?"
+  },
+  {
+    "file": "prompts-C9Ts6kIN.js",
+    "term": "CharacterExtract",
+    "context": "import{n as e}from\"./rolldown-runtime-DAXXjFlN.js\";function t(e){return`使用当前启用的${e}模板。`}var n,r=e((()=>{n={ChapterAssetsExtract:`chapter_assets_extract`,CharacterExtract:`character_extract`,CharacterTurnaround:`character_turnaround`,StoryboardPlan:`storyboard_plan`,StoryboardRepair:`storyboard_repair`,StoryboardFirstFrame:`storyboard_first_frame`,StoryboardVideo:`storyboard_video`,ShortDramaOutline:`short_drama_outline`,Skill"
+  },
+  {
+    "file": "prompts-C9Ts6kIN.js",
+    "term": "CharacterTurnaround",
+    "context": "s e}from\"./rolldown-runtime-DAXXjFlN.js\";function t(e){return`使用当前启用的${e}模板。`}var n,r=e((()=>{n={ChapterAssetsExtract:`chapter_assets_extract`,CharacterExtract:`character_extract`,CharacterTurnaround:`character_turnaround`,StoryboardPlan:`storyboard_plan`,StoryboardRepair:`storyboard_repair`,StoryboardFirstFrame:`storyboard_first_frame`,StoryboardVideo:`storyboard_video`,ShortDramaOutline:`short_drama_outline`,SkillDraft:`skill_draft`}}));function i(e,t){"
+  },
+  {
+    "file": "user-data-sync-B6hrlYAn.js",
+    "term": "已保存到云端",
+    "context": "d===e.id),r=await _(e),i=G.has(e.id);return y.getState().setProjectProgress(e.id,{phase:i?`pending`:`done`,cloudRevision:e.revision,pendingChanges:+!!i,message:i?`保留未确认画布操作，等待重放`:`已保存到云端`}),{...e,viewport:n?.viewport||e.viewport||{x:0,y:0,k:1},remoteContentHash:r}})),a=t.filter(e=>Z.has(e.id)).map(e=>({...e,remoteContentHash:e.remoteContentHash})),o=t.filter(e=>{let t=G.get(e.id);return!!(t&&xt(t)&&!r.has(e.id))}).map(e=>({...e,remoteContentH"
+  },
+  {
+    "file": "user-data-sync-B6hrlYAn.js",
+    "term": "已保存到云端",
+    "context": "continue;let t=W.get(e.id);!t||G.has(e.id)||!v(t,e)||y.getState().setProjectProgress(e.id,{phase:`done`,pendingChanges:0,errorKind:void 0,cloudRevision:Number(t.revision),message:`已保存到云端`})}return}let f=new Set,p=new Map,m=Y;for(let e of d){let t=U.get(e.id);if(!t||J&&!Q.has(e.id)){let n;try{n=(await Ce(e.id)).asset}catch(e){if(m!==Y)throw Error(`账号已切换，已停止保存素材`);if(!t&&e instanceof r&&e.status===404)continue;throw e}if(m!==Y)throw Error(`账号已切"
+  },
+  {
+    "file": "user-data-sync-B6hrlYAn.js",
+    "term": "已保存到云端",
+    "context": "t(t.id),h=!!(m&&!v(p,m));y.getState().setProjectProgress(t.id,{phase:h?`pending`:`done`,cloudRevision:Number(u.revision),pendingChanges:+!!h,errorKind:void 0,message:h?`有新修改等待保存`:`已保存到云端`}),h&&(V=!0)}catch(e){let n=e instanceof r&&e.reason===`canvas_history_resources_missing`;if(e instanceof r&&e.status===400&&e.reason===`invalid_argument`){let e=G.get(t.id);e&&Qt.add(e.request.mutationId)}let i=n?`resources`:e instanceof r&&e.retryable?`netw"
+  }
+]

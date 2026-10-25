@@ -1,0 +1,33 @@
+{
+  "capture": "post-request only; cannot prove loaded pre-request module hashes",
+  "files": [
+    {
+      "file": "storyboard-planned-runtime.js",
+      "sha256": "0148a85461ffa91b9f483010ec140209f5f6b79cd8e06071cf1323d3053aa3d7"
+    },
+    {
+      "file": "storyboard-planned.js",
+      "sha256": "39f11fd7eefd734f632c9a30ff69ceca7557491b9adb7614743051c854ba767f"
+    },
+    {
+      "file": "storyboard-human-review.js",
+      "sha256": "2e630a17ff59476626197f0ec30aa680b5f4a243a8e8361cd2ad0b9d7151c07a"
+    },
+    {
+      "file": "storyboard-autonomous-director.js",
+      "sha256": "37411e42a04458c631975d3321feb83f75d4c453135f85d8fb9dfc5dfe5b3907"
+    },
+    {
+      "file": "source-script-contract.js",
+      "sha256": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8"
+    },
+    {
+      "file": "storyboard-complete.js",
+      "sha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a"
+    },
+    {
+      "file": "text-request-policy.js",
+      "sha256": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78"
+    }
+  ]
+}

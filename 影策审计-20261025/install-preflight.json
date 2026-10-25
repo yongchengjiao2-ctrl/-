@@ -1,0 +1,168 @@
+{
+  "operation": "check",
+  "ok": true,
+  "manifest": {
+    "schemaVersion": 1,
+    "createdAt": "2026-10-25T06:44:06.055433+00:00",
+    "baseline": "D:\\无限画布\\影策审计-20261025\\repair-backups\\20261025-144404\\manifest.json",
+    "sourceDir": "D:\\无限画布\\character-prompt-formats\\src",
+    "targetDir": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets",
+    "files": [
+      {
+        "name": "shot-asset-bindings.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\shot-asset-bindings.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\shot-asset-bindings.js",
+        "beforeSha256": "7d5c90ad011494a54eb73522e863865949d8418ad7f80d9dbc7d77e7df3cb94b",
+        "afterSha256": "61b39e279a32c8410eed19d39d099169217577bc4dce594a8c54390aba78ea9b",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-complete.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\storyboard-complete.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-complete.js",
+        "beforeSha256": "f8c563a62c0fd6016bcf8c08db3239ede4e0f6893cfde25d940bc1d9f53a0ad5",
+        "afterSha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-detail-contract.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\storyboard-detail-contract.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-detail-contract.js",
+        "beforeSha256": "287ec4300119c9b922dc0b73000f5c5c2e68351393c4142f500b68368efe46fa",
+        "afterSha256": "d7ca69d5c6461ae77379dde510eb860b00ae4f4e0b254cd341d092e6f2f15d9c",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-detail-normalize.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\storyboard-detail-normalize.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-detail-normalize.js",
+        "beforeSha256": "d43443089b4063e1db1498d51c54936914c92b6873cd43d514c706fca9087284",
+        "afterSha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-planned.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\storyboard-planned.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned.js",
+        "beforeSha256": "3def4cb99e24cd6dd0adce280af78f43b5fd26b95957462f446059e2947e734c",
+        "afterSha256": "b4366a5d552854c0ef39e069c496f18e8846bbf406df498eb8e93218f6cdaebf",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "storyboard-planned-runtime.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\storyboard-planned-runtime.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned-runtime.js",
+        "beforeSha256": "c62c9f336d6cecf078cd91a6a27e48f2dd328cbffa09965dda35102397667a74",
+        "afterSha256": "04cef6b158f65063bf9c795f775745c7820e583a3c63260de4d127a77aa5ee2b",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "source-script-contract.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\source-script-contract.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\source-script-contract.js",
+        "beforeSha256": null,
+        "afterSha256": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "extraction-completeness-v4.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\extraction-completeness-v4.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-completeness-v4.js",
+        "beforeSha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d",
+        "afterSha256": "66762e18ba64898146918fd554d4c0b6a895d891be923ade957193cbbd955fa4",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "character-prompt-formats.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\character-prompt-formats.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\character-prompt-formats.js",
+        "beforeSha256": "51e281e31d9d13620d852fb693fddd720db404398678273411ed7559b131364b",
+        "afterSha256": "2a21d8e89ee2286d172dc4782f4325b768f8c38c04eadc9522b4b5eee4fbecbe",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "asset-extraction-runtime-v3.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\asset-extraction-runtime-v3.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\asset-extraction-runtime-v3.js",
+        "beforeSha256": "0111d0084bcace6bbcc30496c0c8ba5a1ff608f350e1e195f8cb31d2e228c398",
+        "afterSha256": "0111d0084bcace6bbcc30496c0c8ba5a1ff608f350e1e195f8cb31d2e228c398",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "text-request-policy.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\text-request-policy.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\text-request-policy.js",
+        "beforeSha256": null,
+        "afterSha256": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "character-image-contract.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\character-image-contract.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\character-image-contract.js",
+        "beforeSha256": null,
+        "afterSha256": "e1b2dce3623b91fbe45a2143424cd19ab6884bbc3e08e1100d7d4a28db059965",
+        "create": true,
+        "syntaxChecked": true
+      },
+      {
+        "name": "skill-runtime-CF8drDK4.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\skill-runtime-CF8drDK4.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\skill-runtime-CF8drDK4.js",
+        "beforeSha256": "52970250f49af5eea2e117172b3d076065eebd2fb0a33f8022afacf4c0214e67",
+        "afterSha256": "402286228501f47eea67de46cb6d7367b1d29eebd6fa5f66fa1f67e6e0a21c18",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "assets-BpSjmEjz.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\assets-BpSjmEjz.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\assets-BpSjmEjz.js",
+        "beforeSha256": "87c353a1db841d2be57500e1c8a28d36a77469f5ac15451f7237ace71eaff973",
+        "afterSha256": "c3c2b95960e472e10fbbc86bf2ca9bad16d1a6f4f313262c0406a96615d6afff",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "project-B6TxOaS-.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\project-B6TxOaS-.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\project-B6TxOaS-.js",
+        "beforeSha256": "1a3c4378beb718ce19b93606da8582fd5e297b2b04d575cd7a1171346cf7fd28",
+        "afterSha256": "a89ce90e80228bfd81346241642168e076c6281d03aa4760acbd512f7472f8c8",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "user-data-sync-B6hrlYAn.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\user-data-sync-B6hrlYAn.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\user-data-sync-B6hrlYAn.js",
+        "beforeSha256": "52eaccbff738378ffb8b36d4b07540174c59c02865fcc5ce42818dedc8054172",
+        "afterSha256": "3e5fd8f176311e1b2c1d0f82c2eb21fb82828b3dda4d12b61057f8dfbe354d03",
+        "create": false,
+        "syntaxChecked": true
+      },
+      {
+        "name": "workflow-production-workbench-DLsty33y.js",
+        "source": "D:\\无限画布\\character-prompt-formats\\src\\workflow-production-workbench-DLsty33y.js",
+        "target": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\workflow-production-workbench-DLsty33y.js",
+        "beforeSha256": "83243394f5a8a2599d9d382d7ebca691103b98aa7fddd9ad58ebfe641c435116",
+        "afterSha256": "d4ee09fdad79f67d23a24ebdfe37cf6ef0413ae9891fc695a1a3cde396b11042",
+        "create": false,
+        "syntaxChecked": true
+      }
+    ],
+    "databaseModified": false,
+    "atomicity": "per-file replacement, guarded rollback on failure; application should reload only after success"
+  }
+}

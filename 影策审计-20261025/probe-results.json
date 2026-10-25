@@ -1,0 +1,90 @@
+[
+  {
+    "id": "A01",
+    "description": "普通小说无标签时覆盖清单为空",
+    "input": "张三拿起钥匙，和李四走进仓库。",
+    "actual": {
+      "people": [],
+      "scenes": []
+    }
+  },
+  {
+    "id": "A02",
+    "description": "人物标签以无开头误过滤",
+    "actual": {
+      "people": [],
+      "scenes": [
+        "无忧宫"
+      ]
+    }
+  },
+  {
+    "id": "A03",
+    "description": "群众规范化为空可被任意角色满足",
+    "actual": "错误接受缺失群众资产"
+  },
+  {
+    "id": "A04",
+    "description": "格式仅有空标题也通过",
+    "actual": "22个空标题被接受"
+  },
+  {
+    "id": "A05",
+    "description": "负面句子仍绑定角色",
+    "actual": [
+      "张三"
+    ]
+  },
+  {
+    "id": "A06",
+    "description": "绑引用时删除正常场景叙述",
+    "input": "场景是废弃医院，地板有血迹。\n张三缓慢推门。",
+    "actual": "(@[asset:a] 是张三)；\n\n@[asset:a] 缓慢推门。"
+  },
+  {
+    "id": "A07",
+    "description": "共享别名的两个角色只能保留输入顺序中的一个",
+    "actual": [
+      "王医生"
+    ]
+  },
+  {
+    "id": "A08",
+    "description": "不同章节同名待确认候选先去重",
+    "actual": [
+      {
+        "id": "candidate:1",
+        "unitId": "old"
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "description": "后台重复格式锚点取第一次导致规则污染",
+    "actual": "[0.画面要求]test\n[22.摄影排版指令]：错误例子\n[23.负面排障指令]：说明\n实际版式[22.摄影排版指令]：正确版式\n[23.负面排障指令]：正确\n[24.背景与渲染]：纯白背景，继承本角色[0.画面要求]中的项目画风、材质和时代；清晰完整，无水印。"
+  },
+  {
+    "id": "A10",
+    "description": "真实数据库模板解析",
+    "actual": [
+      {
+        "id": "original",
+        "name": "典藏五维 · 完整角色设定",
+        "version": 1,
+        "chars": 2545
+      },
+      {
+        "id": "four-panel",
+        "name": "臻像四联 · 全身与肖像",
+        "version": 1,
+        "chars": 2890
+      },
+      {
+        "id": "side-portrait",
+        "name": "凝像双联 · 侧身与肖像",
+        "version": 1,
+        "chars": 2583
+      }
+    ]
+  }
+]

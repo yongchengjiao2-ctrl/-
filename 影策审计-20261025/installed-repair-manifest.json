@@ -1,0 +1,189 @@
+{
+  "capturedAt": "2026-10-25T15:13:36.790014+08:00",
+  "desktopVersion": "1.3.13",
+  "installer": "install-audit-repairs.py",
+  "manifests": [
+    "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-144417-641227\\manifest.json",
+    "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-145118-561725\\manifest.json",
+    "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-145704-470023\\manifest.json",
+    "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-155020-690803\\manifest.json"
+  ],
+  "files": [
+    {
+      "name": "shot-asset-bindings.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\shot-asset-bindings.js",
+      "sha256": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559",
+      "reviewedSha256": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559",
+      "matchesReviewed": true
+    },
+    {
+      "name": "storyboard-complete.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-complete.js",
+      "sha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "reviewedSha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "matchesReviewed": true
+    },
+    {
+      "name": "storyboard-detail-contract.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-detail-contract.js",
+      "sha256": "d7ca69d5c6461ae77379dde510eb860b00ae4f4e0b254cd341d092e6f2f15d9c",
+      "reviewedSha256": "d7ca69d5c6461ae77379dde510eb860b00ae4f4e0b254cd341d092e6f2f15d9c",
+      "matchesReviewed": true
+    },
+    {
+      "name": "storyboard-detail-normalize.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-detail-normalize.js",
+      "sha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+      "reviewedSha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+      "matchesReviewed": true
+    },
+    {
+      "name": "storyboard-planned.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned.js",
+      "sha256": "da079c8edc00d8cc00567af72cf61e995f89548f63f05d5ed21425e9bce05281",
+      "reviewedSha256": "da079c8edc00d8cc00567af72cf61e995f89548f63f05d5ed21425e9bce05281",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "storyboard-planned-runtime.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\storyboard-planned-runtime.js",
+      "sha256": "cdc2e75334f9f4193ae6ed2d6d55cb836447132a1c09306762e52bbcf652d6ff",
+      "reviewedSha256": "cdc2e75334f9f4193ae6ed2d6d55cb836447132a1c09306762e52bbcf652d6ff",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "source-script-contract.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\source-script-contract.js",
+      "sha256": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8",
+      "reviewedSha256": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8",
+      "matchesReviewed": true
+    },
+    {
+      "name": "extraction-completeness-v4.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-completeness-v4.js",
+      "sha256": "1c79b5b642eae14911fafde6b7968120a27a47c75924d9bd3a2162007ec33d87",
+      "reviewedSha256": "66762e18ba64898146918fd554d4c0b6a895d891be923ade957193cbbd955fa4",
+      "matchesReviewed": false
+    },
+    {
+      "name": "character-prompt-formats.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\character-prompt-formats.js",
+      "sha256": "2a21d8e89ee2286d172dc4782f4325b768f8c38c04eadc9522b4b5eee4fbecbe",
+      "reviewedSha256": "2a21d8e89ee2286d172dc4782f4325b768f8c38c04eadc9522b4b5eee4fbecbe",
+      "matchesReviewed": true
+    },
+    {
+      "name": "asset-extraction-runtime-v3.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\asset-extraction-runtime-v3.js",
+      "sha256": "0111d0084bcace6bbcc30496c0c8ba5a1ff608f350e1e195f8cb31d2e228c398",
+      "reviewedSha256": "0111d0084bcace6bbcc30496c0c8ba5a1ff608f350e1e195f8cb31d2e228c398",
+      "matchesReviewed": true
+    },
+    {
+      "name": "text-request-policy.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\text-request-policy.js",
+      "sha256": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78",
+      "reviewedSha256": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78",
+      "matchesReviewed": true
+    },
+    {
+      "name": "character-image-contract.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\character-image-contract.js",
+      "sha256": "e1b2dce3623b91fbe45a2143424cd19ab6884bbc3e08e1100d7d4a28db059965",
+      "reviewedSha256": "e1b2dce3623b91fbe45a2143424cd19ab6884bbc3e08e1100d7d4a28db059965",
+      "matchesReviewed": true
+    },
+    {
+      "name": "skill-runtime-CF8drDK4.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\skill-runtime-CF8drDK4.js",
+      "sha256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+      "reviewedSha256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+      "matchesReviewed": true,
+      "additionalEvidence": "F16-真实ZIP运行验证.json; installed-core-recheck.json"
+    },
+    {
+      "name": "assets-BpSjmEjz.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\assets-BpSjmEjz.js",
+      "sha256": "c3c2b95960e472e10fbbc86bf2ca9bad16d1a6f4f313262c0406a96615d6afff",
+      "reviewedSha256": "c3c2b95960e472e10fbbc86bf2ca9bad16d1a6f4f313262c0406a96615d6afff",
+      "matchesReviewed": true
+    },
+    {
+      "name": "project-B6TxOaS-.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\project-B6TxOaS-.js",
+      "sha256": "a89ce90e80228bfd81346241642168e076c6281d03aa4760acbd512f7472f8c8",
+      "reviewedSha256": "a89ce90e80228bfd81346241642168e076c6281d03aa4760acbd512f7472f8c8",
+      "matchesReviewed": true
+    },
+    {
+      "name": "user-data-sync-B6hrlYAn.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\user-data-sync-B6hrlYAn.js",
+      "sha256": "3e5fd8f176311e1b2c1d0f82c2eb21fb82828b3dda4d12b61057f8dfbe354d03",
+      "reviewedSha256": "3e5fd8f176311e1b2c1d0f82c2eb21fb82828b3dda4d12b61057f8dfbe354d03",
+      "matchesReviewed": true
+    },
+    {
+      "name": "workflow-production-workbench-DLsty33y.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\workflow-production-workbench-DLsty33y.js",
+      "sha256": "d4ee09fdad79f67d23a24ebdfe37cf6ef0413ae9891fc695a1a3cde396b11042",
+      "reviewedSha256": "d4ee09fdad79f67d23a24ebdfe37cf6ef0413ae9891fc695a1a3cde396b11042",
+      "matchesReviewed": true
+    },
+    {
+      "name": "chapters-CeKTBaiU.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\chapters-CeKTBaiU.js",
+      "sha256": "33b9471a07cdc2032ec5d2db83e13684851ebc5d19c92243d591ed367d850331",
+      "reviewedSha256": "33b9471a07cdc2032ec5d2db83e13684851ebc5d19c92243d591ed367d850331",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "chapter-generation-control.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\chapter-generation-control.js",
+      "sha256": "d64d2bb2fdddccfe5d50bd1ba0d7f33699cb757c209e976d1d1f5c124f428bf0",
+      "reviewedSha256": "d64d2bb2fdddccfe5d50bd1ba0d7f33699cb757c209e976d1d1f5c124f428bf0",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "json-unique-keys.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\json-unique-keys.js",
+      "sha256": "bd8574df1205c094e7015339bae99be84539de00ebdce6199dee76db60a846d5",
+      "reviewedSha256": "bd8574df1205c094e7015339bae99be84539de00ebdce6199dee76db60a846d5",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "extraction-section-provenance.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-section-provenance.js",
+      "sha256": "30189bd7f788f92b4e14085f59f3e1ce8d81802c4064981b32d0eaeacd070656",
+      "reviewedSha256": "30189bd7f788f92b4e14085f59f3e1ce8d81802c4064981b32d0eaeacd070656",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    },
+    {
+      "name": "extraction-source-inventory.js",
+      "path": "C:\\Users\\jyc\\AppData\\Local\\YingceCanvas\\versions\\1.3.13\\web\\dist\\assets\\extraction-source-inventory.js",
+      "sha256": "ac9776d6847747ffb6de16d16e8ce2a2009bbe15e6cd4a09a6add4670c9f125c",
+      "reviewedSha256": "ac9776d6847747ffb6de16d16e8ce2a2009bbe15e6cd4a09a6add4670c9f125c",
+      "matchesReviewed": true,
+      "reviewScope": "user-requested installation; offline regression and installed smoke passed, no desktop E2E claim"
+    }
+  ],
+  "stagedNotInstalled": [
+    "extraction-source-inventory.js",
+    "extraction-contract-builder.js",
+    "asset-extraction-runtime-v3.js contract6",
+    "storyboard-human-review.js",
+    "storyboard-planned-runtime.js recovery+review latest source"
+  ],
+  "uiAcceptance": "pending",
+  "semanticExtractionAcceptance": "v6c machine passed; manual visual suggestion incomplete; not installed",
+  "dependencyCheck": "installed-dependency-check.json: no missing import; forced ESM syntax passed",
+  "lastUserRequestedInstallAt": "2026-10-25T07:51:50.717269+00:00",
+  "lastInstallManifest": "D:\\无限画布\\character-prompt-formats\\build\\audit-repairs\\20261025-155020-690803\\manifest.json",
+  "preservedMode": "autonomous-director-v4",
+  "wholeProductAccepted": false
+}

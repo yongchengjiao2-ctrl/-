@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {normalizeTextConfig} from '../src/character-prompt-formats.js';
+const selected='text-channel::gemini-3.1-pro-preview';
+const config={model:selected,textModel:selected,channels:[{id:'image-channel',apiFormat:'openai',interfaceType:'a6api-image',models:['gpt-free']},{id:'text-channel',apiFormat:'openai',models:['deepseek-v4-pro-0813','gemini-3.1-pro-preview'],modelCosts:[],enabled:true}]};
+test('missing model protocol inherits explicit channel API format without mutating settings',()=>{const fixed=normalizeTextConfig(config,selected);assert.equal(config.channels[1].modelCosts.length,0);assert.equal(fixed.channels[0],config.channels[0]);assert.equal(fixed.channels[1].modelCosts[0].protocol,'a6api-chat');});
+test('real installed request resolver accepts normalized config',()=>{const source=fs.readFileSync(path.join(process.env.LOCALAPPDATA,'YingceCanvas/versions/1.3.13/web/dist/assets/use-config-store-BNvhZKBV.js'),'utf8');const code=source.slice(source.indexOf('function Oe(e,t)'),source.indexOf('function ke(e,t='));const resolver=new Function('K','I',code+';return Oe;')((cfg,key)=>cfg.channels.find(c=>c.id===key.split('::')[0]),key=>key.split('::').at(-1));assert.equal(resolver(config,selected).interfaceType,undefined);const request=resolver(normalizeTextConfig(config,selected),selected);assert.equal(request.interfaceType,'a6api-chat');assert.equal(request.model,'gemini-3.1-pro-preview');assert.equal(request.apiFormat,'openai');});
+test('explicit protocols, logical models and unavailable channels are respected',()=>{const explicit={...config,channels:[{...config.channels[1],interfaceType:'gemini-generate-content'}]};assert.equal(normalizeTextConfig(explicit,selected),explicit);const perModel={...config,channels:[{...config.channels[1],modelCosts:[{model:'gemini-3.1-pro-preview',protocol:'claude-api'}]}]};assert.equal(normalizeTextConfig(perModel,selected),perModel);assert.throws(()=>normalizeTextConfig(config,'missing::model'));assert.throws(()=>normalizeTextConfig({...config,channels:[{...config.channels[1],enabled:false}]},selected));});
+

@@ -1,0 +1,18 @@
+{
+  "realRequests": 5,
+  "elapsedMs": 91271,
+  "usage": {
+    "prompt_tokens": 18284,
+    "completion_tokens": 19486,
+    "total_tokens": 37770
+  },
+  "reports": [
+    "repair-live-extraction-gemini-3.1-pro-preview-original.report.json",
+    "repair-live-extraction-deepseek-v4-pro-0813-side-portrait.report.json",
+    "repair-live-extraction-v6-gemini-3.1-pro-preview-original.report.json",
+    "repair-live-extraction-v6b-gemini-3.1-pro-preview-original.report.json",
+    "repair-live-extraction-v6c-gemini-3.1-pro-preview-original.report.json"
+  ],
+  "replaysNotCounted": true,
+  "priorAuditSyntheticRequestsExcluded": 2
+}

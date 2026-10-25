@@ -1,0 +1,208 @@
+TAP version 13
+# Subtest: same identity normalizes an explicit costume into one character name
+ok 1 - same identity normalizes an explicit costume into one character name
+  ---
+  duration_ms: 1.3848
+  type: 'test'
+  ...
+# Subtest: layout and prose differences do not produce visual variants
+ok 2 - layout and prose differences do not produce visual variants
+  ---
+  duration_ms: 0.2761
+  type: 'test'
+  ...
+# Subtest: known unambiguous aliases reuse the canonical subject
+ok 3 - known unambiguous aliases reuse the canonical subject
+  ---
+  duration_ms: 1.0373
+  type: 'test'
+  ...
+# Subtest: raw creature identity metadata survives the app character parser
+ok 4 - raw creature identity metadata survives the app character parser
+  ---
+  duration_ms: 0.2323
+  type: 'test'
+  ...
+# Subtest: source labels use stored chapter snapshots and never invent an unknown chapter
+ok 5 - source labels use stored chapter snapshots and never invent an unknown chapter
+  ---
+  duration_ms: 0.2904
+  type: 'test'
+  ...
+# Subtest: every visible variant retains its own source in the card details
+ok 6 - every visible variant retains its own source in the card details
+  ---
+  duration_ms: 0.3532
+  type: 'test'
+  ...
+# Subtest: confirmed cards explicitly fetch confirmed candidates instead of the default pending list
+ok 7 - confirmed cards explicitly fetch confirmed candidates instead of the default pending list
+  ---
+  duration_ms: 0.3984
+  type: 'test'
+  ...
+# Subtest: F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+ok 8 - F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+  ---
+  duration_ms: 2.9865
+  type: 'test'
+  ...
+# Subtest: F07 explicit tags report their actual partial scope and check named props when supplied
+ok 9 - F07 explicit tags report their actual partial scope and check named props when supplied
+  ---
+  duration_ms: 1.3431
+  type: 'test'
+  ...
+# Subtest: F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+ok 10 - F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+  ---
+  duration_ms: 0.757
+  type: 'test'
+  ...
+# Subtest: F09 generic groups never turn into an empty matching token
+ok 11 - F09 generic groups never turn into an empty matching token
+  ---
+  duration_ms: 0.4709
+  type: 'test'
+  ...
+# Subtest: F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+ok 12 - F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+  ---
+  duration_ms: 2.4495
+  type: 'test'
+  ...
+# Subtest: F10 inline references in fixed layout do not count as duplicate numbered definitions
+ok 13 - F10 inline references in fixed layout do not count as duplicate numbered definitions
+  ---
+  duration_ms: 0.2375
+  type: 'test'
+  ...
+# Subtest: F15 repeated definition anchors reject a template before any model call, not splice the first example
+ok 14 - F15 repeated definition anchors reject a template before any model call, not splice the first example
+  ---
+  duration_ms: 0.7869
+  type: 'test'
+  ...
+# Subtest: F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+ok 15 - F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+  ---
+  duration_ms: 0.38
+  type: 'test'
+  ...
+# Subtest: F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+ok 16 - F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+  ---
+  duration_ms: 1.3822
+  type: 'test'
+  ...
+# Subtest: actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+ok 17 - actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+  ---
+  duration_ms: 2.4732
+  type: 'test'
+  ...
+# Subtest: actual v6 recovery requires inventory and real source spans, rejects missing generated props
+ok 18 - actual v6 recovery requires inventory and real source spans, rejects missing generated props
+  ---
+  duration_ms: 8.5125
+  type: 'test'
+  ...
+# Subtest: actual v5 recovery keeps compatibility without inventory or visual provenance
+ok 19 - actual v5 recovery keeps compatibility without inventory or visual provenance
+  ---
+  duration_ms: 0.442
+  type: 'test'
+  ...
+# Subtest: actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+ok 20 - actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+  ---
+  duration_ms: 3.1516
+  type: 'test'
+  ...
+# Subtest: actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+ok 21 - actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+  ---
+  duration_ms: 1.1537
+  type: 'test'
+  ...
+# Subtest: host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+ok 22 - host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+  ---
+  duration_ms: 2.1426
+  type: 'test'
+  ...
+# Subtest: v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+ok 23 - v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+  ---
+  duration_ms: 1.7958
+  type: 'test'
+  ...
+# Subtest: known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+ok 24 - known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+  ---
+  duration_ms: 1.9474
+  type: 'test'
+  ...
+# Subtest: v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+ok 25 - v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+  ---
+  duration_ms: 0.2844
+  type: 'test'
+  ...
+# Subtest: host computes quote occurrence spans including emoji instead of trusting model offsets
+ok 26 - host computes quote occurrence spans including emoji instead of trusting model offsets
+  ---
+  duration_ms: 0.2042
+  type: 'test'
+  ...
+# Subtest: extra invented asset and category mismatches cannot masquerade as source-backed
+ok 27 - extra invented asset and category mismatches cannot masquerade as source-backed
+  ---
+  duration_ms: 0.4226
+  type: 'test'
+  ...
+# Subtest: a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+ok 28 - a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+  ---
+  duration_ms: 0.1709
+  type: 'test'
+  ...
+# Subtest: visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+ok 29 - visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+  ---
+  duration_ms: 0.633
+  type: 'test'
+  ...
+# Subtest: real DeepSeek stop response is rejected for incomplete JSON
+ok 30 - real DeepSeek stop response is rejected for incomplete JSON
+  ---
+  duration_ms: 2.3434
+  type: 'test'
+  ...
+# Subtest: real Gemini first-pass JSON is valid but fails the chapter coverage check
+ok 31 - real Gemini first-pass JSON is valid but fails the chapter coverage check
+  ---
+  duration_ms: 2.3654
+  type: 'test'
+  ...
+# Subtest: real Gemini four-panel and dual-panel results preserve all required role sections
+ok 32 - real Gemini four-panel and dual-panel results preserve all required role sections
+  ---
+  duration_ms: 6.7565
+  type: 'test'
+  ...
+# Subtest: real original response receives the exact managed five-view layout without another model call
+ok 33 - real original response receives the exact managed five-view layout without another model call
+  ---
+  duration_ms: 2.56
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 154.3936

@@ -1,0 +1,174 @@
+{
+  "newProviderCalls": 0,
+  "packageKey": "yingce-short-drama-workflow/ef8f38981fa8538e90d8fa055680b44e.zip",
+  "skillVersion": "1.4.0",
+  "runtimeSHA256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+  "profiles": {
+    "shortDrama": {
+      "accepted": true,
+      "reads": [
+        "SKILL.md",
+        "references/source-and-script.md",
+        "references/state-machine.md",
+        "references/assets.md",
+        "references/character-cards.md",
+        "references/artifact-schemas.md",
+        "references/continuity-rules.md",
+        "references/canvas-execution.md",
+        "references/state-and-delivery.md"
+      ],
+      "metadata": {
+        "skillIds": [
+          "yingce-short-drama-workflow"
+        ],
+        "skillVersions": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "versionId": "ef8f38981fa8538e90d8fa055680b44e",
+            "version": "1.4.0"
+          }
+        ],
+        "skillFiles": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "SKILL.md",
+            "sha256": "99521ae9cbcf5e7b37a5cec4bf1a383cb0def4cc6e49aee22dd20f55b5362134"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/source-and-script.md",
+            "sha256": "1a3f6c92ec705d77b291995b4646f384b621d481ece8d28b464d591356dbd451"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-machine.md",
+            "sha256": "8fb7f642060f2ae7ac214e25bbe17e3468478baf6ccd7a4d0449258d52a66cc3"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/assets.md",
+            "sha256": "17a02f5c0eb8089fcdec79f5ab00600bf59db0f17faddc6cfd58d6941c95d7cc"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/character-cards.md",
+            "sha256": "a4e9b5508e492bfc570f56094cf596072d69e088f2fb77aa86f8b635163a426a"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/artifact-schemas.md",
+            "sha256": "dfad51918cfcc0740646cbccff0dac582bd4ed23b87d56c2216cbe8d6eb4f05e"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/continuity-rules.md",
+            "sha256": "8baf1f1368f3db4f020da7702e7195e99a7eff41a9ac24ceea520aed2ffc295b"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/canvas-execution.md",
+            "sha256": "21d6140baf2ff887aa4199c553fc8a93f0eaeec46ea539943b329f48e430f9a0"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-and-delivery.md",
+            "sha256": "7ebdcf22ad0bea93d0247e6756e3ce7d0794d7778184fe61a80b7282b99cdf2b"
+          }
+        ],
+        "skillHost": "shortDrama-text",
+        "skillToolExecution": false
+      },
+      "hostBoundaryPresent": true
+    },
+    "canvas": {
+      "accepted": true,
+      "reads": [
+        "SKILL.md",
+        "references/source-and-script.md",
+        "references/state-machine.md",
+        "references/assets.md",
+        "references/character-cards.md",
+        "references/artifact-schemas.md",
+        "references/continuity-rules.md",
+        "references/canvas-execution.md",
+        "references/state-and-delivery.md"
+      ],
+      "metadata": {
+        "skillIds": [
+          "yingce-short-drama-workflow"
+        ],
+        "skillVersions": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "versionId": "ef8f38981fa8538e90d8fa055680b44e",
+            "version": "1.4.0"
+          }
+        ],
+        "skillFiles": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "SKILL.md",
+            "sha256": "99521ae9cbcf5e7b37a5cec4bf1a383cb0def4cc6e49aee22dd20f55b5362134"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/source-and-script.md",
+            "sha256": "1a3f6c92ec705d77b291995b4646f384b621d481ece8d28b464d591356dbd451"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-machine.md",
+            "sha256": "8fb7f642060f2ae7ac214e25bbe17e3468478baf6ccd7a4d0449258d52a66cc3"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/assets.md",
+            "sha256": "17a02f5c0eb8089fcdec79f5ab00600bf59db0f17faddc6cfd58d6941c95d7cc"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/character-cards.md",
+            "sha256": "a4e9b5508e492bfc570f56094cf596072d69e088f2fb77aa86f8b635163a426a"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/artifact-schemas.md",
+            "sha256": "dfad51918cfcc0740646cbccff0dac582bd4ed23b87d56c2216cbe8d6eb4f05e"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/continuity-rules.md",
+            "sha256": "8baf1f1368f3db4f020da7702e7195e99a7eff41a9ac24ceea520aed2ffc295b"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/canvas-execution.md",
+            "sha256": "21d6140baf2ff887aa4199c553fc8a93f0eaeec46ea539943b329f48e430f9a0"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-and-delivery.md",
+            "sha256": "7ebdcf22ad0bea93d0247e6756e3ce7d0794d7778184fe61a80b7282b99cdf2b"
+          }
+        ]
+      },
+      "hostBoundaryPresent": true
+    },
+    "shortDrama-no-skill": {
+      "accepted": true,
+      "hostBoundaryPresent": true,
+      "metadata": {
+        "skillHost": "shortDrama-text",
+        "skillToolExecution": false
+      }
+    },
+    "canvas-no-skill": {
+      "accepted": true,
+      "hostBoundaryPresent": false,
+      "metadata": {}
+    }
+  },
+  "control": {
+    "fourRequiredRejected": false
+  }
+}

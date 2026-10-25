@@ -1,0 +1,50 @@
+[
+  {
+    "file": "storyboard-planned-runtime-audit-v3.js",
+    "sha256": "53d05fe45c178394be1023b8b49dec0021c5bf8782bfe815ed67d6de57b4ccf1"
+  },
+  {
+    "file": "storyboard-planned.js",
+    "sha256": "39f11fd7eefd734f632c9a30ff69ceca7557491b9adb7614743051c854ba767f"
+  },
+  {
+    "file": "storyboard-human-review.js",
+    "sha256": "2e630a17ff59476626197f0ec30aa680b5f4a243a8e8361cd2ad0b9d7151c07a"
+  },
+  {
+    "file": "storyboard-complete.js",
+    "sha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a"
+  },
+  {
+    "file": "storyboard-detail-contract.js",
+    "sha256": "d7ca69d5c6461ae77379dde510eb860b00ae4f4e0b254cd341d092e6f2f15d9c"
+  },
+  {
+    "file": "storyboard-detail-normalize.js",
+    "sha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf"
+  },
+  {
+    "file": "storyboard-single-call.js",
+    "sha256": "40aa81ff37f681db90c562532f2bff95e8e0bad0d111f915be46ae56c6d1a051"
+  },
+  {
+    "file": "storyboard-spatial-render.js",
+    "sha256": "b49010feb10d4b7debb110f5555654f5cd67289a561f2f24064fd0836b41507d"
+  },
+  {
+    "file": "storyboard-template-standard.js",
+    "sha256": "2c14ae761cf21a7f21bf377a46bb5d6404a6cf1bc5e3f29dea40dc8cb6f56d1e"
+  },
+  {
+    "file": "source-script-contract.js",
+    "sha256": "1b6ed14460943af8b2c6aac0fc6c2045f5dbcc384abc6784c9c6e96f86b396c8"
+  },
+  {
+    "file": "shot-asset-bindings.js",
+    "sha256": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559"
+  },
+  {
+    "file": "text-request-policy.js",
+    "sha256": "d16c3f3e16ea844925dba506fa3b8a8e4f3f73fbcef886c99834397219dc4e78"
+  }
+]

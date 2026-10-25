@@ -1,0 +1,1256 @@
+
+> test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: same identity normalizes an explicit costume into one character name
+ok 1 - same identity normalizes an explicit costume into one character name
+  ---
+  duration_ms: 1.9966
+  type: 'test'
+  ...
+# Subtest: layout and prose differences do not produce visual variants
+ok 2 - layout and prose differences do not produce visual variants
+  ---
+  duration_ms: 0.361
+  type: 'test'
+  ...
+# Subtest: known unambiguous aliases reuse the canonical subject
+ok 3 - known unambiguous aliases reuse the canonical subject
+  ---
+  duration_ms: 0.5133
+  type: 'test'
+  ...
+# Subtest: raw creature identity metadata survives the app character parser
+ok 4 - raw creature identity metadata survives the app character parser
+  ---
+  duration_ms: 0.3399
+  type: 'test'
+  ...
+# Subtest: source labels use stored chapter snapshots and never invent an unknown chapter
+ok 5 - source labels use stored chapter snapshots and never invent an unknown chapter
+  ---
+  duration_ms: 0.3928
+  type: 'test'
+  ...
+# Subtest: every visible variant retains its own source in the card details
+ok 6 - every visible variant retains its own source in the card details
+  ---
+  duration_ms: 0.7211
+  type: 'test'
+  ...
+# Subtest: confirmed cards explicitly fetch confirmed candidates instead of the default pending list
+ok 7 - confirmed cards explicitly fetch confirmed candidates instead of the default pending list
+  ---
+  duration_ms: 0.691
+  type: 'test'
+  ...
+# Subtest: F12 save gate rejects an unresolved alias before any downstream write
+ok 8 - F12 save gate rejects an unresolved alias before any downstream write
+  ---
+  duration_ms: 5.8833
+  type: 'test'
+  ...
+# Subtest: F12 a precise assetBinding resolves only the relevant shared alias
+ok 9 - F12 a precise assetBinding resolves only the relevant shared alias
+  ---
+  duration_ms: 6.7064
+  type: 'test'
+  ...
+# Subtest: F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+ok 10 - F12 precise characterAssetId and inline token take precedence over an unresolved duplicate
+  ---
+  duration_ms: 2.32
+  type: 'test'
+  ...
+# Subtest: F12 two explicit matching identities do not resolve a still-generic name
+ok 11 - F12 two explicit matching identities do not resolve a still-generic name
+  ---
+  duration_ms: 0.608
+  type: 'test'
+  ...
+# Subtest: F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+ok 12 - F12 conflicting character ID/name and unresolved diagnostic markers are rejected
+  ---
+  duration_ms: 1.0009
+  type: 'test'
+  ...
+# Subtest: F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+ok 13 - F12 historical valid rows normalize, while the actual unbound ambiguous bayonet row is rejected
+  ---
+  duration_ms: 118.7522
+  type: 'test'
+  ...
+# Subtest: F01 normal scene prose survives binding, including original scene introductions and extra facts
+ok 14 - F01 normal scene prose survives binding, including original scene introductions and extra facts
+  ---
+  duration_ms: 7.7168
+  type: 'test'
+  ...
+# Subtest: F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+ok 15 - F01 only exact machine introduction is replaced, ordinary parenthesized prose stays
+  ---
+  duration_ms: 1.533
+  type: 'test'
+  ...
+# Subtest: F11 negated and voice-only names never establish visible bindings
+ok 16 - F11 negated and voice-only names never establish visible bindings
+  ---
+  duration_ms: 4.5817
+  type: 'test'
+  ...
+# Subtest: F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+ok 17 - F12 shared aliases stay unresolved regardless of asset order, with explicit visible diagnostics
+  ---
+  duration_ms: 1.9022
+  type: 'test'
+  ...
+# Subtest: F12 exact primary name resolves a shared alias without silently taking first candidate
+ok 18 - F12 exact primary name resolves a shared alias without silently taking first candidate
+  ---
+  duration_ms: 0.7429
+  type: 'test'
+  ...
+# Subtest: F12 existing precise asset ID is preserved when duplicate names exist
+ok 19 - F12 existing precise asset ID is preserved when duplicate names exist
+  ---
+  duration_ms: 0.7628
+  type: 'test'
+  ...
+# Subtest: F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+ok 20 - F12 repeated ambiguous repair stays stable and does not infer candidates from diagnostics
+  ---
+  duration_ms: 0.8201
+  type: 'test'
+  ...
+# Subtest: F13 chapter filtering happens before identity matching, without deleting same-name candidates
+ok 21 - F13 chapter filtering happens before identity matching, without deleting same-name candidates
+  ---
+  duration_ms: 0.838
+  type: 'test'
+  ...
+# Subtest: F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+ok 22 - F13 different identities in the same chapter remain ambiguous rather than being collapsed by title
+  ---
+  duration_ms: 0.6619
+  type: 'test'
+  ...
+# Subtest: F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+ok 23 - F13 an explicit resolvedAssetId removes only the candidate proven to be the confirmed identity
+  ---
+  duration_ms: 0.7646
+  type: 'test'
+  ...
+# Subtest: clear confirmed assets still receive real version bindings with no pending candidate IDs
+ok 24 - clear confirmed assets still receive real version bindings with no pending candidate IDs
+  ---
+  duration_ms: 0.7259
+  type: 'test'
+  ...
+# Subtest: actual saved supplier response with an unexplained reverse axis is rejected without changing evidence
+ok 25 - actual saved supplier response with an unexplained reverse axis is rejected without changing evidence
+  ---
+  duration_ms: 11.3266
+  type: 'test'
+  ...
+# Subtest: finite axis gate permits a visible neutral or continuous orbit transition and rejects vague or negated transitions
+ok 26 - finite axis gate permits a visible neutral or continuous orbit transition and rejects vague or negated transitions
+  ---
+  duration_ms: 0.6602
+  type: 'test'
+  ...
+# Subtest: synthetic transition correction preserves OS and named dialogue mode regardless of over-shoulder wording
+ok 27 - synthetic transition correction preserves OS and named dialogue mode regardless of over-shoulder wording
+  ---
+  duration_ms: 5.6206
+  type: 'test'
+  ...
+# Subtest: axis gate remains limited to version3, preserving historical packed-v2 playback
+ok 28 - axis gate remains limited to version3, preserving historical packed-v2 playback
+  ---
+  duration_ms: 24.0455
+  type: 'test'
+  ...
+# Subtest: contract4 explicit same-axis left/right switches survive ambiguous inside shots but require visible transition
+ok 29 - contract4 explicit same-axis left/right switches survive ambiguous inside shots but require visible transition
+  ---
+  duration_ms: 1.4542
+  type: 'test'
+  ...
+# Subtest: saved contract4 supplier response is rejected for explicit axis-side flip without editing its raw evidence
+ok 30 - saved contract4 supplier response is rejected for explicit axis-side flip without editing its raw evidence
+  ---
+  duration_ms: 6.5423
+  type: 'test'
+  ...
+# Subtest: new strict parser rejects duplicate keys in saved contract4 provider text before lossy JSON.parse
+ok 31 - new strict parser rejects duplicate keys in saved contract4 provider text before lossy JSON.parse
+  ---
+  duration_ms: 2.207
+  type: 'test'
+  ...
+# Subtest: F20 runtime callback signal stops waiting after task creation without a second model submission
+ok 32 - F20 runtime callback signal stops waiting after task creation without a second model submission
+  ---
+  duration_ms: 12.4079
+  type: 'test'
+  ...
+# Subtest: F20 runtime request signal also stops waiting and provider cancellation remains a separate operation
+ok 33 - F20 runtime request signal also stops waiting and provider cancellation remains a separate operation
+  ---
+  duration_ms: 1.9917
+  type: 'test'
+  ...
+# Subtest: F20 a failed query propagates without automatically creating another model task
+ok 34 - F20 a failed query propagates without automatically creating another model task
+  ---
+  duration_ms: 2005.0065
+  type: 'test'
+  ...
+# Subtest: F20 waitComplete forwards AbortSignal to the task query and strips intermediate draft text
+ok 35 - F20 waitComplete forwards AbortSignal to the task query and strips intermediate draft text
+  ---
+  duration_ms: 1.6488
+  type: 'test'
+  ...
+# Subtest: compiled chapter wrapper connects actual signal and task updates, keeps running task visible after failure
+ok 36 - compiled chapter wrapper connects actual signal and task updates, keeps running task visible after failure
+  ---
+  duration_ms: 6.2826
+  type: 'test'
+  ...
+# Subtest: compiled chapter renders task controls outside the generation modal and never claims validation success
+ok 37 - compiled chapter renders task controls outside the generation modal and never claims validation success
+  ---
+  duration_ms: 2.6938
+  type: 'test'
+  ...
+# Subtest: actual compiled-source mn second parse retains legal sidecars and recomputes review using original sources
+ok 38 - actual compiled-source mn second parse retains legal sidecars and recomputes review using original sources
+  ---
+  duration_ms: 8.8685
+  type: 'test'
+  ...
+# Subtest: actual mn rejects duplicate names, missing snapshot context and copied-title suggestions
+ok 39 - actual mn rejects duplicate names, missing snapshot context and copied-title suggestions
+  ---
+  duration_ms: 5.8133
+  type: 'test'
+  ...
+# Subtest: actual mn keeps legacy no-sidecar data compatible and never trusts model accepted review
+ok 40 - actual mn keeps legacy no-sidecar data compatible and never trusts model accepted review
+  ---
+  duration_ms: 1.9556
+  type: 'test'
+  ...
+# Subtest: actual yn reuses same submitted variables and format snapshot for mn despite later UI-style change
+ok 41 - actual yn reuses same submitted variables and format snapshot for mn despite later UI-style change
+  ---
+  duration_ms: 3.8937
+  type: 'test'
+  ...
+# Subtest: F04 actual prepared image task cannot read the extraction JSON template, including fallback branch
+ok 42 - F04 actual prepared image task cannot read the extraction JSON template, including fallback branch
+  ---
+  duration_ms: 4.5955
+  type: 'test'
+  ...
+# Subtest: F18 prepared desktop modules use local workbench persistence wording
+ok 43 - F18 prepared desktop modules use local workbench persistence wording
+  ---
+  duration_ms: 24.3226
+  type: 'test'
+  ...
+# Subtest: final contract preserves administrator extraction/layout while replacing the old output example
+ok 44 - final contract preserves administrator extraction/layout while replacing the old output example
+  ---
+  duration_ms: 5.2987
+  type: 'test'
+  ...
+# Subtest: one complete example carries all required asset provenance and exact source links
+ok 45 - one complete example carries all required asset provenance and exact source links
+  ---
+  duration_ms: 1.6793
+  type: 'test'
+  ...
+# Subtest: F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+ok 46 - F07 ordinary prose remains usable but returns explicit unverified coverage instead of a vacuous success
+  ---
+  duration_ms: 3.9024
+  type: 'test'
+  ...
+# Subtest: F07 explicit tags report their actual partial scope and check named props when supplied
+ok 47 - F07 explicit tags report their actual partial scope and check named props when supplied
+  ---
+  duration_ms: 2.0938
+  type: 'test'
+  ...
+# Subtest: F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+ok 48 - F08 names beginning with 无 survive while exact no-person and historical-image markers do not become people
+  ---
+  duration_ms: 1.0656
+  type: 'test'
+  ...
+# Subtest: F09 generic groups never turn into an empty matching token
+ok 49 - F09 generic groups never turn into an empty matching token
+  ---
+  duration_ms: 0.8401
+  type: 'test'
+  ...
+# Subtest: F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+ok 50 - F10 empty headings, empty titles, placeholders and duplicated numbered sections cannot pass
+  ---
+  duration_ms: 4.4058
+  type: 'test'
+  ...
+# Subtest: F10 inline references in fixed layout do not count as duplicate numbered definitions
+ok 51 - F10 inline references in fixed layout do not count as duplicate numbered definitions
+  ---
+  duration_ms: 0.6561
+  type: 'test'
+  ...
+# Subtest: F15 repeated definition anchors reject a template before any model call, not splice the first example
+ok 52 - F15 repeated definition anchors reject a template before any model call, not splice the first example
+  ---
+  duration_ms: 1.6497
+  type: 'test'
+  ...
+# Subtest: F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+ok 53 - F15 half-width punctuation and period variations preserve actual fixed text and remain idempotent
+  ---
+  duration_ms: 0.7465
+  type: 'test'
+  ...
+# Subtest: F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+ok 54 - F15 actual managed template fixture and current built-in full templates pass fixed-layout parsing
+  ---
+  duration_ms: 2.5629
+  type: 'test'
+  ...
+# Subtest: v5 partial coverage survives three-array projection, candidate preparation and JSON serialization
+ok 55 - v5 partial coverage survives three-array projection, candidate preparation and JSON serialization
+  ---
+  duration_ms: 2.6962
+  type: 'test'
+  ...
+# Subtest: only locally validated inventory report is trusted, and same name in another category does not cross-bind
+ok 56 - only locally validated inventory report is trusted, and same name in another category does not cross-bind
+  ---
+  duration_ms: 1.2621
+  type: 'test'
+  ...
+# Subtest: confirmed and resolved assets are never downgraded or given pending warnings
+ok 57 - confirmed and resolved assets are never downgraded or given pending warnings
+  ---
+  duration_ms: 4.8597
+  type: 'test'
+  ...
+# Subtest: old data without report is explicitly unverified without fabricated source or altering input
+ok 58 - old data without report is explicitly unverified without fabricated source or altering input
+  ---
+  duration_ms: 1.4009
+  type: 'test'
+  ...
+# Subtest: actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+ok 59 - actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+  ---
+  duration_ms: 4.2369
+  type: 'test'
+  ...
+# Subtest: actual v6 recovery requires inventory and real source spans, rejects missing generated props
+ok 60 - actual v6 recovery requires inventory and real source spans, rejects missing generated props
+  ---
+  duration_ms: 20.2152
+  type: 'test'
+  ...
+# Subtest: actual v5 recovery keeps compatibility without inventory or visual provenance
+ok 61 - actual v5 recovery keeps compatibility without inventory or visual provenance
+  ---
+  duration_ms: 1.0364
+  type: 'test'
+  ...
+# Subtest: actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+ok 62 - actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+  ---
+  duration_ms: 5.2661
+  type: 'test'
+  ...
+# Subtest: actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+ok 63 - actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+  ---
+  duration_ms: 1.5866
+  type: 'test'
+  ...
+# Subtest: host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+ok 64 - host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+  ---
+  duration_ms: 1.5724
+  type: 'test'
+  ...
+# Subtest: real v6b Gemini returned four arrays and linked every independent asset to true source quotes
+ok 65 - real v6b Gemini returned four arrays and linked every independent asset to true source quotes
+  ---
+  duration_ms: 3.5526
+  type: 'test'
+  ...
+# Subtest: previous actual v6 failure remains rejected for missing wire contract rather than retroactively counted passed
+ok 66 - previous actual v6 failure remains rejected for missing wire contract rather than retroactively counted passed
+  ---
+  duration_ms: 1.7332
+  type: 'test'
+  ...
+# Subtest: renderer and binder pending declarations collapse to one host introduction, including scene-only lines
+ok 67 - renderer and binder pending declarations collapse to one host introduction, including scene-only lines
+  ---
+  duration_ms: 5.9163
+  type: 'test'
+  ...
+# Subtest: complete-looking declarations with additional ordinary prose are never stripped
+ok 68 - complete-looking declarations with additional ordinary prose are never stripped
+  ---
+  duration_ms: 1.6146
+  type: 'test'
+  ...
+# Subtest: actual repair live model fixture keeps water-stain prose and normalizes to a single introduction idempotently
+ok 69 - actual repair live model fixture keeps water-stain prose and normalizes to a single introduction idempotently
+  ---
+  duration_ms: 27.8216
+  type: 'test'
+  ...
+# Subtest: F05 native provider and unrelated user options survive unchanged
+ok 70 - F05 native provider and unrelated user options survive unchanged
+  ---
+  duration_ms: 4.2901
+  type: 'test'
+  ...
+# Subtest: F05 route resolution is explicit, disabled and ambiguous channels fail before submission
+ok 71 - F05 route resolution is explicit, disabled and ambiguous channels fail before submission
+  ---
+  duration_ms: 2.2022
+  type: 'test'
+  ...
+# Subtest: F04 missing multiview uses image-only fallback independent of asset JSON templates
+ok 72 - F04 missing multiview uses image-only fallback independent of asset JSON templates
+  ---
+  duration_ms: 2.2936
+  type: 'test'
+  ...
+# Subtest: explicit retry retires task A; delayed A status cannot overwrite or cancel task B
+ok 73 - explicit retry retires task A; delayed A status cannot overwrite or cancel task B
+  ---
+  duration_ms: 16.5798
+  type: 'test'
+  ...
+# Subtest: a retry hook failure cannot submit task B and unknown review choices never imply retry
+ok 74 - a retry hook failure cannot submit task B and unknown review choices never imply retry
+  ---
+  duration_ms: 4.4342
+  type: 'test'
+  ...
+# Subtest: chapter wrapper routes review retry and task events through one generation handle
+ok 75 - chapter wrapper routes review retry and task events through one generation handle
+  ---
+  duration_ms: 1.1621
+  type: 'test'
+  ...
+# Subtest: complete scene example preserves all twelve required administrator sections
+ok 76 - complete scene example preserves all twelve required administrator sections
+  ---
+  duration_ms: 3.5445
+  type: 'test'
+  ...
+# Subtest: missing duplicate and empty 3.5 section rejects; legacy stays compatible
+ok 77 - missing duplicate and empty 3.5 section rejects; legacy stays compatible
+  ---
+  duration_ms: 1.4235
+  type: 'test'
+  ...
+# Subtest: host uses current panel schema, exact source substrings and explicit suggestion labels
+ok 78 - host uses current panel schema, exact source substrings and explicit suggestion labels
+  ---
+  duration_ms: 6.0046
+  type: 'test'
+  ...
+# Subtest: invented age not contained in genuine quote rejects, missing/duplicate sections reject
+ok 79 - invented age not contained in genuine quote rejects, missing/duplicate sections reject
+  ---
+  duration_ms: 1.6242
+  type: 'test'
+  ...
+# Subtest: project style allowed only exact section zero and original five-view explicitly unsupported
+ok 80 - project style allowed only exact section zero and original five-view explicitly unsupported
+  ---
+  duration_ms: 0.6365
+  type: 'test'
+  ...
+# Subtest: generic repeated template titles reject without maintaining domain-specific attribute lists
+ok 81 - generic repeated template titles reject without maintaining domain-specific attribute lists
+  ---
+  duration_ms: 0.809
+  type: 'test'
+  ...
+# Subtest: actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+ok 82 - actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+  ---
+  duration_ms: 8.8899
+  type: 'test'
+  ...
+# Subtest: same-name duplicate, absent main-name match and missing context reject without alias or order association
+ok 83 - same-name duplicate, absent main-name match and missing context reject without alias or order association
+  ---
+  duration_ms: 2.6525
+  type: 'test'
+  ...
+# Subtest: legacy payload without section structure cannot smuggle model-supplied accepted review
+ok 84 - legacy payload without section structure cannot smuggle model-supplied accepted review
+  ---
+  duration_ms: 0.42
+  type: 'test'
+  ...
+# Subtest: actual v7 response is rejected offline for generic section suggestions with no supplier calls
+ok 85 - actual v7 response is rejected offline for generic section suggestions with no supplier calls
+  ---
+  duration_ms: 2.176
+  type: 'test'
+  ...
+# Subtest: contract4 requires per-shot integer exact source beat, while old version3 playback remains readable
+ok 86 - contract4 requires per-shot integer exact source beat, while old version3 playback remains readable
+  ---
+  duration_ms: 13.262
+  type: 'test'
+  ...
+# Subtest: contract4 rejects actual saved linguistic sound contamination and does not sanitize it into fake success
+ok 87 - contract4 rejects actual saved linguistic sound contamination and does not sanitize it into fake success
+  ---
+  duration_ms: 1.4747
+  type: 'test'
+  ...
+# Subtest: new prompt/schema label each source visual and boundary; strict renderer preserves source provenance
+ok 88 - new prompt/schema label each source visual and boundary; strict renderer preserves source provenance
+  ---
+  duration_ms: 3.5694
+  type: 'test'
+  ...
+# Subtest: F16 loads every required file, with the three-file limit applying only to optional references
+ok 89 - F16 loads every required file, with the three-file limit applying only to optional references
+  ---
+  duration_ms: 6.8522
+  type: 'test'
+  ...
+# Subtest: F16 loads required references first and caps only optional references at three
+ok 90 - F16 loads required references first and caps only optional references at three
+  ---
+  duration_ms: 1.5577
+  type: 'test'
+  ...
+# Subtest: F16 multiple required files cannot exceed the unchanged per-skill shared budget
+ok 91 - F16 multiple required files cannot exceed the unchanged per-skill shared budget
+  ---
+  duration_ms: 1.9171
+  type: 'test'
+  ...
+# Subtest: F16 refuses a truncated main or required reference
+ok 92 - F16 refuses a truncated main or required reference
+  ---
+  duration_ms: 1.1271
+  type: 'test'
+  ...
+# Subtest: F17 text host capability is explicit while canvas workflow context remains available
+ok 93 - F17 text host capability is explicit while canvas workflow context remains available
+  ---
+  duration_ms: 0.6871
+  type: 'test'
+  ...
+# Subtest: F02 source ledger keeps narration, named speech without a roster, OS/VO/OV and multiline speech in order
+ok 94 - F02 source ledger keeps narration, named speech without a roster, OS/VO/OV and multiline speech in order
+  ---
+  duration_ms: 8.5394
+  type: 'test'
+  ...
+# Subtest: F02 pure visual scripts reject invented speech and a speech before the first beat fails before model submission
+ok 95 - F02 pure visual scripts reject invented speech and a speech before the first beat fails before model submission
+  ---
+  duration_ms: 0.7552
+  type: 'test'
+  ...
+# Subtest: F03 coverage rejects missing/empty/noninteger/out-of-range/duplicate source beats; permits a beat spanning rows
+ok 96 - F03 coverage rejects missing/empty/noninteger/out-of-range/duplicate source beats; permits a beat spanning rows
+  ---
+  duration_ms: 0.883
+  type: 'test'
+  ...
+# Subtest: F02/F03 real historical valid rows no longer pass against an unrelated script or empty coverage
+ok 97 - F02/F03 real historical valid rows no longer pass against an unrelated script or empty coverage
+  ---
+  duration_ms: 28.9196
+  type: 'test'
+  ...
+# Subtest: F14 copy removes complete diagrams but keeps ordinary pipe/dash dialogue and heading inline prose
+ok 98 - F14 copy removes complete diagrams but keeps ordinary pipe/dash dialogue and heading inline prose
+  ---
+  duration_ms: 0.4613
+  type: 'test'
+  ...
+# Subtest: planned renderer independently checks the plan source, not only the plan transcript
+ok 99 - planned renderer independently checks the plan source, not only the plan transcript
+  ---
+  duration_ms: 31.2585
+  type: 'test'
+  ...
+# Subtest: source visual continuation, stage directions and non-speech notes stay in locked visuals
+ok 100 - source visual continuation, stage directions and non-speech notes stay in locked visuals
+  ---
+  duration_ms: 1.2443
+  type: 'test'
+  ...
+# Subtest: ambiguous unlabelled speech continuations are diagnosed and pre-beat prose is rejected
+ok 101 - ambiguous unlabelled speech continuations are diagnosed and pre-beat prose is rejected
+  ---
+  duration_ms: 0.5878
+  type: 'test'
+  ...
+# Subtest: v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+ok 102 - v6 pure check links exact real quotes to the correct generated category and preserves human-review requirement
+  ---
+  duration_ms: 3.0362
+  type: 'test'
+  ...
+# Subtest: known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+ok 103 - known self-inventory item missing a generated prop is rejected without hardcoding 木桌
+  ---
+  duration_ms: 2.4469
+  type: 'test'
+  ...
+# Subtest: v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+ok 104 - v6 missing inventory, empty inventory and forged quote are rejected; legacy does not acquire new mandatory schema
+  ---
+  duration_ms: 0.5523
+  type: 'test'
+  ...
+# Subtest: host computes quote occurrence spans including emoji instead of trusting model offsets
+ok 105 - host computes quote occurrence spans including emoji instead of trusting model offsets
+  ---
+  duration_ms: 0.4174
+  type: 'test'
+  ...
+# Subtest: extra invented asset and category mismatches cannot masquerade as source-backed
+ok 106 - extra invented asset and category mismatches cannot masquerade as source-backed
+  ---
+  duration_ms: 0.8221
+  type: 'test'
+  ...
+# Subtest: a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+ok 107 - a legitimately non-asset text may be self-reported without inventing an entity, but remains unproved
+  ---
+  duration_ms: 0.328
+  type: 'test'
+  ...
+# Subtest: visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+ok 108 - visual facts and suggestions are separated with explicit prompt label, not silently treated as original fact
+  ---
+  duration_ms: 0.899
+  type: 'test'
+  ...
+# Subtest: explicit source hint stays with its speaker; another character remains unknown
+ok 109 - explicit source hint stays with its speaker; another character remains unknown
+  ---
+  duration_ms: 6.3579
+  type: 'test'
+  ...
+# Subtest: per-utterance source instructions are explicit without spreading to later speakers
+ok 110 - per-utterance source instructions are explicit without spreading to later speakers
+  ---
+  duration_ms: 1.1925
+  type: 'test'
+  ...
+# Subtest: contract5 render labels unknown voice without adopting generated gender; old v3 contract remains readable
+ok 111 - contract5 render labels unknown voice without adopting generated gender; old v3 contract remains readable
+  ---
+  duration_ms: 13.0256
+  type: 'test'
+  ...
+# Subtest: actual contract4b response remains rejected by strict source format rather than rewritten for voice claims
+ok 112 - actual contract4b response remains rejected by strict source format rather than rewritten for voice claims
+  ---
+  duration_ms: 2.1756
+  type: 'test'
+  ...
+# Subtest: current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+ok 113 - current ten shots get intros and tokens for visible assets, pending IDs never used as real IDs
+  ---
+  duration_ms: 181.3881
+  type: 'test'
+  ...
+# Subtest: literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+ok 114 - literal-only mention of unconfirmed asset remains a placeholder, confirmed asset uses real token
+  ---
+  duration_ms: 2.4837
+  type: 'test'
+  ...
+# Subtest: narration alone does not bind a visible character; repeated repair is stable
+ok 115 - narration alone does not bind a visible character; repeated repair is stable
+  ---
+  duration_ms: 1.8171
+  type: 'test'
+  ...
+# Subtest: model-declared character without any asset gets a named placeholder and no fake binding
+ok 116 - model-declared character without any asset gets a named placeholder and no fake binding
+  ---
+  duration_ms: 1.9363
+  type: 'test'
+  ...
+# Subtest: F20 no task is hidden and pre-submit stop aborts locally without invoking backend cancellation
+ok 117 - F20 no task is hidden and pre-submit stop aborts locally without invoking backend cancellation
+  ---
+  duration_ms: 6.1577
+  type: 'test'
+  ...
+# Subtest: F20 backend confirmed cancellation aborts polling and distinguishes provider cancellation
+ok 118 - F20 backend confirmed cancellation aborts polling and distinguishes provider cancellation
+  ---
+  duration_ms: 1.9177
+  type: 'test'
+  ...
+# Subtest: F20 running cancellation response does not abort until a later task update confirms cancellation
+ok 119 - F20 running cancellation response does not abort until a later task update confirms cancellation
+  ---
+  duration_ms: 0.687
+  type: 'test'
+  ...
+# Subtest: F20 cancellation error remains visible after frontend finish and may be retried
+ok 120 - F20 cancellation error remains visible after frontend finish and may be retried
+  ---
+  duration_ms: 1.3533
+  type: 'test'
+  ...
+# Subtest: F20 a completion race is reported as succeeded and does not become cancelled
+ok 121 - F20 a completion race is reported as succeeded and does not become cancelled
+  ---
+  duration_ms: 0.6011
+  type: 'test'
+  ...
+# Subtest: F20 duplicate cancellation shares one request; stale generation updates cannot change a later task
+ok 122 - F20 duplicate cancellation shares one request; stale generation updates cannot change a later task
+  ---
+  duration_ms: 0.5194
+  type: 'test'
+  ...
+# Subtest: F20 invalid cancellation payload cannot claim success and chapter states stay independent
+ok 123 - F20 invalid cancellation payload cannot claim success and chapter states stay independent
+  ---
+  duration_ms: 0.6885
+  type: 'test'
+  ...
+# Subtest: F20 a task ID arriving after local stop triggers real cancellation and stale running does not revive a terminal task
+ok 124 - F20 a task ID arriving after local stop triggers real cancellation and stale running does not revive a terminal task
+  ---
+  duration_ms: 1.0588
+  type: 'test'
+  ...
+# Subtest: F20 React control stays absent without a registry entry and exposes only independent cancellation UI
+ok 125 - F20 React control stays absent without a registry entry and exposes only independent cancellation UI
+  ---
+  duration_ms: 1.395
+  type: 'test'
+  ...
+# Subtest: F20 only an explicit unfinished terminal review retry can switch task IDs and cancel the new task
+ok 126 - F20 only an explicit unfinished terminal review retry can switch task IDs and cancel the new task
+  ---
+  duration_ms: 2.191
+  type: 'test'
+  ...
+# Subtest: F20 cancelling preparation after explicit retry never sends cancel for the completed prior task
+ok 127 - F20 cancelling preparation after explicit retry never sends cancel for the completed prior task
+  ---
+  duration_ms: 1.5224
+  type: 'test'
+  ...
+# Subtest: continues exactly at a cut inside an escaped JSON string
+ok 128 - continues exactly at a cut inside an escaped JSON string
+  ---
+  duration_ms: 6.5871
+  type: 'test'
+  ...
+# Subtest: does not make extra calls for complete JSON or closed malformed JSON
+ok 129 - does not make extra calls for complete JSON or closed malformed JSON
+  ---
+  duration_ms: 0.9416
+  type: 'test'
+  ...
+# Subtest: bounds empty and repeated truncation failure
+ok 130 - bounds empty and repeated truncation failure
+  ---
+  duration_ms: 1.0068
+  type: 'test'
+  ...
+# Subtest: dedicated local protocol survives separately from official and declares real request flags
+ok 131 - dedicated local protocol survives separately from official and declares real request flags
+  ---
+  duration_ms: 8.8514
+  type: 'test'
+  ...
+# Subtest: actual failed dual response is explicitly diagnosed as truncated
+ok 132 - actual failed dual response is explicitly diagnosed as truncated
+  ---
+  duration_ms: 11.0389
+  type: 'test'
+  ...
+# Subtest: same JSON contract accepts real complete response and expands dual layout idempotently
+ok 133 - same JSON contract accepts real complete response and expands dual layout idempotently
+  ---
+  duration_ms: 6.0481
+  type: 'test'
+  ...
+# Subtest: rejects invalid field types and malformed closed JSON without extra model request
+ok 134 - rejects invalid field types and malformed closed JSON without extra model request
+  ---
+  duration_ms: 3.5833
+  type: 'test'
+  ...
+# Subtest: actual recovered dual response keeps nine distinct roles despite shared crowd aliases
+ok 135 - actual recovered dual response keeps nine distinct roles despite shared crowd aliases
+  ---
+  duration_ms: 15.0362
+  type: 'test'
+  ...
+# Subtest: shared extraction runtime replaces fragment continuation and forces non-stream
+ok 136 - shared extraction runtime replaces fragment continuation and forces non-stream
+  ---
+  duration_ms: 1.3596
+  type: 'test'
+  ...
+# Subtest: both falsely successful responses are truncated JSON and rejected
+ok 137 - both falsely successful responses are truncated JSON and rejected
+  ---
+  duration_ms: 19.1471
+  type: 'test'
+  ...
+# Subtest: recovered original response passes the real app contract for all 19 assets
+ok 138 - recovered original response passes the real app contract for all 19 assets
+  ---
+  duration_ms: 5.9355
+  type: 'test'
+  ...
+# Subtest: three formats and safe default
+ok 139 - three formats and safe default
+  ---
+  duration_ms: 2.1197
+  type: 'test'
+  ...
+# Subtest: original is unchanged
+ok 140 - original is unchanged
+  ---
+  duration_ms: 0.3768
+  type: 'test'
+  ...
+# Subtest: new formats preserve fields, scenes and props
+ok 141 - new formats preserve fields, scenes and props
+  ---
+  duration_ms: 5.5763
+  type: 'test'
+  ...
+# Subtest: single prompt has extraction rules, selected layout and JSON contract
+ok 142 - single prompt has extraction rules, selected layout and JSON contract
+  ---
+  duration_ms: 0.9842
+  type: 'test'
+  ...
+# Subtest: layout expansion remains local; model repair is bounded to one complete retry
+ok 143 - layout expansion remains local; model repair is bounded to one complete retry
+  ---
+  duration_ms: 1.0587
+  type: 'test'
+  ...
+# Subtest: four-panel transmits compact JSON instruction and preserves chosen full layout on save
+ok 144 - four-panel transmits compact JSON instruction and preserves chosen full layout on save
+  ---
+  duration_ms: 5.9801
+  type: 'test'
+  ...
+# Subtest: five-panel content is unchanged; four-panel custom layout survives expansion
+ok 145 - five-panel content is unchanged; four-panel custom layout survives expansion
+  ---
+  duration_ms: 1.2857
+  type: 'test'
+  ...
+# Subtest: conflicting and identical duplicate values are rejected before silent overwrite
+ok 146 - conflicting and identical duplicate values are rejected before silent overwrite
+  ---
+  duration_ms: 2.2111
+  type: 'test'
+  ...
+# Subtest: escaped equivalent keys are duplicates; separate object fields are valid
+ok 147 - escaped equivalent keys are duplicates; separate object fields are valid
+  ---
+  duration_ms: 1.413
+  type: 'test'
+  ...
+# Subtest: quoted punctuation and value strings cannot alter object scopes
+ok 148 - quoted punctuation and value strings cannot alter object scopes
+  ---
+  duration_ms: 0.4243
+  type: 'test'
+  ...
+# Subtest: real missing props is rejected without silently substituting an empty array
+ok 149 - real missing props is rejected without silently substituting an empty array
+  ---
+  duration_ms: 3.4755
+  type: 'test'
+  ...
+# Subtest: real four-panel missing opening quote is repaired without losing any fields
+ok 150 - real four-panel missing opening quote is repaired without losing any fields
+  ---
+  duration_ms: 1.4664
+  type: 'test'
+  ...
+# Subtest: local edits are ignored; selection survives
+ok 151 - local edits are ignored; selection survives
+  ---
+  duration_ms: 9.4091
+  type: 'test'
+  ...
+# Subtest: server edits are read for all three formats
+ok 152 - server edits are read for all three formats
+  ---
+  duration_ms: 1.6774
+  type: 'test'
+  ...
+# Subtest: picker exposes selection only
+ok 153 - picker exposes selection only
+  ---
+  duration_ms: 0.3024
+  type: 'test'
+  ...
+# Subtest: actual desktop preferences envelope resolves three managed templates
+ok 154 - actual desktop preferences envelope resolves three managed templates
+  ---
+  duration_ms: 3.6968
+  type: 'test'
+  ...
+# Subtest: real DeepSeek stop response is rejected for incomplete JSON
+ok 155 - real DeepSeek stop response is rejected for incomplete JSON
+  ---
+  duration_ms: 5.988
+  type: 'test'
+  ...
+# Subtest: real Gemini first-pass JSON is valid but fails the chapter coverage check
+ok 156 - real Gemini first-pass JSON is valid but fails the chapter coverage check
+  ---
+  duration_ms: 2.7702
+  type: 'test'
+  ...
+# Subtest: real Gemini four-panel and dual-panel results preserve all required role sections
+ok 157 - real Gemini four-panel and dual-panel results preserve all required role sections
+  ---
+  duration_ms: 12.6241
+  type: 'test'
+  ...
+# Subtest: real original response receives the exact managed five-view layout without another model call
+ok 158 - real original response receives the exact managed five-view layout without another model call
+  ---
+  duration_ms: 3.6963
+  type: 'test'
+  ...
+# Subtest: image-only chips retain readable @ names in introductions and spatial diagrams
+ok 159 - image-only chips retain readable @ names in introductions and spatial diagrams
+  ---
+  duration_ms: 2.1642
+  type: 'test'
+  ...
+# Subtest: copy handler preserves only the selected range, not the whole editor
+ok 160 - copy handler preserves only the selected range, not the whole editor
+  ---
+  duration_ms: 0.6223
+  type: 'test'
+  ...
+# Subtest: named declarations, group references in spatial plan and per-Seq shot timing
+ok 161 - named declarations, group references in spatial plan and per-Seq shot timing
+  ---
+  duration_ms: 11.2549
+  type: 'test'
+  ...
+# Subtest: repeated pure-copy Seq starts numbering from one again
+ok 162 - repeated pure-copy Seq starts numbering from one again
+  ---
+  duration_ms: 1.3018
+  type: 'test'
+  ...
+# Subtest: assets without available reference stay as names, not raw IDs
+ok 163 - assets without available reference stay as names, not raw IDs
+  ---
+  duration_ms: 0.6664
+  type: 'test'
+  ...
+# Subtest: missing model protocol inherits explicit channel API format without mutating settings
+ok 164 - missing model protocol inherits explicit channel API format without mutating settings
+  ---
+  duration_ms: 3.122
+  type: 'test'
+  ...
+# Subtest: real installed request resolver accepts normalized config
+ok 165 - real installed request resolver accepts normalized config
+  ---
+  duration_ms: 1.2807
+  type: 'test'
+  ...
+# Subtest: explicit protocols, logical models and unavailable channels are respected
+ok 166 - explicit protocols, logical models and unavailable channels are respected
+  ---
+  duration_ms: 0.6323
+  type: 'test'
+  ...
+# Subtest: defaults to non-stream; choice persists; unavailable storage remains non-stream
+ok 167 - defaults to non-stream; choice persists; unavailable storage remains non-stream
+  ---
+  duration_ms: 2.0171
+  type: 'test'
+  ...
+# Subtest: installed request builder forwards explicit false into task textOptions.stream
+ok 168 - installed request builder forwards explicit false into task textOptions.stream
+  ---
+  duration_ms: 4.894
+  type: 'test'
+  ...
+# Subtest: real canvas wrapper preserves explicit non-stream flag
+ok 169 - real canvas wrapper preserves explicit non-stream flag
+  ---
+  duration_ms: 1.2248
+  type: 'test'
+  ...
+# Subtest: parenthesized named people and scene spaces are kept separate
+ok 170 - parenthesized named people and scene spaces are kept separate
+  ---
+  duration_ms: 4.577
+  type: 'test'
+  ...
+# Subtest: complete labeled roles pass, short layout-only response fails
+ok 171 - complete labeled roles pass, short layout-only response fails
+  ---
+  duration_ms: 4.9996
+  type: 'test'
+  ...
+# Subtest: model receives source ledger without machine-chosen shots or count constraints
+ok 172 - model receives source ledger without machine-chosen shots or count constraints
+  ---
+  duration_ms: 4.0802
+  type: 'test'
+  ...
+# Subtest: model-selected single long shot remains single; different legal duration is not recalculated
+ok 173 - model-selected single long shot remains single; different legal duration is not recalculated
+  ---
+  duration_ms: 14.1588
+  type: 'test'
+  ...
+# Subtest: missing source words and excess model timing report problems rather than inventing replacements
+ok 174 - missing source words and excess model timing report problems rather than inventing replacements
+  ---
+  duration_ms: 3.2703
+  type: 'test'
+  ...
+# Subtest: only the selected configured protocol gets non-stream JSON options; original configuration stays unchanged
+ok 175 - only the selected configured protocol gets non-stream JSON options; original configuration stays unchanged
+  ---
+  duration_ms: 2.3731
+  type: 'test'
+  ...
+# Subtest: waits past running states and exposes final text only, without a fixed deadline or event stream
+ok 176 - waits past running states and exposes final text only, without a fixed deadline or event stream
+  ---
+  duration_ms: 8.1421
+  type: 'test'
+  ...
+# Subtest: cancellation remains available during an unbounded wait
+ok 177 - cancellation remains available during an unbounded wait
+  ---
+  duration_ms: 1.4778
+  type: 'test'
+  ...
+# Subtest: pending scenes get named mentions and never fabricated binding IDs
+ok 178 - pending scenes get named mentions and never fabricated binding IDs
+  ---
+  duration_ms: 0.3854
+  type: 'test'
+  ...
+# Subtest: installed chapter sends false to backend and does not subscribe to text events
+ok 179 - installed chapter sends false to backend and does not subscribe to text events
+  ---
+  duration_ms: 2.152
+  type: 'test'
+  ...
+# Subtest: previously accepted real Gemini result fails the stronger content audit
+ok 180 - previously accepted real Gemini result fails the stronger content audit
+  ---
+  duration_ms: 8.0211
+  type: 'test'
+  ...
+# Subtest: copy version preserves all real prose, narration, references and time labels without an AI summary
+ok 181 - copy version preserves all real prose, narration, references and time labels without an AI summary
+  ---
+  duration_ms: 0.8875
+  type: 'test'
+  ...
+# Subtest: director parser fixes only key quotes/trailing commas and refuses incomplete output
+ok 182 - director parser fixes only key quotes/trailing commas and refuses incomplete output
+  ---
+  duration_ms: 3.0281
+  type: 'test'
+  ...
+# Subtest: actual selected director API results preserve full dialogue, variable <=15s segments, detailed internal shots and independent references
+ok 183 - actual selected director API results preserve full dialogue, variable <=15s segments, detailed internal shots and independent references
+  ---
+  duration_ms: 177.6586
+  type: 'test'
+  ...
+# Subtest: missing sections list the exact source words and retain every original character
+ok 184 - missing sections list the exact source words and retain every original character
+  ---
+  duration_ms: 7.3892
+  type: 'test'
+  ...
+# Subtest: storage capacity/corruption keeps existing drafts unchanged and reports memory-only output
+ok 185 - storage capacity/corruption keeps existing drafts unchanged and reports memory-only output
+  ---
+  duration_ms: 0.6842
+  type: 'test'
+  ...
+# Subtest: abort while waiting for an asynchronous review rejects without a retry request
+ok 186 - abort while waiting for an asynchronous review rejects without a retry request
+  ---
+  duration_ms: 6.0144
+  type: 'test'
+  ...
+# Subtest: acknowledgment never starts another API request; retry starts exactly one only after review decision
+ok 187 - acknowledgment never starts another API request; retry starts exactly one only after review decision
+  ---
+  duration_ms: 2.5552
+  type: 'test'
+  ...
+# Subtest: three real DeepSeek stop responses are still rejected when their content is truncated
+ok 188 - three real DeepSeek stop responses are still rejected when their content is truncated
+  ---
+  duration_ms: 6.0263
+  type: 'test'
+  ...
+# Subtest: real final Gemini response is complete JSON with template and all three reference categories
+ok 189 - real final Gemini response is complete JSON with template and all three reference categories
+  ---
+  duration_ms: 1.7402
+  type: 'test'
+  ...
+# Subtest: current v3 runtime accepts explicitly synthetic complete director data once and recovers identical rows
+ok 190 - current v3 runtime accepts explicitly synthetic complete director data once and recovers identical rows
+  ---
+  duration_ms: 18.453
+  type: 'test'
+  ...
+# Subtest: current runtime rejects incomplete historical directed output after one submission, without pretending it is a valid v3 result
+ok 191 - current runtime rejects incomplete historical directed output after one submission, without pretending it is a valid v3 result
+  ---
+  duration_ms: 43.8611
+  type: 'test'
+  ...
+# Subtest: planned generation propagates a provider failure without a second model call
+ok 192 - planned generation propagates a provider failure without a second model call
+  ---
+  duration_ms: 1.8322
+  type: 'test'
+  ...
+# Subtest: all real three-chapter rows pass the installed project save converter without missing fields
+ok 193 - all real three-chapter rows pass the installed project save converter without missing fields
+  ---
+  duration_ms: 13.0466
+  type: 'test'
+  ...
+# Subtest: three actual chapters have locked contiguous timing, all source beats and full speech without speaker instructions
+ok 194 - three actual chapters have locked contiguous timing, all source beats and full speech without speaker instructions
+  ---
+  duration_ms: 10.8709
+  type: 'test'
+  ...
+# Subtest: renderer owns time and speech; model may not omit the planned number of slots
+ok 195 - renderer owns time and speech; model may not omit the planned number of slots
+  ---
+  duration_ms: 8.7176
+  type: 'test'
+  ...
+# Subtest: packed rows retain asset descriptions and @ through empty asset save; timing reaches segment end
+ok 196 - packed rows retain asset descriptions and @ through empty asset save; timing reaches segment end
+  ---
+  duration_ms: 94.0621
+  type: 'test'
+  ...
+# Subtest: installed generation requests text preview and saves only through the validated commit callback
+ok 197 - installed generation requests text preview and saves only through the validated commit callback
+  ---
+  duration_ms: 1.4685
+  type: 'test'
+  ...
+# Subtest: real incomplete model response never reaches the project write API
+ok 198 - real incomplete model response never reaches the project write API
+  ---
+  duration_ms: 183.049
+  type: 'test'
+  ...
+# Subtest: all 23 actual review segments use the existing Chinese template and exact model speech/timing
+ok 199 - all 23 actual review segments use the existing Chinese template and exact model speech/timing
+  ---
+  duration_ms: 49.3282
+  type: 'test'
+  ...
+# Subtest: actual installed chapter delegates exactly once to the planned runtime
+ok 200 - actual installed chapter delegates exactly once to the planned runtime
+  ---
+  duration_ms: 3.5596
+  type: 'test'
+  ...
+# Subtest: rapid duplicate submits run once including the final write; explicit later retry is allowed
+ok 201 - rapid duplicate submits run once including the final write; explicit later retry is allowed
+  ---
+  duration_ms: 1.001
+  type: 'test'
+  ...
+# Subtest: a failed provider call never causes a second automatic model submission
+ok 202 - a failed provider call never causes a second automatic model submission
+  ---
+  duration_ms: 3.2192
+  type: 'test'
+  ...
+# Subtest: a diagram can be drawn locally only when all nine actual spatial cells and camera/light data exist
+ok 203 - a diagram can be drawn locally only when all nine actual spatial cells and camera/light data exist
+  ---
+  duration_ms: 3.3911
+  type: 'test'
+  ...
+# Subtest: test7 actual missing scene identity succeeds in corrected recovery path
+ok 204 - test7 actual missing scene identity succeeds in corrected recovery path
+  ---
+  duration_ms: 5.8374
+  type: 'test'
+  ...
+# Subtest: valid model identity and costume stay unchanged while missing fields default locally
+ok 205 - valid model identity and costume stay unchanged while missing fields default locally
+  ---
+  duration_ms: 0.5138
+  type: 'test'
+  ...
+# Subtest: unrelated real source coverage failure is not hidden by identity defaults
+ok 206 - unrelated real source coverage failure is not hidden by identity defaults
+  ---
+  duration_ms: 0.229
+  type: 'test'
+  ...
+# Subtest: frozen patch normalizes both submit and refresh before assertion without upgrading old contract
+ok 207 - frozen patch normalizes both submit and refresh before assertion without upgrading old contract
+  ---
+  duration_ms: 0.9618
+  type: 'test'
+  ...
+1..207
+# tests 207
+# suites 0
+# pass 207
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2180.3347

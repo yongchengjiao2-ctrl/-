@@ -1,0 +1,39 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "four-panel",
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "startedAt": "2026-10-25T02:52:41.961Z",
+  "applicationTaskPipeline": false,
+  "automaticRetry": false,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 3066,
+    "completion_tokens": 1909,
+    "total_tokens": 4975
+  },
+  "contentChars": 2572,
+  "counts": {
+    "characters": 2,
+    "scenes": 1,
+    "props": 1
+  },
+  "names": {
+    "characters": [
+      "林岚",
+      "陈墨"
+    ],
+    "scenes": [
+      "仓库"
+    ],
+    "props": [
+      "铜钥匙"
+    ]
+  },
+  "validated": true,
+  "finishedAt": "2026-10-25T02:52:47.255Z",
+  "characterFieldTypesPassed": true,
+  "installedCharacterParserPassed": true,
+  "installedCharacterParserCount": 2
+}

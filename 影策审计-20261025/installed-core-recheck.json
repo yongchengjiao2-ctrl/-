@@ -1,0 +1,27 @@
+[
+  {
+    "file": "shot-asset-bindings.js",
+    "installedSha256": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559",
+    "sourceMatches": true
+  },
+  {
+    "file": "storyboard-complete.js",
+    "installedSha256": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+    "sourceMatches": true
+  },
+  {
+    "file": "storyboard-detail-normalize.js",
+    "installedSha256": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+    "sourceMatches": true
+  },
+  {
+    "file": "skill-runtime-CF8drDK4.js",
+    "installedSha256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+    "sourceMatches": true
+  },
+  {
+    "file": "chapter-generation-control.js",
+    "installedSha256": "919ba2fd0fe4567cf7478ec7a8242c1fb7b44fb358bceb05112cb9a1ff9e16e6",
+    "sourceMatches": true
+  }
+]

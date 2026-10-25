@@ -1,0 +1,13 @@
+{
+  "machineAccepted": false,
+  "supplierRequests": 1,
+  "applicationTaskPipeline": false,
+  "productionDatabaseModified": false,
+  "rejectionReasons": [
+    "sound包含语言声音，必须只保留非语言同步音效，原配音由独立锁定轨负责。"
+  ],
+  "rawDraftExported": true,
+  "isolatedStorageIntentionallyRejected": true,
+  "providerTokens": 18889,
+  "overallAccepted": false
+}

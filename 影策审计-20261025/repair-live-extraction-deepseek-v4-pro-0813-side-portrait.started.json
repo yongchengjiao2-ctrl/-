@@ -1,0 +1,7 @@
+{
+  "prefix": "deepseek-v4-pro-0813-side-portrait",
+  "model": "deepseek-v4-pro-0813",
+  "startedAt": "2026-10-25T06:43:18.989Z",
+  "promptSha256": "6df8e26d27552f8fcea6a8d1f695329778d9c00945bb875ea9146333ec416654",
+  "warning": "Do not resubmit automatically even if process outcome is unknown"
+}

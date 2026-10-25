@@ -1,0 +1,299 @@
+{
+  "newProviderCalls": 0,
+  "packageKey": "yingce-short-drama-workflow/ef8f38981fa8538e90d8fa055680b44e.zip",
+  "zipSHA256": "0133adfc3aa50ec9264002e4e1eabe3e2a0e7224fd60ae050122e21dc753eda4",
+  "skillVersion": "1.4.0",
+  "budgetChars": 32000,
+  "optionalFileLimit": 3,
+  "runtimeSHA256": "a692cfe8a609ab5a33af681480e7cd2ada0afd1af55b0f82c1efc9be1c79fb07",
+  "profiles": {
+    "shortDrama": {
+      "accepted": true,
+      "reads": [
+        "SKILL.md",
+        "references/source-and-script.md",
+        "references/state-machine.md",
+        "references/assets.md",
+        "references/character-cards.md",
+        "references/artifact-schemas.md",
+        "references/continuity-rules.md",
+        "references/canvas-execution.md",
+        "references/state-and-delivery.md"
+      ],
+      "injectedChars": 20293,
+      "metadata": {
+        "skillIds": [
+          "yingce-short-drama-workflow"
+        ],
+        "skillVersions": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "versionId": "ef8f38981fa8538e90d8fa055680b44e",
+            "version": "1.4.0"
+          }
+        ],
+        "skillFiles": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "SKILL.md",
+            "sha256": "99521ae9cbcf5e7b37a5cec4bf1a383cb0def4cc6e49aee22dd20f55b5362134"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/source-and-script.md",
+            "sha256": "1a3f6c92ec705d77b291995b4646f384b621d481ece8d28b464d591356dbd451"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-machine.md",
+            "sha256": "8fb7f642060f2ae7ac214e25bbe17e3468478baf6ccd7a4d0449258d52a66cc3"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/assets.md",
+            "sha256": "17a02f5c0eb8089fcdec79f5ab00600bf59db0f17faddc6cfd58d6941c95d7cc"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/character-cards.md",
+            "sha256": "a4e9b5508e492bfc570f56094cf596072d69e088f2fb77aa86f8b635163a426a"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/artifact-schemas.md",
+            "sha256": "dfad51918cfcc0740646cbccff0dac582bd4ed23b87d56c2216cbe8d6eb4f05e"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/continuity-rules.md",
+            "sha256": "8baf1f1368f3db4f020da7702e7195e99a7eff41a9ac24ceea520aed2ffc295b"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/canvas-execution.md",
+            "sha256": "21d6140baf2ff887aa4199c553fc8a93f0eaeec46ea539943b329f48e430f9a0"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-and-delivery.md",
+            "sha256": "7ebdcf22ad0bea93d0247e6756e3ce7d0794d7778184fe61a80b7282b99cdf2b"
+          }
+        ],
+        "skillHost": "shortDrama-text",
+        "skillToolExecution": false
+      },
+      "hostBoundaryPresent": true
+    },
+    "canvas": {
+      "accepted": true,
+      "reads": [
+        "SKILL.md",
+        "references/source-and-script.md",
+        "references/state-machine.md",
+        "references/assets.md",
+        "references/character-cards.md",
+        "references/artifact-schemas.md",
+        "references/continuity-rules.md",
+        "references/canvas-execution.md",
+        "references/state-and-delivery.md"
+      ],
+      "injectedChars": 20293,
+      "metadata": {
+        "skillIds": [
+          "yingce-short-drama-workflow"
+        ],
+        "skillVersions": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "versionId": "ef8f38981fa8538e90d8fa055680b44e",
+            "version": "1.4.0"
+          }
+        ],
+        "skillFiles": [
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "SKILL.md",
+            "sha256": "99521ae9cbcf5e7b37a5cec4bf1a383cb0def4cc6e49aee22dd20f55b5362134"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/source-and-script.md",
+            "sha256": "1a3f6c92ec705d77b291995b4646f384b621d481ece8d28b464d591356dbd451"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-machine.md",
+            "sha256": "8fb7f642060f2ae7ac214e25bbe17e3468478baf6ccd7a4d0449258d52a66cc3"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/assets.md",
+            "sha256": "17a02f5c0eb8089fcdec79f5ab00600bf59db0f17faddc6cfd58d6941c95d7cc"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/character-cards.md",
+            "sha256": "a4e9b5508e492bfc570f56094cf596072d69e088f2fb77aa86f8b635163a426a"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/artifact-schemas.md",
+            "sha256": "dfad51918cfcc0740646cbccff0dac582bd4ed23b87d56c2216cbe8d6eb4f05e"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/continuity-rules.md",
+            "sha256": "8baf1f1368f3db4f020da7702e7195e99a7eff41a9ac24ceea520aed2ffc295b"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/canvas-execution.md",
+            "sha256": "21d6140baf2ff887aa4199c553fc8a93f0eaeec46ea539943b329f48e430f9a0"
+          },
+          {
+            "skillId": "yingce-short-drama-workflow",
+            "path": "references/state-and-delivery.md",
+            "sha256": "7ebdcf22ad0bea93d0247e6756e3ce7d0794d7778184fe61a80b7282b99cdf2b"
+          }
+        ]
+      },
+      "hostBoundaryPresent": true
+    }
+  },
+  "allPackageSources": [
+    {
+      "path": "SKILL.md",
+      "chars": 4144,
+      "sha256": "99521ae9cbcf5e7b37a5cec4bf1a383cb0def4cc6e49aee22dd20f55b5362134",
+      "selected": true,
+      "required": false,
+      "reason": "entry"
+    },
+    {
+      "path": "references/artifact-schemas.md",
+      "chars": 1750,
+      "sha256": "dfad51918cfcc0740646cbccff0dac582bd4ed23b87d56c2216cbe8d6eb4f05e",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/asset-prompt-templates.md",
+      "chars": 947,
+      "sha256": "912276830610bcece0bbe5cf661c62cf0ae333a745eaf4be7f1a06049b05e62d",
+      "selected": false,
+      "required": false,
+      "reason": "not an explicit relevant full path in entry"
+    },
+    {
+      "path": "references/assets.md",
+      "chars": 3931,
+      "sha256": "17a02f5c0eb8089fcdec79f5ab00600bf59db0f17faddc6cfd58d6941c95d7cc",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/canvas-execution.md",
+      "chars": 2848,
+      "sha256": "21d6140baf2ff887aa4199c553fc8a93f0eaeec46ea539943b329f48e430f9a0",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/character-cards.md",
+      "chars": 2556,
+      "sha256": "a4e9b5508e492bfc570f56094cf596072d69e088f2fb77aa86f8b635163a426a",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/continuity-rules.md",
+      "chars": 1197,
+      "sha256": "8baf1f1368f3db4f020da7702e7195e99a7eff41a9ac24ceea520aed2ffc295b",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/methods/color-and-light.md",
+      "chars": 737,
+      "sha256": "cf2f956525a5c9be3927e53cc9062479a6d8fc8a9336a7b508c0221829890e38",
+      "selected": false,
+      "required": false,
+      "reason": "not an explicit relevant full path in entry"
+    },
+    {
+      "path": "references/methods/screen-adaptation.md",
+      "chars": 654,
+      "sha256": "14c8005014bfacabd47b3e1a819b5c9cc602b8cb36887d3a717a13a4e52e1839",
+      "selected": false,
+      "required": false,
+      "reason": "not an explicit relevant full path in entry"
+    },
+    {
+      "path": "references/methods/story-development.md",
+      "chars": 703,
+      "sha256": "4b8b4d1089e256e95964a1801b8cbbf67ac04cd16cc020814c569b3bbc9ba4eb",
+      "selected": false,
+      "required": false,
+      "reason": "not an explicit relevant full path in entry"
+    },
+    {
+      "path": "references/methods/visual-design.md",
+      "chars": 617,
+      "sha256": "5ee71cd76d6733e1f1796d4a2b4009144a3214c571787b7c4c618f07a38da85a",
+      "selected": false,
+      "required": false,
+      "reason": "not an explicit relevant full path in entry"
+    },
+    {
+      "path": "references/source-and-script.md",
+      "chars": 1502,
+      "sha256": "1a3f6c92ec705d77b291995b4646f384b621d481ece8d28b464d591356dbd451",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/state-and-delivery.md",
+      "chars": 1449,
+      "sha256": "7ebdcf22ad0bea93d0247e6756e3ce7d0794d7778184fe61a80b7282b99cdf2b",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    },
+    {
+      "path": "references/state-machine.md",
+      "chars": 916,
+      "sha256": "8fb7f642060f2ae7ac214e25bbe17e3468478baf6ccd7a4d0449258d52a66cc3",
+      "selected": true,
+      "required": true,
+      "reason": "required or relevant reference"
+    }
+  ],
+  "allRequiredCapacityControl": {
+    "accepted": true,
+    "syntheticMainOnly": true,
+    "sourceFileCount": 14,
+    "injectedChars": 24409,
+    "paths": [
+      "SKILL.md",
+      "references/source-and-script.md",
+      "references/state-machine.md",
+      "references/assets.md",
+      "references/character-cards.md",
+      "references/artifact-schemas.md",
+      "references/continuity-rules.md",
+      "references/canvas-execution.md",
+      "references/state-and-delivery.md",
+      "references/asset-prompt-templates.md",
+      "references/methods/color-and-light.md",
+      "references/methods/screen-adaptation.md",
+      "references/methods/story-development.md",
+      "references/methods/visual-design.md"
+    ]
+  }
+}

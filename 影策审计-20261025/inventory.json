@@ -1,0 +1,706 @@
+{
+  "counts": {
+    "schema_migrations": 54,
+    "sqlite_sequence": 2,
+    "cloud_agent_executions": 0,
+    "upload_reservations": 0,
+    "cloud_agent_pi_sessions": 0,
+    "cloud_agent_event_records": 0,
+    "cloud_agent_message_records": 0,
+    "cloud_agent_canvas_mutations": 0,
+    "cloud_agent_resource_leases": 0,
+    "cloud_agent_gemini_caches": 0,
+    "agent_profiles": 0,
+    "agent_lessons": 0,
+    "agent_memory_settings": 1,
+    "users": 1,
+    "user_avatars": 0,
+    "auth_sessions": 0,
+    "login_logs": 0,
+    "user_identities": 0,
+    "o_auth_states": 0,
+    "email_verification_codes": 0,
+    "auth_verifications": 0,
+    "notification_quota": 0,
+    "sms_channels": 0,
+    "sms_records": 0,
+    "model_channels": 0,
+    "channel_models": 0,
+    "channel_model_price_tiers": 0,
+    "id_sequences": 7,
+    "logical_models": 0,
+    "logical_model_revisions": 0,
+    "logical_model_routes": 0,
+    "route_attempts": 74,
+    "api_call_logs": 707,
+    "model_pricings": 0,
+    "credit_accounts": 0,
+    "credit_ledger_entries": 0,
+    "billing_orders": 0,
+    "topup_products": 0,
+    "payment_provider_configs": 0,
+    "payment_orders": 0,
+    "payment_notifications": 0,
+    "payment_reconciliation_runs": 0,
+    "payment_reconciliation_items": 0,
+    "redeem_batches": 0,
+    "redeem_codes": 0,
+    "admin_audit_events": 3,
+    "user_daily_activities": 6,
+    "system_settings": 1,
+    "plugin_platform_states": 1,
+    "user_plugin_states": 0,
+    "ark_private_asset_bindings": 0,
+    "user_oss_settings": 0,
+    "storage_locations": 0,
+    "user_daily_upload_usages": 6,
+    "skills": 73,
+    "skill_library_categories": 0,
+    "skill_versions": 73,
+    "skill_files": 1139,
+    "user_skill_states": 1,
+    "builtin_skill_tombstones": 0,
+    "tools": 87,
+    "tool_favorites": 0,
+    "resources": 48,
+    "resource_deletion_jobs": 0,
+    "announcement_image_drafts": 0,
+    "assets": 183,
+    "asset_folders": 0,
+    "project_asset_links": 146,
+    "project_asset_folders": 0,
+    "project_asset_candidates": 187,
+    "asset_versions": 162,
+    "asset_representations": 26,
+    "voice_profiles": 0,
+    "character_voice_bindings": 0,
+    "projects": 7,
+    "style_profiles": 0,
+    "project_units": 7,
+    "canvas_unit_links": 0,
+    "shots": 20,
+    "shot_revisions": 93,
+    "shot_artifacts": 0,
+    "shot_asset_references": 105,
+    "workflow_template_versions": 1,
+    "workflow_instances": 7,
+    "workflow_step_instances": 42,
+    "workflow_step_tasks": 0,
+    "production_task_links": 0,
+    "canvas_projects": 7,
+    "canvas_snapshots": 0,
+    "canvas_snapshot_resources": 0,
+    "canvas_mutation_receipts": 135,
+    "workbench_tools": 118,
+    "workbench_presets": 354,
+    "canvas_shares": 0,
+    "prompt_templates": 9,
+    "user_prompt_customizations": 0,
+    "announcements": 0,
+    "user_announcement_reads": 0,
+    "banner_announcements": 0,
+    "tasks": 74,
+    "creation_runs": 0,
+    "creation_submissions": 0,
+    "task_text_delta": 958,
+    "task_logs": 235,
+    "results": 0,
+    "skill_curation_settings": 1,
+    "skill_curation_categories": 0,
+    "skill_curation_assignments": 0,
+    "skill_curation_roots": 5,
+    "skill_curation_root_assignments": 0
+  },
+  "schemas": {
+    "cloud_agent_executions": "CREATE TABLE `cloud_agent_executions` (`id` text,`user_id` text,`status` text,`revision` integer,`checkpoint_version` integer NOT NULL DEFAULT 0,`conversation_id` text,`parent_id` text,`title` text,`event_count` integer,`message_count` integer,`canvas_id` text,`active_task_id` text,`media_task_id` text,`cleanup_pending` numeric NOT NULL DEFAULT false,`failure_message` text,`state_json` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "cloud_agent_pi_sessions": "CREATE TABLE `cloud_agent_pi_sessions` (`run_id` text,`user_id` text NOT NULL,`session_jsonl` text NOT NULL,`revision` integer NOT NULL DEFAULT 1,`updated_at` datetime,PRIMARY KEY (`run_id`))",
+    "cloud_agent_event_records": "CREATE TABLE `cloud_agent_event_records` (`run_id` text,`sequence` integer,`user_id` text,`event_json` text NOT NULL,`created_at` datetime,PRIMARY KEY (`run_id`,`sequence`),CONSTRAINT `fk_cloud_agent_executions_journal` FOREIGN KEY (`run_id`) REFERENCES `cloud_agent_executions`(`id`))",
+    "cloud_agent_message_records": "CREATE TABLE `cloud_agent_message_records` (`run_id` text,`kind` text,`sequence` integer,`user_id` text,`message_json` text NOT NULL,PRIMARY KEY (`run_id`,`kind`,`sequence`),CONSTRAINT `fk_cloud_agent_executions_transcript` FOREIGN KEY (`run_id`) REFERENCES `cloud_agent_executions`(`id`))",
+    "cloud_agent_canvas_mutations": "CREATE TABLE `cloud_agent_canvas_mutations` (`id` text,`run_id` text,`user_id` text,`canvas_id` text,`step_id` text,`operation` text,`before_snapshot_hash` text,`after_snapshot_hash` text,`before_json` text,`has_submitted_task` numeric,`status` text,`created_at` datetime,`undone_at` datetime,PRIMARY KEY (`id`))",
+    "cloud_agent_resource_leases": "CREATE TABLE `cloud_agent_resource_leases` (`user_id` text,`run_id` text,`owner_id` text,`resource_id` text,`expires_at` datetime,PRIMARY KEY (`user_id`,`owner_id`,`resource_id`))",
+    "cloud_agent_gemini_caches": "CREATE TABLE `cloud_agent_gemini_caches` (`id` text,`user_id` text NOT NULL,`cache_key` text NOT NULL,`base_url` text NOT NULL,`model` text NOT NULL,`credential_hash` text NOT NULL,`resource_name` text NOT NULL,`expire_time` datetime NOT NULL,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "agent_profiles": "CREATE TABLE `agent_profiles` (`id` text,`user_id` text,`scope` text,`project_id` text,`canvas_id` text,`content` text,`revision` integer,`hash` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "agent_lessons": "CREATE TABLE `agent_lessons` (`id` text,`topic` text,`category` text,`situation` text,`lesson` text,`source` text,`steps_json` text,`status` text,`author_user_id` text,`hits` integer,`injected` integer,`last_verified_at` datetime,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "agent_memory_settings": "CREATE TABLE `agent_memory_settings` (`user_id` text,`compact_interval` text,`logical_model_id` text,`channel_id` text,`channel_model_key` text,`model` text,`last_compact_at` datetime,`compact_started_at` datetime,`compact_task_id` text,`last_status` text,`last_summary_json` text,`last_error` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`user_id`))",
+    "system_settings": "CREATE TABLE `system_settings` (`key` text,`value_json` text,`updated_by` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`key`))",
+    "plugin_platform_states": "CREATE TABLE `plugin_platform_states` (`plugin_id` text,`available` numeric,`updated_by` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`plugin_id`))",
+    "user_plugin_states": "CREATE TABLE `user_plugin_states` (`id` text,`user_id` text,`plugin_id` text,`enabled` numeric,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "user_oss_settings": "CREATE TABLE `user_oss_settings` (`id` text,`user_id` text,`enabled` numeric,`value_json` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "skills": "CREATE TABLE `skills` (`id` text,`owner_id` text,`author_name` text,`author_avatar_url` text,`name` text,`description` text,`instruction` text,`current_version_id` text,`version_label` text,`content_hash` text,`file_count` integer,`total_bytes` integer,`source_type` text,`source_url` text,`source_ref` text,`source_subdir` text,`source_commit` text,`sync_status` text,`sync_error` text,`auto_update` numeric,`last_checked_at` datetime,`last_synced_at` datetime,`status` integer,`source` integer,`tag` text,`sort_weight` integer,`is_private` numeric,`markdown_url` text,`showcase_media_json` text,`extra_info` text,`initial_like_count` integer,`initial_added_count` integer,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "skill_library_categories": "CREATE TABLE `skill_library_categories` (`id` text,`name` text NOT NULL,`normalized_name` text NOT NULL,`scope` text NOT NULL,`owner_id` text NOT NULL,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "skill_versions": "CREATE TABLE `skill_versions` (`id` text,`skill_id` text,`version_label` text,`content_hash` text,`entry_path` text,`package_key` text,`file_count` integer,`total_bytes` integer,`source_commit` text,`created_at` datetime,PRIMARY KEY (`id`))",
+    "skill_files": "CREATE TABLE `skill_files` (`id` text,`skill_version_id` text,`path` text,`kind` text,`mime_type` text,`size` integer,`sha256` text,`created_at` datetime,PRIMARY KEY (`id`))",
+    "user_skill_states": "CREATE TABLE `user_skill_states` (`id` text,`user_id` text,`skill_id` text,`library_category_id` text,`installed_version_id` text,`auto_update` numeric,`added` numeric,`liked` numeric,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "builtin_skill_tombstones": "CREATE TABLE `builtin_skill_tombstones` (`skill_id` text,`deleted_by` text,`deleted_at` datetime,PRIMARY KEY (`skill_id`))",
+    "canvas_unit_links": "CREATE TABLE `canvas_unit_links` (`id` text,`project_id` text,`canvas_id` text,`unit_id` text,`role` text,`created_at` datetime,PRIMARY KEY (`id`))",
+    "workflow_step_tasks": "CREATE TABLE `workflow_step_tasks` (`id` text,`workflow_step_id` text,`task_id` text,`created_at` datetime,PRIMARY KEY (`id`))",
+    "production_task_links": "CREATE TABLE `production_task_links` (`id` text,`task_id` text,`project_id` text,`canvas_id` text,`unit_id` text,`shot_id` text,`workflow_step_id` text,`artifact_type` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "canvas_projects": "CREATE TABLE `canvas_projects` (`id` text,`user_id` text,`project_id` text,`title` text,`payload_json` text,`revision` integer NOT NULL DEFAULT 1,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "canvas_snapshots": "CREATE TABLE `canvas_snapshots` (`id` text,`canvas_id` text NOT NULL,`user_id` text NOT NULL,`revision` integer NOT NULL,`title` text,`node_count` integer,`connection_count` integer,`payload_bytes` integer,`payload_json` text NOT NULL,`reason` text,`content_updated_at` datetime,`created_at` datetime NOT NULL,PRIMARY KEY (`id`))",
+    "canvas_snapshot_resources": "CREATE TABLE `canvas_snapshot_resources` (`snapshot_id` text,`resource_id` text,PRIMARY KEY (`snapshot_id`,`resource_id`),CONSTRAINT `fk_canvas_snapshot_resources_resource` FOREIGN KEY (`resource_id`) REFERENCES `resources`(`id`) ON DELETE RESTRICT)",
+    "canvas_mutation_receipts": "CREATE TABLE `canvas_mutation_receipts` (`id` text,`user_id` text,`canvas_id` text,`mutation_id` text,`payload_digest` text,`result_json` text,`revision` integer,`created_at` datetime,PRIMARY KEY (`id`))",
+    "canvas_shares": "CREATE TABLE `canvas_shares` (`id` text,`user_id` text,`project_id` text,`token_hash` text,`token_cipher` text,`enabled` numeric,`expires_at` datetime,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "prompt_templates": "CREATE TABLE `prompt_templates` (`id` text,`operation` text,`name` text,`version` integer,`content` text,`output_type` text,`enabled` numeric,`created_by` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "user_prompt_customizations": "CREATE TABLE `user_prompt_customizations` (`id` text,`user_id` text,`operation` text,`mode` text,`content` text,`base_template_id` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "tasks": "CREATE TABLE `tasks` (`agent_run_id` text,`generation_id` text,`approval_id` text,`authorized_charge_microcredits` integer,`execution_diagnostic_json` text,`cancellation_source` text,`cancellation_actor_id` text,`cancellation_requested_at` datetime,`creation_submission_id` text,`workbench_kind` text,`id` text,`user_id` text,`trace_id` text,`request_id` text,`project_id` text,`type` text,`status` text,`stage` text,`progress` integer,`prompt` text,`operation` text,`provider` text,`model` text,`logical_model_id` text,`logical_model_revision_id` text,`route_id` text,`channel_model_id` text,`route_run` integer,`billing_order_id` text,`provider_request_id` text,`provider_cancel_status` text,`provider_cancel_error` text,`provider_cancel_attempts` integer,`provider_cancel_requested_at` datetime,`provider_cancelled_at` datetime,`provider_cancel_next_check_at` datetime,`poll_stage` text,`next_poll_at` datetime,`lease_owner` text,`lease_expires_at` datetime,`input_json` text,`result_json` text,`media_recovery_json` text,`media_stage` text,`text_draft` text,`error` text,`attempts` integer,`started_at` datetime,`completed_at` datetime,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))",
+    "task_text_delta": "CREATE TABLE `task_text_delta` (`id` text,`user_id` text,`task_id` text,`sequence` integer,`content` text,`byte_count` integer,`created_at` datetime,`expires_at` datetime,PRIMARY KEY (`id`))",
+    "task_logs": "CREATE TABLE `task_logs` (`id` text,`user_id` text,`task_id` text,`trace_id` text,`request_id` text,`level` text,`message` text,`payload` text,`created_at` datetime,PRIMARY KEY (`id`))",
+    "skill_curation_settings": "CREATE TABLE `skill_curation_settings` (`id` integer,`enabled` numeric,`revision` integer,PRIMARY KEY (`id`))",
+    "skill_curation_categories": "CREATE TABLE `skill_curation_categories` (`id` text,`root_tag` text NOT NULL,`name` text NOT NULL,`normalized_name` text NOT NULL,`sort_order` integer,`enabled` numeric,PRIMARY KEY (`id`))",
+    "skill_curation_assignments": "CREATE TABLE `skill_curation_assignments` (`skill_id` text,`category_id` text,PRIMARY KEY (`skill_id`,`category_id`))",
+    "skill_curation_roots": "CREATE TABLE `skill_curation_roots` (`id` text,`name` text NOT NULL,`normalized_name` text NOT NULL,`icon_key` text,`sort_order` integer,`enabled` numeric,PRIMARY KEY (`id`))",
+    "skill_curation_root_assignments": "CREATE TABLE `skill_curation_root_assignments` (`skill_id` text,`root_id` text NOT NULL,PRIMARY KEY (`skill_id`))"
+  },
+  "templates": [
+    {
+      "id": "fc6e64e1ff7fc927e15b41d45964eeeb",
+      "operation": "chapter_assets_extract",
+      "name": "典藏五维 · 完整角色设定",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 2545
+    },
+    {
+      "id": "f0a98f902d682531c37e4cf65429c121",
+      "operation": "storyboard_plan",
+      "name": "默认分镜规划模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 613
+    },
+    {
+      "id": "9581c1aeaa29ec190f8b07b143f1de54",
+      "operation": "storyboard_repair",
+      "name": "默认分镜修复模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 178
+    },
+    {
+      "id": "439a495c028d0cdb8e93bdece219d17c",
+      "operation": "storyboard_first_frame",
+      "name": "默认分镜首帧模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "text",
+      "length": 174
+    },
+    {
+      "id": "c281ce82f87294848ac7137d608d2d9f",
+      "operation": "storyboard_video",
+      "name": "默认分镜视频模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "text",
+      "length": 171
+    },
+    {
+      "id": "8831db75caeaa227462b64f06b6a607e",
+      "operation": "character_extract",
+      "name": "臻像四联 · 全身与肖像",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 2890
+    },
+    {
+      "id": "616f5cb53cd8c9dfea7a7bd95cff8840",
+      "operation": "character_turnaround",
+      "name": "凝像双联 · 侧身与肖像",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 2583
+    },
+    {
+      "id": "ef3f03cb8295c0be77d0b04b4f75f8e6",
+      "operation": "short_drama_outline",
+      "name": "默认短剧大纲模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 137
+    },
+    {
+      "id": "22ba9d17284c7feb41488517354765d0",
+      "operation": "skill_draft",
+      "name": "默认技能草稿模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "length": 291
+    }
+  ],
+  "customizations": [],
+  "task_status": [
+    {
+      "operation": "image",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "count": 16
+    },
+    {
+      "operation": "storyboard",
+      "status": "failed",
+      "stage": "任务失败",
+      "count": 2
+    },
+    {
+      "operation": "storyboard",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "count": 2
+    },
+    {
+      "operation": "text",
+      "status": "failed",
+      "stage": "failed",
+      "count": 2
+    },
+    {
+      "operation": "text",
+      "status": "failed",
+      "stage": "任务失败",
+      "count": 6
+    },
+    {
+      "operation": "text",
+      "status": "failed",
+      "stage": "任务结果保存失败",
+      "count": 3
+    },
+    {
+      "operation": "text",
+      "status": "failed",
+      "stage": "路由准备失败",
+      "count": 2
+    },
+    {
+      "operation": "text",
+      "status": "running",
+      "stage": "调用生成模型",
+      "count": 1
+    },
+    {
+      "operation": "text",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "count": 40
+    }
+  ],
+  "candidates": [
+    {
+      "category": "character",
+      "status": "confirmed",
+      "count": 67
+    },
+    {
+      "category": "character",
+      "status": "pending_confirmation",
+      "count": 8
+    },
+    {
+      "category": "environment",
+      "status": "confirmed",
+      "count": 27
+    },
+    {
+      "category": "environment",
+      "status": "pending_confirmation",
+      "count": 14
+    },
+    {
+      "category": "prop",
+      "status": "confirmed",
+      "count": 44
+    },
+    {
+      "category": "prop",
+      "status": "pending_confirmation",
+      "count": 27
+    }
+  ],
+  "plugins": {
+    "error": "no such column: id"
+  },
+  "module_graph": {
+    "reachable": 1583,
+    "missing": [],
+    "total_js": 6485
+  },
+  "modules": {
+    "canvas": [
+      "canvas-C2V9MF3q.js",
+      "canvas-CEFfoSrJ.js",
+      "canvas-aceternity-style-CznumEqD.js",
+      "canvas-batch-table-tJZ_d6cZ.js",
+      "canvas-character-reference-qPZJkX1a.js",
+      "canvas-delete-projects-dialog-DpjGzQ6F.js",
+      "canvas-drawing-editor-modal-CitAiw_M.js",
+      "canvas-drawing-excalidraw-document-BDI36VQU.js",
+      "canvas-drawing-excalidraw-editor-Cu2ejBsa.js",
+      "canvas-drawing-excalidraw-editor-DtRVLazd.css",
+      "canvas-drawing-storage-BLgA5ID7.js",
+      "canvas-drawing-tldraw-document-DvzLVu33.js",
+      "canvas-drawing-tldraw-editor-DK9qfp18.css",
+      "canvas-drawing-tldraw-editor-s5YrL6_Q.js",
+      "canvas-file-upload-BOmM8CjK.js",
+      "canvas-folder-preview-KZrUX2DQ.js",
+      "canvas-generation-task-sync-Brs008C_.js",
+      "canvas-image-preview-tc9uJXie.js",
+      "canvas-media-preview-CkQO18I-.js",
+      "canvas-node-BgSYKWgA.css",
+      "canvas-node-BrmzsbeF.js",
+      "canvas-node-asset-KmvyPtt_.js",
+      "canvas-previs-workbench-BhL_zh_9.js",
+      "canvas-previs-workbench-CCPjtRIA.css",
+      "canvas-project-card-CNJ_G8uD.js",
+      "canvas-project-domain-BMfNpNkE.js",
+      "canvas-project-generation-DKqeyZxD.js",
+      "canvas-prompt-optimizer-drawer-C6erOSTO.js",
+      "canvas-refresh-shell-BYw7Lepy.js",
+      "canvas-resource-mention-textarea-LSTgFm8t.js",
+      "canvas-resource-references-1EftlkFh.js",
+      "canvas-style-picker-modal-BWHuaVKT.js",
+      "canvas-task-state-D8uLleGm.js",
+      "canvas-theme-qxNo3CuR.js",
+      "canvas-video-merge-D0Kmm8gl.js",
+      "canvases-CCdLPnsA.js",
+      "use-canvas-theme-store-Cyr-x7S3.js",
+      "use-canvas-ui-store-DyUFYVce.js"
+    ],
+    "settings": [
+      "access-settings-panel-XXbfnBWW.js",
+      "appearance-settings-page-Biu-xFj5.js",
+      "appearance-settings-page-C5Z4lVOi.css",
+      "ark-private-assets-settings-page-CZlUJMoR.js",
+      "drawing-engine-settings-page-BuHeJy8M.js",
+      "email-settings-panel-dUiq4uF_.js",
+      "libtv-settings-page-CDvixyn9.js",
+      "oss-settings-B8qIgQzd.js",
+      "response-interception-settings-page-DInfxmjx.js",
+      "runtime-policy-settings-page-4ujwjjZe.js",
+      "settings-B9H2OwlU.js",
+      "settings-CiMLRPUU.css",
+      "settings-D8GTFmm6.js",
+      "settings-navigation-BjiOtoD3.js",
+      "storage-settings-page-CNlxq1rR.js"
+    ],
+    "skill": [
+      "skill-curation-browser-DSA37pmy.js",
+      "skill-curation-page-CzQ5zcmf.css",
+      "skill-curation-page-D3TRA85O.js",
+      "skill-runtime-CF8drDK4.js",
+      "skills-8uwnUvZU.js",
+      "skills-DHDdovXH.js"
+    ],
+    "agent": [
+      "agent-lessons-panel-B9alkmeM.js",
+      "agent-memories-DAFBn5bw.js"
+    ],
+    "prompt": [
+      "canvas-prompt-optimizer-drawer-C6erOSTO.js",
+      "character-prompt-formats.js",
+      "prompt-code-editor-Bgn-HOOU.js",
+      "prompt-optimizer-CURix3wv.js",
+      "prompts-C9Ts6kIN.js",
+      "storyboard-prompts-page-DRwECkxS.js"
+    ],
+    "workflow": [
+      "workflow-CTgJb1m8.js",
+      "workflow-D5sXobee.css",
+      "workflow-production-workbench-DLsty33y.js",
+      "workflow-shared-BBoZacw_.js",
+      "workflow-shot-references-CRoK17V2.js",
+      "workflows-wJGMT83O.js"
+    ],
+    "chapter": [
+      "chapters-CeKTBaiU.js",
+      "project-chapter-storyboard-d54x9504.js"
+    ],
+    "project": [
+      "canvas-delete-projects-dialog-DpjGzQ6F.js",
+      "canvas-project-card-CNJ_G8uD.js",
+      "canvas-project-domain-BMfNpNkE.js",
+      "canvas-project-generation-DKqeyZxD.js",
+      "project-B1ILFjAQ.css",
+      "project-B6TxOaS-.js",
+      "project-asset-sync-C9aJ37b5.js",
+      "project-chapter-storyboard-d54x9504.js",
+      "projects-DAnF4Ptj.js",
+      "projects-cGJN8aeG.js"
+    ],
+    "matching": [],
+    "copy": [
+      "use-copy-text-BjNDIVLI.js"
+    ],
+    "extract": [
+      "asset-extraction-runtime-v3.js",
+      "character-extraction-rules.js",
+      "extraction-completeness-v4.js",
+      "extraction-contract-v3.js",
+      "extraction-recovery.js"
+    ]
+  },
+  "source_drift": [
+    {
+      "name": "asset-extraction-runtime-v3.js",
+      "same": true,
+      "src_sha256": "f92f074a6df6a9770140261a7e24011a2dc51c82236ea691541c9503a7721458",
+      "installed_sha256": "f92f074a6df6a9770140261a7e24011a2dc51c82236ea691541c9503a7721458"
+    },
+    {
+      "name": "character-extraction-rules.js",
+      "same": true,
+      "src_sha256": "be4b4ab823646e7f3a458982cca855dbdd3212c00941d69ba11cacc8e9acfe8c",
+      "installed_sha256": "be4b4ab823646e7f3a458982cca855dbdd3212c00941d69ba11cacc8e9acfe8c"
+    },
+    {
+      "name": "character-prompt-formats.js",
+      "same": true,
+      "src_sha256": "12b53161c33d4aa13779b2665a746a46197e68fe53cea42b6f837506b4717ddf",
+      "installed_sha256": "12b53161c33d4aa13779b2665a746a46197e68fe53cea42b6f837506b4717ddf"
+    },
+    {
+      "name": "extraction-completeness-v3.js",
+      "same": false,
+      "src_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d",
+      "installed_sha256": "467d8c18e35f46e201ddeaef64e32e94edb1416aa54d707d62e37df2fada73ba"
+    },
+    {
+      "name": "extraction-completeness-v4.js",
+      "same": true,
+      "src_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d",
+      "installed_sha256": "b7b5c6c3ebbf7f0a99bd902177b991dbcf1687a9ee078b859402d2e2db68875d"
+    },
+    {
+      "name": "extraction-recovery.js",
+      "same": true,
+      "src_sha256": "f40023547e879d998bf5d7ffab4504ba3550f9d21445e7e9b1348b8eee5dfcaf",
+      "installed_sha256": "f40023547e879d998bf5d7ffab4504ba3550f9d21445e7e9b1348b8eee5dfcaf"
+    },
+    {
+      "name": "extraction-response-mode.js",
+      "same": true,
+      "src_sha256": "b47296de3b06c331802565c03efe81d5d054e0b966fd0bbcf075605393a3d607",
+      "installed_sha256": "b47296de3b06c331802565c03efe81d5d054e0b966fd0bbcf075605393a3d607"
+    },
+    {
+      "name": "mention-clipboard.js",
+      "same": true,
+      "src_sha256": "d0c41edd0c683f7e649fd6af76057dc7a594d3fb080b4825b9230435a454e841",
+      "installed_sha256": "d0c41edd0c683f7e649fd6af76057dc7a594d3fb080b4825b9230435a454e841"
+    },
+    {
+      "name": "original-character-format.js",
+      "same": true,
+      "src_sha256": "cb77b6432463e4e1a11f22a15332af41db4d6f6c5a72a726940c065133c63da7",
+      "installed_sha256": "cb77b6432463e4e1a11f22a15332af41db4d6f6c5a72a726940c065133c63da7"
+    },
+    {
+      "name": "shot-asset-bindings.js",
+      "same": true,
+      "src_sha256": "91170b23d2fafd263439b8858dcaad368fe760c88ca9dc1ce3fb72e5772b9e44",
+      "installed_sha256": "91170b23d2fafd263439b8858dcaad368fe760c88ca9dc1ce3fb72e5772b9e44"
+    },
+    {
+      "name": "storyboard-complete.js",
+      "same": true,
+      "src_sha256": "f8c563a62c0fd6016bcf8c08db3239ede4e0f6893cfde25d940bc1d9f53a0ad5",
+      "installed_sha256": "f8c563a62c0fd6016bcf8c08db3239ede4e0f6893cfde25d940bc1d9f53a0ad5"
+    },
+    {
+      "name": "storyboard-detail-contract.js",
+      "same": true,
+      "src_sha256": "48c08433be3c4aa909786ce24d99a3251c58b0cb0bd3f664a6cbf51befc71d9b",
+      "installed_sha256": "48c08433be3c4aa909786ce24d99a3251c58b0cb0bd3f664a6cbf51befc71d9b"
+    },
+    {
+      "name": "storyboard-detail-normalize.js",
+      "same": true,
+      "src_sha256": "06c9d6affee5943c9b6de586ffa89844958bb9031ffe2d1e78031be41118b2c6",
+      "installed_sha256": "06c9d6affee5943c9b6de586ffa89844958bb9031ffe2d1e78031be41118b2c6"
+    },
+    {
+      "name": "storyboard-single-call.js",
+      "same": true,
+      "src_sha256": "40aa81ff37f681db90c562532f2bff95e8e0bad0d111f915be46ae56c6d1a051",
+      "installed_sha256": "40aa81ff37f681db90c562532f2bff95e8e0bad0d111f915be46ae56c6d1a051"
+    },
+    {
+      "name": "storyboard-spatial-render.js",
+      "same": true,
+      "src_sha256": "b49010feb10d4b7debb110f5555654f5cd67289a561f2f24064fd0836b41507d",
+      "installed_sha256": "b49010feb10d4b7debb110f5555654f5cd67289a561f2f24064fd0836b41507d"
+    },
+    {
+      "name": "storyboard-template-standard.js",
+      "same": true,
+      "src_sha256": "2c14ae761cf21a7f21bf377a46bb5d6404a6cf1bc5e3f29dea40dc8cb6f56d1e",
+      "installed_sha256": "2c14ae761cf21a7f21bf377a46bb5d6404a6cf1bc5e3f29dea40dc8cb6f56d1e"
+    }
+  ],
+  "plugin_registry": [
+    {
+      "id": "a6api",
+      "name": "A6api",
+      "providers": [
+        {
+          "id": "a6api-chat",
+          "capabilities": [
+            "text"
+          ]
+        },
+        {
+          "id": "a6api-image",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "cc-api-sd25",
+      "name": "CC API · 视频模型",
+      "providers": [
+        {
+          "id": "cc-api-sd25",
+          "capabilities": [
+            "video"
+          ]
+        },
+        {
+          "id": "cc-api-sd20",
+          "capabilities": [
+            "video"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "image-tools",
+      "name": "Image Tools",
+      "providers": [
+        {
+          "id": "image-tools-remove-background",
+          "capabilities": [
+            "image"
+          ]
+        },
+        {
+          "id": "image-tools-layer-decomposition",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "mona-gpt-free",
+      "name": "Mona · Image 2.5 免费版与4分版",
+      "providers": [
+        {
+          "id": "mona-gpt-free",
+          "capabilities": [
+            "image"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-alipay-page",
+      "name": "支付宝电脑网站支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-epay",
+      "name": "易支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-wechat-native",
+      "name": "微信支付 Native",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-xunhupay",
+      "name": "虎皮椒聚合支付",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-payment-zhifufm",
+      "name": "支付FM",
+      "providers": [],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "official-sms-aliyun",
+      "name": "阿里云短信",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "official-sms-tencent",
+      "name": "腾讯云短信",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "runninghub-workflow",
+      "name": "RunningHub Workflow",
+      "providers": [
+        {
+          "id": "runninghub-workflow",
+          "capabilities": [
+            "video"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    },
+    {
+      "id": "runninghub-workflow-provider",
+      "name": "RunningHub 工作流",
+      "providers": [],
+      "package_exists": false,
+      "sha256_ok": false
+    },
+    {
+      "id": "yingce-asset-json",
+      "name": "影策资产 JSON 专用协议",
+      "providers": [
+        {
+          "id": "yingce-asset-json-chat",
+          "capabilities": [
+            "text"
+          ]
+        }
+      ],
+      "package_exists": true,
+      "sha256_ok": true
+    }
+  ]
+}

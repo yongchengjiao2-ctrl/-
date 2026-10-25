@@ -1,0 +1,1864 @@
+{
+  "schema": {
+    "skills": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "owner_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "author_name",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "author_avatar_url",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "name",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "description",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "instruction",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "current_version_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "version_label",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "content_hash",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "file_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "total_bytes",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "source_type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 13,
+        "name": "source_url",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 14,
+        "name": "source_ref",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 15,
+        "name": "source_subdir",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 16,
+        "name": "source_commit",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 17,
+        "name": "sync_status",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 18,
+        "name": "sync_error",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 19,
+        "name": "auto_update",
+        "type": "numeric",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 20,
+        "name": "last_checked_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 21,
+        "name": "last_synced_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 22,
+        "name": "status",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 23,
+        "name": "source",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 24,
+        "name": "tag",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 25,
+        "name": "sort_weight",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 26,
+        "name": "is_private",
+        "type": "numeric",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 27,
+        "name": "markdown_url",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 28,
+        "name": "showcase_media_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 29,
+        "name": "extra_info",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 30,
+        "name": "initial_like_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 31,
+        "name": "initial_added_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 32,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 33,
+        "name": "updated_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "skill_versions": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "skill_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "version_label",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "content_hash",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "entry_path",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "package_key",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "file_count",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "total_bytes",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "source_commit",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "skill_files": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "skill_version_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "path",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "kind",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "mime_type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "size",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "sha256",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "user_skill_states": [
+      {
+        "cid": 0,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "user_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "skill_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "library_category_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "installed_version_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "auto_update",
+        "type": "numeric",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "added",
+        "type": "numeric",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "liked",
+        "type": "numeric",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "updated_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "tasks": [
+      {
+        "cid": 0,
+        "name": "agent_run_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 1,
+        "name": "generation_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "approval_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "authorized_charge_microcredits",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "execution_diagnostic_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "cancellation_source",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "cancellation_actor_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "cancellation_requested_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "creation_submission_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "workbench_kind",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 11,
+        "name": "user_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "trace_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 13,
+        "name": "request_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 14,
+        "name": "project_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 15,
+        "name": "type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 16,
+        "name": "status",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 17,
+        "name": "stage",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 18,
+        "name": "progress",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 19,
+        "name": "prompt",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 20,
+        "name": "operation",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 21,
+        "name": "provider",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 22,
+        "name": "model",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 23,
+        "name": "logical_model_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 24,
+        "name": "logical_model_revision_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 25,
+        "name": "route_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 26,
+        "name": "channel_model_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 27,
+        "name": "route_run",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 28,
+        "name": "billing_order_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 29,
+        "name": "provider_request_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 30,
+        "name": "provider_cancel_status",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 31,
+        "name": "provider_cancel_error",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 32,
+        "name": "provider_cancel_attempts",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 33,
+        "name": "provider_cancel_requested_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 34,
+        "name": "provider_cancelled_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 35,
+        "name": "provider_cancel_next_check_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 36,
+        "name": "poll_stage",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 37,
+        "name": "next_poll_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 38,
+        "name": "lease_owner",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 39,
+        "name": "lease_expires_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 40,
+        "name": "input_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 41,
+        "name": "result_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 42,
+        "name": "media_recovery_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 43,
+        "name": "media_stage",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 44,
+        "name": "text_draft",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 45,
+        "name": "error",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 46,
+        "name": "attempts",
+        "type": "INTEGER",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 47,
+        "name": "started_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 48,
+        "name": "completed_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 49,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 50,
+        "name": "updated_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "system_settings": [
+      {
+        "cid": 0,
+        "name": "key",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 1,
+        "name": "value_json",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "updated_by",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 3,
+        "name": "created_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "updated_at",
+        "type": "datetime",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ]
+  },
+  "templates": [
+    {
+      "operation": "chapter_assets_extract",
+      "name": "典藏五维 · 完整角色设定",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "【固定资产提取规则】\n你是短剧资产导演。逐句建立资产清单，再按人物、场景、道具逐项核对原文，穷尽本章所有需要制作的资产，不设数量上限，不只提取主角、主场景或关键道具。合并同一身份的别名；不同空间、室内外、明确的时段或造型差异分别保留，不能因为只出现一次就遗漏。无对应资产才返回空数组。\n【人物与群像】characters 包含所有实际出现、发言或参与动作的具名人物、职能人物，以及学生、军警、护卫、围观群众等群像。群像按原文群体名称建独立角色卡，在 role 明确群体身份、规模和个体差异，不虚构逐人姓名；生物也作为角色资产，明确物种与结构，multiViewPrompt 使用白底正面、严格侧面、背面完整三视图。纯粹被提及但不需要呈现的人物不要伪装为出场人物。\n【完整形象】人物 appearance 按基础档案、性别年龄、脸型骨相、眉毛、额头与记忆点、眼睛、鼻子、嘴唇、皮肤年龄质感、妆造神态、发型、发色、发饰逐项描述；physique 描述身高比例体态；clothing 按视觉基调、配色层次、服装廓形、布料工艺、腰带、领口肩颈、裤裙、鞋靴从头到脚完整描述。保留原文事实；未明确的身份关系、年龄等写“正文未明确”，可为必要视觉空白提出符合时代和项目画风的“造型建议”，不能当作原文事实。consistencyPrompt 汇总稳定形象，multiViewPrompt 写成可直接绘图的完整设定提示词，不只写一句“三视图”。\n【场景】scenes 覆盖所有可见或需要呈现的地点、转场、子空间；prompt 按[0.画面要求][1.基础档案][2.时代世界观与建筑硬装][3.门窗立柱][3.5动态元素隔离][4.核心陈设][5.次级软装][6.光源布局][7.时段天气][8.零帧完整底态][9.摄影视角][10.纯净空境负面约束]组织。保留静态地标，剥离人物、群像、动物和剧情临时道具；无人物空镜、结构完整、无剧情破坏血迹，符合真实世界或项目既定超自然边界。不要把所有地点合并为一个泛化场景。\n【道具】props 覆盖正文出现、使用、携带或明确需要画面呈现的物件、交通工具、文件和器具；不只保留推动主线的物品，不凭空添加装饰物。prompt 包含名称用途、时代、形态比例、材质工艺、颜色纹理、结构细节与尺度，纯白背景并列正面、严格侧面、背面三视图，完整轮廓，同一物体，无手持人物、无环境。\n【风格】所有资产的绘图提示词以[0.画面要求]开头，完整继承制作总览传入的项目画风、媒介、时代、材质与世界观；不得硬编码成3D或现代都市。画质清晰、细节丰富，但不能改变项目原风格。输出前逐句复核遗漏、分类及别名重复。\n\n【本次角色提示词输出格式】\n以下格式仅作用于characters[].multiViewPrompt，不改变人物提取范围、其他角色字段、场景或道具；只输出一次完整资产JSON，不分阶段、不请求追加调用。\n【人物与群像】characters 包含所有实际出现、发言或参与动作的具名人物、职能人物，以及学生、军警、护卫、围观群众等群像。群像按原文群体名称建独立角色卡，在 role 明确群体身份、规模和个体差异，不虚构逐人姓名；生物也作为角色资产，明确物种与结构，multiViewPrompt 使用白底正面、严格侧面、背面完整三视图。纯粹被提及但不需要呈现的人物不要伪装为出场人物。\n\n【完整形象】人物 appearance 按基础档案、性别年龄、脸型骨相、眉毛、额头与记忆点、眼睛、鼻子、嘴唇、皮肤年龄质感、妆造神态、发型、发色、发饰逐项描述；physique 描述身高比例体态；clothing 按视觉基调、配色层次、服装廓形、布料工艺、腰带、领口肩颈、裤裙、鞋靴从头到脚完整描述。保留原文事实；未明确的身份关系、年龄等写“正文未明确”，可为必要视觉空白提出符合时代和项目画风的“造型建议”，不能当作原文事实。consistencyPrompt 汇总稳定形象，multiViewPrompt 写成可直接绘图的完整设定提示词，不只写一句“三视图”。\n\n【人物排版】multiViewPrompt 采用纯白背景、细冷灰分隔线；左侧占2/3，三等分竖向面板：正面无头躯干、严格90度左侧无头躯干、含完整头发的背面全身；前两格自锁骨上方自然截断至鞋底，无头、下巴、脖子，保留完整衣领开口、自然露肤和服装结构；右侧占1/3，上下分别为正脸与脖子、45度左侧脸与脖子特写。所有视角同一身份服装比例，头部端正、双眼平视，禁止裁切鞋履。饰品遵循人物设定，不无故添加耳饰耳机。群像明确这是同一群体的代表成员设定，避免将不同身份混成一个人。保留语言、声音年龄、音色字段。\n\n【风格】所有资产的绘图提示词以[0.画面要求]开头，完整继承制作总览传入的项目画风、媒介、时代、材质与世界观；不得硬编码成3D或现代都市。画质清晰、细节丰富，但不能改变项目原风格。输出前逐句复核遗漏、分类及别名重复。\n\n【输出数据合同】\n严格只返回JSON对象，不能有Markdown围栏或解释。顶层必须包含characters、scenes、props三个数组，无对应资产返回空数组。characters每项必须包含name、aliases（字符串数组）、role、appearance、physique、clothing、personality、props、consistencyPrompt、multiViewPrompt、voiceLanguage、voiceAge、voiceTimbre；除aliases外全部为字符串。name、role和三个声音字段必须非空；未明确的声音可标为造型/声音建议，不伪造原文事实。appearance、clothing、physique、personality、consistencyPrompt、multiViewPrompt中至少三项非空。scenes和props每项必须包含非空字符串name、description、prompt。角色multiViewPrompt使用所选格式，场景和道具prompt继续完整遵守固定规则。所有提示词引用传入项目画风，不沿用示例人物。"
+    },
+    {
+      "operation": "storyboard_plan",
+      "name": "默认分镜规划模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "你是影视分镜导演和 AI 视频提示词专家。先理解故事目标、人物动机、冲突、情绪曲线和结尾，再把剧情转译为可执行、可拍摄的连续镜头，不要把剧情段落直接改写成镜头摘要。\n\n每个镜头先确定观众此刻跟随谁，再明确 narrativeIntent、viewerPOV 和 performanceBlocking，然后选择景别、机位、焦段、构图和运镜。摄影机设计必须说明叙事动机，不得用术语数量代替导演判断；一个镜头只保留一个主运镜，必须有起点、动机和停止点，并为人物表演让出注意力。\n\n大远景只承担空间、规模和处境建立；人物对白与喜剧反应优先使用中景、近景、过肩或独立反应镜头。按叙事需要使用反应、停顿、空镜、插入和匹配剪辑，避免每镜都推进、环绕、航拍或慢动作。\n\ndescription 只写可见画面与动作；把“意识到、回忆起、感到”等不可见信息转译成眼神、停顿、手部动作、走位、道具反应或环境变化。visualPrompt 明确人物左右位置、视线、前中后景、遮挡、视觉焦点、可信光源、材质和色彩；videoPrompt 只补充主体运动、环境运动和结尾状态。\n\n保持角色五官、年龄、发型、服装、道具、损伤位置、空间关系和项目媒介一致。视觉媒介、光线和材质严格服从项目画风，不得默认改写为真人摄影，也不得把 3D、动画或卡通项目强制改成写实。负面要求必须针对当前镜头的换脸、服装变化、手部错误、乱码、闪烁、穿模、风格突变和动作僵硬风险。"
+    },
+    {
+      "operation": "storyboard_repair",
+      "name": "默认分镜修复模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "你是影视分镜 JSON 修复导演。修复结构时必须保留剧情信息，通过拆镜或重新分配内容解决复杂度超限，不得用删除关键剧情掩盖错误。若校验错误是台词/旁白超长，必须拆镜或精简为单镜头可念完的台词，保留关键情节，不要把超长 dialogue 原样放回。保持原项目的视觉媒介、角色身份、服装、道具和连续性，不要擅自改写画风。只修复校验错误和由此引发的镜头组织问题。"
+    },
+    {
+      "operation": "storyboard_first_frame",
+      "name": "默认分镜首帧模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "text",
+      "content": "生成单一、可执行的分镜首帧。严格继承项目视觉媒介和角色资产；画面明确主体左右位置、视线、前中后景、遮挡、视觉焦点、可信光源与材质。只描述静止首帧，不提前写后续运动，不添加画外人物、无来源光线、文字或水印。\n\n【项目视觉】\n{{项目视觉}}\n\n【首帧构图】\n{{首帧构图}}\n\n【表演起始状态】\n{{表演起始状态}}\n\n【负面要求】\n{{负面要求}}"
+    },
+    {
+      "operation": "storyboard_video",
+      "name": "默认分镜视频模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "text",
+      "content": "【项目视觉】\n{{项目视觉}}\n\n【镜头意图】\n{{镜头意图}}\n\n【首帧构图】\n{{首帧构图}}\n\n【表演与调度】\n{{表演与调度}}\n\n【摄影机】\n{{摄影机}}\n\n【时间节拍】\n{{时间节拍}}\n\n【运动与结尾】\n{{运动与结尾}}\n\n【台词与声音】\n{{声音}}\n\n【执行优先级】\n{{执行优先级}}\n\n【负面要求】\n{{负面要求}}"
+    },
+    {
+      "operation": "character_extract",
+      "name": "臻像四联 · 全身与肖像",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "【固定资产提取规则】\n你是短剧资产导演。逐句建立资产清单，再按人物、场景、道具逐项核对原文，穷尽本章所有需要制作的资产，不设数量上限，不只提取主角、主场景或关键道具。合并同一身份的别名；不同空间、室内外、明确的时段或造型差异分别保留，不能因为只出现一次就遗漏。无对应资产才返回空数组。\n【人物与群像】characters 包含所有实际出现、发言或参与动作的具名人物、职能人物，以及学生、军警、护卫、围观群众等群像。群像按原文群体名称建独立角色卡，在 role 明确群体身份、规模和个体差异，不虚构逐人姓名；生物也作为角色资产，明确物种与结构，multiViewPrompt 使用白底正面、严格侧面、背面完整三视图。纯粹被提及但不需要呈现的人物不要伪装为出场人物。\n【完整形象】人物 appearance 按基础档案、性别年龄、脸型骨相、眉毛、额头与记忆点、眼睛、鼻子、嘴唇、皮肤年龄质感、妆造神态、发型、发色、发饰逐项描述；physique 描述身高比例体态；clothing 按视觉基调、配色层次、服装廓形、布料工艺、腰带、领口肩颈、裤裙、鞋靴从头到脚完整描述。保留原文事实；未明确的身份关系、年龄等写“正文未明确”，可为必要视觉空白提出符合时代和项目画风的“造型建议”，不能当作原文事实。consistencyPrompt 汇总稳定形象，multiViewPrompt 写成可直接绘图的完整设定提示词，不只写一句“三视图”。\n【场景】scenes 覆盖所有可见或需要呈现的地点、转场、子空间；prompt 按[0.画面要求][1.基础档案][2.时代世界观与建筑硬装][3.门窗立柱][3.5动态元素隔离][4.核心陈设][5.次级软装][6.光源布局][7.时段天气][8.零帧完整底态][9.摄影视角][10.纯净空境负面约束]组织。保留静态地标，剥离人物、群像、动物和剧情临时道具；无人物空镜、结构完整、无剧情破坏血迹，符合真实世界或项目既定超自然边界。不要把所有地点合并为一个泛化场景。\n【道具】props 覆盖正文出现、使用、携带或明确需要画面呈现的物件、交通工具、文件和器具；不只保留推动主线的物品，不凭空添加装饰物。prompt 包含名称用途、时代、形态比例、材质工艺、颜色纹理、结构细节与尺度，纯白背景并列正面、严格侧面、背面三视图，完整轮廓，同一物体，无手持人物、无环境。\n【风格】所有资产的绘图提示词以[0.画面要求]开头，完整继承制作总览传入的项目画风、媒介、时代、材质与世界观；不得硬编码成3D或现代都市。画质清晰、细节丰富，但不能改变项目原风格。输出前逐句复核遗漏、分类及别名重复。\n\n【本次角色提示词输出格式】\n以下格式仅作用于characters[].multiViewPrompt，不改变人物提取范围、其他角色字段、场景或道具；只输出一次完整资产JSON，不分阶段、不请求追加调用。\n在同一次资产提取中，为每个角色生成以下格式的multiViewPrompt。角色识别、事实、字段与去重仍遵守资产提取规则。以[0.画面要求]开头，逐字引用传入的项目画风；未指定画风时写“项目未指定画风”，不能自设3D、现代或古风。然后按以下顺序完整输出：[1.基础档案]至[21.鞋靴]：基础档案；基础特征；脸型骨相；眉毛；额头/眉心标记与面孔记忆点；眼睛；鼻子；嘴唇；皮肤、年龄痕迹与渲染质感；妆造神态；发型结构；发色；发饰材质、形态与组合；整体视觉基调锚点；服装配色层次；服饰廓形与层次；布料材质与工艺；腰部视觉重心与结构；领口与肩颈细节；裤子/下裳裙摆；鞋靴。基础档案涵盖姓名、时代、当前身份与身体、特殊外观、戏份优先级、所属阵营/组织、地域面容。依据已有信息填写；未明确的事实写“正文未明确”，必要视觉建议明确标为“造型建议”，不把示例人物、名字、年龄、身份或年代移植到当前角色。所有有脸视图统一自然平静中性表情；服装、配色、配饰及同一角色身份一致。结尾必须包括[22.摄影排版指令]、[23.负面排障指令]、[24.背景与渲染]。背景纯白，完整继承项目画风，高清、8K细节目标。动物或非人形角色按实际物种结构描述，不强加人类五官和服装；群像保留群体身份、人数与成员差异，按所选版式展示同一群体，不变成单个人。\n[构图锁定]：仅第一栏无头；第二、第三栏保留完整头部；第四栏独立放大的正面头肩特写。\n[22.摄影排版指令]：横向四栏，从左到右：第一栏正面无头服饰展示，第二栏完整全身严格90度左侧面人物，第三栏完整全身背面人物，第四栏正面头肩特写。第一栏服装按自然穿着体积撑起，展示完整衣领、袖子、上装、下装、身上配饰和鞋履；领口上方纯白留空，无头部、头发、脸、脖子、裸露手部、衣架、支架或人台，无头仅作用于第一栏。第二栏保留完整头部、发型、脖子、身体、双脚，鼻尖肩部骨盆双脚整体朝画面左方，视线水平朝左，双臂自然下垂，不回头、不扭身。第三栏保留完整后脑、发型、脖子、身体、双脚，严格背对镜头，双臂自然下垂。第四栏独立放大，占画宽约40%，完整保留头顶、发型、下巴与肩部，脸肩正对镜头，鼻梁居中，双眼连线水平，头颈竖直。前三栏合占约60%，约等宽，鞋底基线对齐；第一栏上方自然留空，不能为齐头线补头或拉长衣服。四栏留白，无分隔线，不遮挡、不裁切，第四栏不与全身图等高等比例。左上角标注【角色名：实际角色名称】。\n[23.负面排障指令]：油膜感皮肤、过强锐化、磨皮假面、无依据湿发、畸形手指、多余肢体、穿模、额外角色；第一栏出现头脸头发脖子裸手衣架人台；第二第三栏无头；第二栏朝右、回头、三分之二侧脸；第三栏露正脸；第四栏歪头侧脸斜肩裁头；错序缺栏多栏遮挡裁鞋；哭泣、眼泪、泪痕、眼眶泛红、委屈、悲伤、愤怒、皱眉、瞪眼、咬牙、惊恐、痛苦、撇嘴、露齿大笑。\n\n【输出数据合同】\n严格只返回JSON对象，不能有Markdown围栏或解释。顶层必须包含characters、scenes、props三个数组，无对应资产返回空数组。characters每项必须包含name、aliases（字符串数组）、role、appearance、physique、clothing、personality、props、consistencyPrompt、multiViewPrompt、voiceLanguage、voiceAge、voiceTimbre；除aliases外全部为字符串。name、role和三个声音字段必须非空；未明确的声音可标为造型/声音建议，不伪造原文事实。appearance、clothing、physique、personality、consistencyPrompt、multiViewPrompt中至少三项非空。scenes和props每项必须包含非空字符串name、description、prompt。角色multiViewPrompt使用所选格式，场景和道具prompt继续完整遵守固定规则。所有提示词引用传入项目画风，不沿用示例人物。"
+    },
+    {
+      "operation": "character_turnaround",
+      "name": "凝像双联 · 侧身与肖像",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "【固定资产提取规则】\n你是短剧资产导演。逐句建立资产清单，再按人物、场景、道具逐项核对原文，穷尽本章所有需要制作的资产，不设数量上限，不只提取主角、主场景或关键道具。合并同一身份的别名；不同空间、室内外、明确的时段或造型差异分别保留，不能因为只出现一次就遗漏。无对应资产才返回空数组。\n【人物与群像】characters 包含所有实际出现、发言或参与动作的具名人物、职能人物，以及学生、军警、护卫、围观群众等群像。群像按原文群体名称建独立角色卡，在 role 明确群体身份、规模和个体差异，不虚构逐人姓名；生物也作为角色资产，明确物种与结构，multiViewPrompt 使用白底正面、严格侧面、背面完整三视图。纯粹被提及但不需要呈现的人物不要伪装为出场人物。\n【完整形象】人物 appearance 按基础档案、性别年龄、脸型骨相、眉毛、额头与记忆点、眼睛、鼻子、嘴唇、皮肤年龄质感、妆造神态、发型、发色、发饰逐项描述；physique 描述身高比例体态；clothing 按视觉基调、配色层次、服装廓形、布料工艺、腰带、领口肩颈、裤裙、鞋靴从头到脚完整描述。保留原文事实；未明确的身份关系、年龄等写“正文未明确”，可为必要视觉空白提出符合时代和项目画风的“造型建议”，不能当作原文事实。consistencyPrompt 汇总稳定形象，multiViewPrompt 写成可直接绘图的完整设定提示词，不只写一句“三视图”。\n【场景】scenes 覆盖所有可见或需要呈现的地点、转场、子空间；prompt 按[0.画面要求][1.基础档案][2.时代世界观与建筑硬装][3.门窗立柱][3.5动态元素隔离][4.核心陈设][5.次级软装][6.光源布局][7.时段天气][8.零帧完整底态][9.摄影视角][10.纯净空境负面约束]组织。保留静态地标，剥离人物、群像、动物和剧情临时道具；无人物空镜、结构完整、无剧情破坏血迹，符合真实世界或项目既定超自然边界。不要把所有地点合并为一个泛化场景。\n【道具】props 覆盖正文出现、使用、携带或明确需要画面呈现的物件、交通工具、文件和器具；不只保留推动主线的物品，不凭空添加装饰物。prompt 包含名称用途、时代、形态比例、材质工艺、颜色纹理、结构细节与尺度，纯白背景并列正面、严格侧面、背面三视图，完整轮廓，同一物体，无手持人物、无环境。\n【风格】所有资产的绘图提示词以[0.画面要求]开头，完整继承制作总览传入的项目画风、媒介、时代、材质与世界观；不得硬编码成3D或现代都市。画质清晰、细节丰富，但不能改变项目原风格。输出前逐句复核遗漏、分类及别名重复。\n\n【本次角色提示词输出格式】\n以下格式仅作用于characters[].multiViewPrompt，不改变人物提取范围、其他角色字段、场景或道具；只输出一次完整资产JSON，不分阶段、不请求追加调用。\n在同一次资产提取中，为每个角色生成以下格式的multiViewPrompt。角色识别、事实、字段与去重仍遵守资产提取规则。以[0.画面要求]开头，逐字引用传入的项目画风；未指定画风时写“项目未指定画风”，不能自设3D、现代或古风。然后按以下顺序完整输出：[1.基础档案]至[21.鞋靴]：基础档案；基础特征；脸型骨相；眉毛；额头/眉心标记与面孔记忆点；眼睛；鼻子；嘴唇；皮肤、年龄痕迹与渲染质感；妆造神态；发型结构；发色；发饰材质、形态与组合；整体视觉基调锚点；服装配色层次；服饰廓形与层次；布料材质与工艺；腰部视觉重心与结构；领口与肩颈细节；裤子/下裳裙摆；鞋靴。基础档案涵盖姓名、时代、当前身份与身体、特殊外观、戏份优先级、所属阵营/组织、地域面容。依据已有信息填写；未明确的事实写“正文未明确”，必要视觉建议明确标为“造型建议”，不把示例人物、名字、年龄、身份或年代移植到当前角色。所有有脸视图统一自然平静中性表情；服装、配色、配饰及同一角色身份一致。结尾必须包括[22.摄影排版指令]、[23.负面排障指令]、[24.背景与渲染]。背景纯白，完整继承项目画风，高清、8K细节目标。动物或非人形角色按实际物种结构描述，不强加人类五官和服装；群像保留群体身份、人数与成员差异，按所选版式展示同一群体，不变成单个人。\n[22.摄影排版指令]：同一角色两视图，纯白背景。左侧完整全身严格90度左侧视：头脸肩胸骨盆双脚朝左，鼻尖指左，侧脸轮廓可见，视线水平朝左，绝不回头扭身看镜头。双臂自然下垂，双手空置，头脚完整。右侧同一角色严格正面大头照约占画面50%，脸肩正对镜头，鼻梁居中，双眼连线水平，头颈竖直，不歪头侧转低头仰头，完整保留头顶下巴肩部。左上角清晰标注【角色名：实际角色名称】。不添加第三视图或背面图。\n[23.负面排障指令]：畸形手指、多余肢体、穿模、额外角色；左侧朝右、回头看镜头、三分之二侧脸；右侧歪头、侧转脸、三分之二脸、斜肩；油膜感皮肤、过强锐化、磨皮假面、无依据湿发、悬浮飘带、能量道印、魔法光效；缺栏、多栏、裁切头顶鞋履。\n\n【输出数据合同】\n严格只返回JSON对象，不能有Markdown围栏或解释。顶层必须包含characters、scenes、props三个数组，无对应资产返回空数组。characters每项必须包含name、aliases（字符串数组）、role、appearance、physique、clothing、personality、props、consistencyPrompt、multiViewPrompt、voiceLanguage、voiceAge、voiceTimbre；除aliases外全部为字符串。name、role和三个声音字段必须非空；未明确的声音可标为造型/声音建议，不伪造原文事实。appearance、clothing、physique、personality、consistencyPrompt、multiViewPrompt中至少三项非空。scenes和props每项必须包含非空字符串name、description、prompt。角色multiViewPrompt使用所选格式，场景和道具prompt继续完整遵守固定规则。所有提示词引用传入项目画风，不沿用示例人物。"
+    },
+    {
+      "operation": "short_drama_outline",
+      "name": "默认短剧大纲模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "你是短剧编剧。根据用户的一句话故事，生成一部短剧的标题、一句话简介和 {{章节数量}} 个章节。生成要求：叙事采用{{叙事结构}}结构，每章约 {{每章字数}} 字，使用{{叙事视角}}视角，整体基调{{整体基调}}，主要角色约 {{角色规模}}，章节篇幅{{章节篇幅}}。"
+    },
+    {
+      "operation": "skill_draft",
+      "name": "默认技能草稿模板",
+      "version": 1,
+      "enabled": 1,
+      "output_type": "json",
+      "content": "你是一位技能编写助手。根据用户的想法，为一个「可复用的创作技能」生成一份草稿。技能名称简短，不超过 20 个字。分类 tag 必须是 drama、ecommerce、creative、social、others 之一。简介不超过 120 字，说明适用场景、输入条件和最终产出。指令使用 Markdown，至少 300 字，写给后续在画布中使用该技能的模型阅读，必须包含角色设定、输入与约束、分步执行流程、检查清单和输出格式。工具步骤只描述所需能力、输入、输出和确认点，不虚构具体工具名，不把工具、节点、权限、预算或审批写成技能授予的能力；执行时始终以运行环境实际暴露的能力清单为准。"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "9c9d7b4b4b69040549f80283553239c5",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "running",
+      "stage": "调用生成模型",
+      "result_length": 0,
+      "error": "",
+      "created_at": "2026-10-25 10:51:22.5094551+08:00"
+    },
+    {
+      "id": "5f7de4bc0781faf4b5c910ad732caf94",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "running",
+      "stage": "调用生成模型",
+      "result_length": 0,
+      "error": "",
+      "created_at": "2026-10-25 10:49:35.9500522+08:00"
+    },
+    {
+      "id": "56e15ae19bb9daeabc2a8bb4c73393cc",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 22590,
+      "error": "",
+      "created_at": "2026-10-25 10:48:15.4628675+08:00"
+    },
+    {
+      "id": "d49065b96c35f0d3aa5f6a65c2782842",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 16181,
+      "error": "",
+      "created_at": "2026-10-25 10:47:40.1666892+08:00"
+    },
+    {
+      "id": "b6f60ac188f9819bcdd95f0341789d4b",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 17111,
+      "error": "",
+      "created_at": "2026-10-25 10:47:05.7618775+08:00"
+    },
+    {
+      "id": "82ddcef849c35bd304eac04cd1d06c44",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 21754,
+      "error": "",
+      "created_at": "2026-10-25 10:46:56.6974588+08:00"
+    },
+    {
+      "id": "f60b619a94a53b0a13f19fb82204796e",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 16576,
+      "error": "",
+      "created_at": "2026-10-25 10:45:12.5476911+08:00"
+    },
+    {
+      "id": "56fa719fa20ae4e5d5c0497e19514baf",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 4336,
+      "error": "",
+      "created_at": "2026-10-25 10:43:17.2164297+08:00"
+    },
+    {
+      "id": "2f220066055ad77aba06ce2022961f15",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 757,
+      "error": "",
+      "created_at": "2026-10-25 10:41:42.0515155+08:00"
+    },
+    {
+      "id": "3559ab2f5126f781f109bf0ee0d2ed60",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "failed",
+      "stage": "任务失败",
+      "result_length": 0,
+      "error": "任务执行超时，请稍后重试。",
+      "created_at": "2026-10-25 10:38:56.4651651+08:00"
+    },
+    {
+      "id": "5e2009ed96c5bbea8d17900e380d6dfa",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 11867,
+      "error": "",
+      "created_at": "2026-10-25 10:38:56.448996+08:00"
+    },
+    {
+      "id": "c2d169e067f75e80d3e1699d8be42c54",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 112,
+      "error": "",
+      "created_at": "2026-10-25 10:38:17.1241318+08:00"
+    },
+    {
+      "id": "50f74405be9e64290a412b0943625501",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 20351,
+      "error": "",
+      "created_at": "2026-10-25 10:36:06.2909701+08:00"
+    },
+    {
+      "id": "f439e0cb72d02138d87fa6413b1bf70c",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 21060,
+      "error": "",
+      "created_at": "2026-10-25 10:35:23.8895772+08:00"
+    },
+    {
+      "id": "5b1796fe3807d7e83e04d423f1ecc0cf",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 15545,
+      "error": "",
+      "created_at": "2026-10-25 10:34:49.5487105+08:00"
+    },
+    {
+      "id": "2c6245b1326425b68901a2b4bb0ce1df",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 10358,
+      "error": "",
+      "created_at": "2026-10-25 10:34:28.3009377+08:00"
+    },
+    {
+      "id": "eb21487c4bdc96d686207046a917533c",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 4483,
+      "error": "",
+      "created_at": "2026-10-25 10:34:28.2709368+08:00"
+    },
+    {
+      "id": "143d807f917f49c835dc9f89cc5f16ec",
+      "operation": "storyboard",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "failed",
+      "stage": "任务失败",
+      "result_length": 11418,
+      "error": "第3段详细分镜修正后仍不完整：第1镜需要实际的多行框线机位俯视图，不接受仅标题或一句话",
+      "created_at": "2026-10-25 10:04:03.8200616+08:00"
+    },
+    {
+      "id": "a3ef69428cb7f8b26b9197170516baf3",
+      "operation": "storyboard",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "failed",
+      "stage": "任务失败",
+      "result_length": 3657,
+      "error": "第1段详细分镜修正后仍不完整：第1镜需要实际的多行框线机位俯视图，不接受仅标题或一句话",
+      "created_at": "2026-10-25 10:03:12.2367976+08:00"
+    },
+    {
+      "id": "1f415d9b03a1f5e30e1dcbab26da6e6b",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:51:13.5401969+08:00"
+    },
+    {
+      "id": "72e82957e2209e8651143a6fa5836b8d",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:50:34.6725589+08:00"
+    },
+    {
+      "id": "667376ea9d4d709b59acd2165e5b675e",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:49:53.7318605+08:00"
+    },
+    {
+      "id": "46dfe6fd455b37154d1836e616424a20",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:49:14.3789155+08:00"
+    },
+    {
+      "id": "c9a3184526b88003b249080dd299acd6",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:48:32.4222545+08:00"
+    },
+    {
+      "id": "2e26f40b42c495b7018f665821bfde9f",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::deepseek-v4-pro-0813",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 70754,
+      "error": "",
+      "created_at": "2026-10-25 09:37:29.7744557+08:00"
+    },
+    {
+      "id": "66043a215e9a4de49bcfe28438affe28",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:35:57.4986835+08:00"
+    },
+    {
+      "id": "3fa7779fe108d9c2cf3a2fb331693953",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:34:37.6051975+08:00"
+    },
+    {
+      "id": "d5e9b9d9a2659a2294d1d949104a90e1",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-25 09:33:49.926006+08:00"
+    },
+    {
+      "id": "52747519c89d400f4c986491d27b1884",
+      "operation": "text",
+      "model": "AsRYzAmwj-EzlcnM7szBU::gemini-3.1-pro-preview",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 20669,
+      "error": "",
+      "created_at": "2026-10-25 09:28:12.8103028+08:00"
+    },
+    {
+      "id": "2a60d3d5a2bfe6770b98b87c050ac111",
+      "operation": "image",
+      "model": "7nZq_knY6P6GzVV-HCv2I::gpt-free",
+      "status": "succeeded",
+      "stage": "任务完成",
+      "result_length": 340,
+      "error": "",
+      "created_at": "2026-10-24 22:03:24.4536309+08:00"
+    }
+  ],
+  "integrity": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "fk": [],
+  "orphans": {
+    "shot_current_revision": [
+      {
+        "n": 0
+      }
+    ],
+    "reference_versions": [
+      {
+        "n": 0
+      }
+    ],
+    "confirmed_candidates": [
+      {
+        "n": 0
+      }
+    ],
+    "canvas_project": [
+      {
+        "n": 0
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "16000000000086",
+      "name": "AI 表演实验室"
+    },
+    {
+      "id": "14889899552012",
+      "name": "AI演员微表情导演"
+    },
+    {
+      "id": "14811816962572",
+      "name": "AI造型师高转化模特图"
+    },
+    {
+      "id": "14811816961804",
+      "name": "ASMR沉浸式潮玩开箱导演"
+    },
+    {
+      "id": "16000000000089",
+      "name": "Freestyle 风格库"
+    },
+    {
+      "id": "16000000000090",
+      "name": "H3 视频提示词套件"
+    },
+    {
+      "id": "14889899551756",
+      "name": "OC魅力诊断师"
+    },
+    {
+      "id": "16000000000092",
+      "name": "Seedance 2.5 导演工艺"
+    },
+    {
+      "id": "16000000000093",
+      "name": "Seedance 提示词工程"
+    },
+    {
+      "id": "14811816961036",
+      "name": "TikTok网红带货视频"
+    },
+    {
+      "id": "14811816981260",
+      "name": "15秒极致夸张反转提示词"
+    },
+    {
+      "id": "14811816981004",
+      "name": "15秒视觉特效"
+    },
+    {
+      "id": "14811816981772",
+      "name": "一图成片-电影广告全能导演"
+    },
+    {
+      "id": "16000000000077",
+      "name": "一镜到底短剧流水线"
+    },
+    {
+      "id": "14889292801804",
+      "name": "3D国漫风转身变身特效"
+    },
+    {
+      "id": "14811816983308",
+      "name": "三幕式短剧工厂"
+    },
+    {
+      "id": "14811816982540",
+      "name": "世界观美术设定"
+    },
+    {
+      "id": "14811816981516",
+      "name": "二维动画线稿批量上色"
+    },
+    {
+      "id": "15507072002828",
+      "name": "人像捏脸导演"
+    },
+    {
+      "id": "16000000000100",
+      "name": "体验设计五原则"
+    },
+    {
+      "id": "15434297644556",
+      "name": "先锋服装商拍视觉指导"
+    },
+    {
+      "id": "16000000000099",
+      "name": "决策思维模型格森"
+    },
+    {
+      "id": "16000000000094",
+      "name": "分镜语法"
+    },
+    {
+      "id": "16000000000076",
+      "name": "剧本工业化机器"
+    },
+    {
+      "id": "14811816982796",
+      "name": "剧本撰写"
+    },
+    {
+      "id": "14811816970252",
+      "name": "剧本资产视频一条龙创作"
+    },
+    {
+      "id": "16000000000088",
+      "name": "剪辑节奏"
+    },
+    {
+      "id": "16000000000101",
+      "name": "发布片三件套"
+    },
+    {
+      "id": "14811816970508",
+      "name": "叙事短片导演分镜"
+    },
+    {
+      "id": "14811816960524",
+      "name": "名导十五秒视频风格资产引擎"
+    },
+    {
+      "id": "16000000000074",
+      "name": "喜剧 Mechanics"
+    },
+    {
+      "id": "yingce-image-layer-split",
+      "name": "图片图层拆分"
+    },
+    {
+      "id": "yingce-image-annotation",
+      "name": "图片标注编辑"
+    },
+    {
+      "id": "yingce-image-editing",
+      "name": "图片编辑工作流"
+    },
+    {
+      "id": "16000000000102",
+      "name": "定位与命名策略"
+    },
+    {
+      "id": "16000000000075",
+      "name": "对白工坊"
+    },
+    {
+      "id": "14811816960268",
+      "name": "小红书素人穿搭配方"
+    },
+    {
+      "id": "16000000000105",
+      "name": "广告全链路打法"
+    },
+    {
+      "id": "16000000000097",
+      "name": "广告文案四步系统"
+    },
+    {
+      "id": "yingce-short-drama-workflow",
+      "name": "影策短剧制作工作流"
+    },
+    {
+      "id": "yingshi-drama-workshop",
+      "name": "影视剧作工坊"
+    },
+    {
+      "id": "16000000000082",
+      "name": "情景喜剧工坊"
+    },
+    {
+      "id": "16000000000103",
+      "name": "提示词工程模式"
+    },
+    {
+      "id": "14811816983052",
+      "name": "故事开发"
+    },
+    {
+      "id": "16000000000084",
+      "name": "故事结构引擎"
+    },
+    {
+      "id": "16000000000104",
+      "name": "故事营销八阶段"
+    },
+    {
+      "id": "16000000000078",
+      "name": "散文质地工艺"
+    },
+    {
+      "id": "14811816980748",
+      "name": "数字人搞笑采访视频生成"
+    },
+    {
+      "id": "16000000000091",
+      "name": "模型路由交互"
+    },
+    {
+      "id": "15215320902412",
+      "name": "治愈系原创IP孵化助手"
+    },
+    {
+      "id": "16000000000098",
+      "name": "消费心理转化设计"
+    },
+    {
+      "id": "14811816960780",
+      "name": "珠宝电商图文视频一站式"
+    },
+    {
+      "id": "14811816969484",
+      "name": "珠宝设计出款"
+    },
+    {
+      "id": "14811816969740",
+      "name": "珠宝设计进化"
+    },
+    {
+      "id": "16000000000085",
+      "name": "相声手艺"
+    },
+    {
+      "id": "16000000000081",
+      "name": "短剧实战手册"
+    },
+    {
+      "id": "16000000000080",
+      "name": "短片五阶段结构"
+    },
+    {
+      "id": "14889292802060",
+      "name": "社媒素人App宣传"
+    },
+    {
+      "id": "14811816962316",
+      "name": "穿搭上身试穿视频生成"
+    },
+    {
+      "id": "14811816982028",
+      "name": "系列套图生成"
+    },
+    {
+      "id": "16000000000079",
+      "name": "系列弧光规划"
+    },
+    {
+      "id": "14811816961292",
+      "name": "绿幕猫咪跳舞素材生成"
+    },
+    {
+      "id": "16000000000083",
+      "name": "脱口秀手艺"
+    },
+    {
+      "id": "16000000000087",
+      "name": "视听理论基础"
+    },
+    {
+      "id": "16000000000096",
+      "name": "视觉基调设计"
+    },
+    {
+      "id": "16000000000095",
+      "name": "视觉提示词工程"
+    },
+    {
+      "id": "14811816969996",
+      "name": "角色精灵图动画产线"
+    },
+    {
+      "id": "14811816982284",
+      "name": "角色设计"
+    },
+    {
+      "id": "16000000000073",
+      "name": "角色锻造工坊"
+    },
+    {
+      "id": "16000000000107",
+      "name": "选包门房"
+    },
+    {
+      "id": "14519800321292",
+      "name": "顶级波普视觉广告导演"
+    },
+    {
+      "id": "14811816962060",
+      "name": "高能未来电子产品广告视频"
+    },
+    {
+      "id": "seedance-script-storyboard",
+      "name": "Seedance 2.0 剧本直转分镜"
+    }
+  ],
+  "skill_states": [
+    {
+      "id": "6e7a4e55fe873f6dade3e68a10644eb7",
+      "user_id": "c5d3f57b1b912711d19d0ef5a990a98e",
+      "skill_id": "yingce-short-drama-workflow",
+      "library_category_id": "",
+      "installed_version_id": "ef8f38981fa8538e90d8fa055680b44e",
+      "auto_update": 0,
+      "added": 1,
+      "liked": 0,
+      "created_at": "2026-10-19 17:09:59.1500159+08:00",
+      "updated_at": "2026-10-19 17:09:59.1500159+08:00"
+    }
+  ],
+  "canvases": [
+    {
+      "id": "7ktRFvIQYeRnDOyR9PrYw",
+      "project_id": "",
+      "title": "自由画布 1",
+      "revision": 1,
+      "node_count": 0,
+      "connections": 0,
+      "types": {},
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "id",
+        "nodes",
+        "previsScenes",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "P25n5r5VWCeHtVN3kBZGr",
+      "project_id": "",
+      "title": "自由画布 3",
+      "revision": 39,
+      "node_count": 32,
+      "connections": 23,
+      "types": {
+        "image": 32
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "yvDSZEgIbSnmCZvHozb-K",
+      "project_id": "c47863f74af47ca312152513d1379768",
+      "title": "11 · 新画布",
+      "revision": 28,
+      "node_count": 10,
+      "connections": 0,
+      "types": {
+        "text": 5,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "Gbt3yXMF9FuMjcAJy8Y8A",
+      "project_id": "cf3b5ee60f15a252e3c7d27250a86683",
+      "title": "测试3 · 新画布",
+      "revision": 5,
+      "node_count": 13,
+      "connections": 0,
+      "types": {
+        "text": 7,
+        "image": 6
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "u9cP_qqFegojeDcj-fayD",
+      "project_id": "a401a7ba7f6e91f23564e1a57e6f1ea7",
+      "title": "测试 · 新画布",
+      "revision": 20,
+      "node_count": 5,
+      "connections": 0,
+      "types": {
+        "text": 3,
+        "image": 2
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "yxwU8zaRDgCxtu5nF4HnN",
+      "project_id": "8de23d1a494f48a55086991ab8c9c584",
+      "title": "测试4 · 新画布",
+      "revision": 22,
+      "node_count": 9,
+      "connections": 0,
+      "types": {
+        "text": 4,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    },
+    {
+      "id": "s8FnZR3xj-iHuYY3mScOF",
+      "project_id": "c020288d5e16dc69db4ac7097de14378",
+      "title": "测试5 · 新画布",
+      "revision": 20,
+      "node_count": 10,
+      "connections": 0,
+      "types": {
+        "text": 5,
+        "image": 5
+      },
+      "payload_keys": [
+        "activeChatId",
+        "appearance",
+        "backgroundMode",
+        "chatSessions",
+        "connections",
+        "createdAt",
+        "id",
+        "nodes",
+        "previsScenes",
+        "projectId",
+        "showImageInfo",
+        "title",
+        "updatedAt"
+      ],
+      "bad_connections": []
+    }
+  ]
+}

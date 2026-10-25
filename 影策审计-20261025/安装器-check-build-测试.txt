@@ -1,0 +1,14 @@
+test_baseline_backup_tampering_rejected (__main__.InstallerChecks.test_baseline_backup_tampering_rejected) ... ok
+test_build_leaves_target_unchanged_and_has_verifiable_bundle (__main__.InstallerChecks.test_build_leaves_target_unchanged_and_has_verifiable_bundle) ... ok
+test_check_leaves_target_unchanged (__main__.InstallerChecks.test_check_leaves_target_unchanged) ... ok
+test_concurrent_edit_rejected_even_with_allow_create (__main__.InstallerChecks.test_concurrent_edit_rejected_even_with_allow_create) ... ok
+test_existing_unknown_module_cannot_use_allow_create_to_bypass_baseline (__main__.InstallerChecks.test_existing_unknown_module_cannot_use_allow_create_to_bypass_baseline) ... ok
+test_explicit_create_needed_for_new_file (__main__.InstallerChecks.test_explicit_create_needed_for_new_file) ... ok
+test_missing_import_rejected (__main__.InstallerChecks.test_missing_import_rejected) ... ok
+test_path_traversal_rejected (__main__.InstallerChecks.test_path_traversal_rejected) ... ok
+test_syntax_error_rejected (__main__.InstallerChecks.test_syntax_error_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.913s
+
+OK

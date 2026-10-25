@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "shortDrama": {
+      "accepted": true,
+      "files": 9,
+      "injectedChars": 20293
+    },
+    "canvas": {
+      "accepted": true,
+      "files": 9,
+      "injectedChars": 20293
+    }
+  },
+  "allRequiredCapacityControl": {
+    "accepted": true,
+    "syntheticMainOnly": true,
+    "sourceFileCount": 14,
+    "injectedChars": 24409,
+    "paths": [
+      "SKILL.md",
+      "references/source-and-script.md",
+      "references/state-machine.md",
+      "references/assets.md",
+      "references/character-cards.md",
+      "references/artifact-schemas.md",
+      "references/continuity-rules.md",
+      "references/canvas-execution.md",
+      "references/state-and-delivery.md",
+      "references/asset-prompt-templates.md",
+      "references/methods/color-and-light.md",
+      "references/methods/screen-adaptation.md",
+      "references/methods/story-development.md",
+      "references/methods/visual-design.md"
+    ]
+  }
+}

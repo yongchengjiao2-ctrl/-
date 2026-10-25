@@ -1,0 +1,96 @@
+[
+  {
+    "id": "B01",
+    "accepted": true,
+    "rows": 12,
+    "input": "场次：室内\n△画面：甲站着。\n甲：这句对白必须保留。",
+    "sourceBeats": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ]
+    ],
+    "dialogueIncludesExpected": false
+  },
+  {
+    "id": "B02",
+    "accepted": true,
+    "rows": 12,
+    "input": "场次：室内\n△画面：甲站着。\n△画面：乙从窗户跳出。",
+    "sourceBeats": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "dialogueIncludesExpected": false
+  },
+  {
+    "id": "B03",
+    "input": "🎥 机位：向前│看齐\n旁白：A─B街区。",
+    "actual": ""
+  },
+  {
+    "id": "B04",
+    "actual": {
+      "id": "a",
+      "models": [
+        "gemini"
+      ],
+      "interfaceType": "yingce-asset-json-chat",
+      "modelCosts": [
+        {
+          "model": "gemini",
+          "protocol": "yingce-asset-json-chat",
+          "defaultOptions": {
+            "stream": false,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_tokens": 65536
+          }
+        }
+      ]
+    }
+  }
+]

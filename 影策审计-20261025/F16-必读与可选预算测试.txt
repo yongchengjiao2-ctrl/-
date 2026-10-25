@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: F16 loads every required file, with the three-file limit applying only to optional references
+ok 1 - F16 loads every required file, with the three-file limit applying only to optional references
+  ---
+  duration_ms: 3.6828
+  type: 'test'
+  ...
+# Subtest: F16 loads required references first and caps only optional references at three
+ok 2 - F16 loads required references first and caps only optional references at three
+  ---
+  duration_ms: 0.6527
+  type: 'test'
+  ...
+# Subtest: F16 multiple required files cannot exceed the unchanged per-skill shared budget
+ok 3 - F16 multiple required files cannot exceed the unchanged per-skill shared budget
+  ---
+  duration_ms: 0.7239
+  type: 'test'
+  ...
+# Subtest: F16 refuses a truncated main or required reference
+ok 4 - F16 refuses a truncated main or required reference
+  ---
+  duration_ms: 0.4125
+  type: 'test'
+  ...
+# Subtest: F17 text host capability is explicit while canvas workflow context remains available
+ok 5 - F17 text host capability is explicit while canvas workflow context remains available
+  ---
+  duration_ms: 0.3772
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 82.1929

@@ -1,0 +1,39 @@
+{
+  "time": "2026-10-25T06:57:04.677Z",
+  "installedCallback": "on=async(t,n)=>{let r=RFPrepareRows(nn(RFValidateStoryboardRows(n,RFReferenceCatalog(e),Ln(e.units.find(u=>u.id===t)?.sourceText||``)),e),e,t);return await yt(e.project.id,t,r,e.shots.filter(e=>e.unitId===t).map(e=>e.id)),await RFRepair(e.project.id),await Promise.all([u.invalidateQueries({queryKey:[`project`,e.project.id]}),u.invalidateQueries({queryKey:[`projects`]})]),$t(t,`storyboard`),r.length}",
+  "installedSimple": {
+    "accepted": false,
+    "error": "素材引用歧义：“医生”对应多个素材（王医生、李医生），请指定唯一的实际素材ID。"
+  },
+  "sourceSimple": {
+    "accepted": false,
+    "error": "素材引用歧义：“医生”对应多个素材（王医生、李医生），请指定唯一的实际素材ID。"
+  },
+  "installedCallbackInstalledValidator": {
+    "accepted": false,
+    "writes": 0,
+    "error": "素材引用歧义：“刺刀”对应多个素材（北洋军警长枪与刺刀、长枪与刺刀、北洋军警长枪（带刺刀）），请指定唯一的实际素材ID。"
+  },
+  "installedCallbackSourceValidator": {
+    "accepted": false,
+    "writes": 0,
+    "error": "素材引用歧义：“刺刀”对应多个素材（北洋军警长枪与刺刀、长枪与刺刀、北洋军警长枪（带刺刀）），请指定唯一的实际素材ID。"
+  },
+  "hashes": [
+    {
+      "name": "storyboard-complete.js",
+      "installed": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a",
+      "source": "77d7a04868fc2f89ed0b4384c9f4a6e5faaff1b9281d6c99ca59a6aad550de8a"
+    },
+    {
+      "name": "storyboard-detail-normalize.js",
+      "installed": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf",
+      "source": "72255453c6c25107a0a70d7412cfa3ecd53ff5604b7d183b470f5426df077edf"
+    },
+    {
+      "name": "shot-asset-bindings.js",
+      "installed": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559",
+      "source": "4a3cd879baf024c67ee238e0b6fcbf6be6f505f55405e3fb17317027354a1559"
+    }
+  ]
+}

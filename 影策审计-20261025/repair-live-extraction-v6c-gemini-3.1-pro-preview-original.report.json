@@ -1,0 +1,48 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "original",
+  "inputKind": "labeled",
+  "extractionContractVersion": 6,
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T07:07:58.442Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "runtimeSourceSha256": "3677ffd5743486e47d7ac0b214e0c726e12d256d006b726b2c68124349ebd665",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "original",
+    "name": "典藏五维 · 完整角色设定",
+    "version": 1,
+    "sha256": "79c2213e510362c8c00f647366f0ff3ad4cbc7fce74b61a874f2256b49ef414a"
+  },
+  "promptSha256": "4438091db6aaad408a07a2c2ca18699d86685d529ff6c9e73765fc8e75387685",
+  "promptChars": 6598,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 11319,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 4340,
+    "completion_tokens": 3889,
+    "total_tokens": 8229
+  },
+  "contentChars": 6411,
+  "validated": false,
+  "error": "场景仓库的prompt第3节缺失或重复，必须按管理员模板填写完整12节",
+  "finishedAt": "2026-10-25T07:08:09.779Z"
+}

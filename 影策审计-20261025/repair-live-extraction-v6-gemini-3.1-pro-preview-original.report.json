@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "format": "original",
+  "inputKind": "labeled",
+  "extractionContractVersion": 6,
+  "applicationTaskPipeline": false,
+  "databaseWritten": false,
+  "configurationSource": "existing localStorage snapshot; not proof of current UI selection",
+  "maximumSupplierRequests": 1,
+  "actualSupplierRequests": 1,
+  "automaticRetry": false,
+  "startedAt": "2026-10-25T06:55:12.416Z",
+  "installedParserSha256": "83c3380f6a7a52a36f850b58610de9055793573bb67b88c10bc0687da32df127",
+  "runtimeSourceSha256": "19b873851cf1b410ab98c40160e9507e4ab2b36f1542fdafdbcdc863198ed688",
+  "requestPolicy": {
+    "protocol": "a6api-chat",
+    "logical": false,
+    "stream": false,
+    "structuredOutput": true
+  },
+  "requestOptions": {
+    "stream": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "template": {
+    "id": "original",
+    "name": "典藏五维 · 完整角色设定",
+    "version": 1,
+    "sha256": "79c2213e510362c8c00f647366f0ff3ad4cbc7fce74b61a874f2256b49ef414a"
+  },
+  "promptSha256": "8b6b84a82faf6d56eca5fc836ae7a14dac507e6257f9438634a129022b62c573",
+  "promptChars": 5246,
+  "httpStatus": 200,
+  "contentType": "application/json",
+  "elapsedMs": 5888,
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 3508,
+    "completion_tokens": 1687,
+    "total_tokens": 5195
+  },
+  "contentChars": 2527,
+  "validated": false,
+  "error": "来源清单合同v6要求顶层sourceInventory数组",
+  "finishedAt": "2026-10-25T06:55:18.313Z",
+  "manualReview": {
+    "status": "failed-v6-contract-and-semantics",
+    "semanticAcceptance": false,
+    "independentTableProp": true,
+    "characters": 2,
+    "scenes": 1,
+    "props": 2,
+    "sourceInventoryPresent": false,
+    "visualProvenancePresent": false,
+    "issues": [
+      "模型省略sourceInventory与visualProvenance，实际v6恢复校验拒绝，未产生可保存验收结果。",
+      "林岚性格严谨认真、陈墨性格沉稳负责由模型补充，原文未明确；multiViewPrompt多项五官材质未标造型建议。",
+      "appearance开头虽写造型建议，不能替代其他字段中补充设定的事实/建议分区。"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Local build and test output
+**/build/
+**/dist/
+**/out/
+**/coverage/
+**/qa/
+**/ui-qa/
+**/audit-installer-*/
+**/user-install-stage/
+
+# Local backups and runtime data
+**/backups/
+**/repair-backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+
+# Packaged binaries and archives (publish these as GitHub Releases instead)
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

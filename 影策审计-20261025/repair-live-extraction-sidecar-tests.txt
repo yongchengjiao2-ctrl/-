@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+ok 1 - actual validateAssets preserves visual provenance and existing identity metadata after parser drops fields
+  ---
+  duration_ms: 3.2761
+  type: 'test'
+  ...
+# Subtest: actual v6 recovery requires inventory and real source spans, rejects missing generated props
+ok 2 - actual v6 recovery requires inventory and real source spans, rejects missing generated props
+  ---
+  duration_ms: 8.5573
+  type: 'test'
+  ...
+# Subtest: actual v5 recovery keeps compatibility without inventory or visual provenance
+ok 3 - actual v5 recovery keeps compatibility without inventory or visual provenance
+  ---
+  duration_ms: 0.5014
+  type: 'test'
+  ...
+# Subtest: actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+ok 4 - actual v6 request adds contract once, keeps policy metadata and stamps one valid generated task
+  ---
+  duration_ms: 2.5995
+  type: 'test'
+  ...
+# Subtest: actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+ok 5 - actual v6 request never saves invalid inventory and keeps the two-call content retry bound
+  ---
+  duration_ms: 1.0691
+  type: 'test'
+  ...
+# Subtest: host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+ok 6 - host-appended fixed layout cannot supply a missing visual suggestion label in character-specific sections
+  ---
+  duration_ms: 1.0944
+  type: 'test'
+  ...
+# Subtest: host uses current panel schema, exact source substrings and explicit suggestion labels
+ok 7 - host uses current panel schema, exact source substrings and explicit suggestion labels
+  ---
+  duration_ms: 3.5111
+  type: 'test'
+  ...
+# Subtest: invented age not contained in genuine quote rejects, missing/duplicate sections reject
+ok 8 - invented age not contained in genuine quote rejects, missing/duplicate sections reject
+  ---
+  duration_ms: 0.6592
+  type: 'test'
+  ...
+# Subtest: project style allowed only exact section zero and original five-view explicitly unsupported
+ok 9 - project style allowed only exact section zero and original five-view explicitly unsupported
+  ---
+  duration_ms: 0.3263
+  type: 'test'
+  ...
+# Subtest: generic repeated template titles reject without maintaining domain-specific attribute lists
+ok 10 - generic repeated template titles reject without maintaining domain-specific attribute lists
+  ---
+  duration_ms: 0.3713
+  type: 'test'
+  ...
+# Subtest: actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+ok 11 - actual runtime validation restores sidecars through installed legacy parser and recomputes review from sources
+  ---
+  duration_ms: 5.4322
+  type: 'test'
+  ...
+# Subtest: same-name duplicate, absent main-name match and missing context reject without alias or order association
+ok 12 - same-name duplicate, absent main-name match and missing context reject without alias or order association
+  ---
+  duration_ms: 1.2735
+  type: 'test'
+  ...
+# Subtest: legacy payload without section structure cannot smuggle model-supplied accepted review
+ok 13 - legacy payload without section structure cannot smuggle model-supplied accepted review
+  ---
+  duration_ms: 0.1833
+  type: 'test'
+  ...
+# Subtest: actual v7 response is rejected offline for generic section suggestions with no supplier calls
+ok 14 - actual v7 response is rejected offline for generic section suggestions with no supplier calls
+  ---
+  duration_ms: 1.0573
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 110.0276
