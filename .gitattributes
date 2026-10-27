@@ -1,0 +1,5 @@
+# Preserve captured desktop bytes and prompt newlines across computers.
+/desktop-release/snapshot/** -text -whitespace
+/desktop-release/install.ps1 -text
+/desktop-release/*.mjs text eol=lf
+/desktop-release/*.py text eol=lf

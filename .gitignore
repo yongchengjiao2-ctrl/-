@@ -48,3 +48,12 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Reproducible desktop release staging and local installation verification
+desktop-release/work/
+desktop-release/verification/
+
+# These captured runtime files are intentional, reviewable release sources.
+# Keep this exception after the general build/dist exclusions above.
+!desktop-release/snapshot/files/
+!desktop-release/snapshot/files/**
+

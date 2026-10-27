@@ -1,0 +1,15 @@
+{
+  "runtimeFilesVerified": 32220,
+  "promptTemplatesVerified": 9,
+  "migrations": [
+    "fresh",
+    "backup",
+    "preserve-settings",
+    "idempotency",
+    "force-reapply"
+  ],
+  "isolatedBackendHealth": true,
+  "isolatedDesktopSession": true,
+  "paidModelRequests": 0,
+  "capturedDesktopUntouched": true
+}
